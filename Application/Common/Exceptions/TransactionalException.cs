@@ -8,13 +8,15 @@ namespace Application.Common.Exceptions
 {
     public  class TransactionalException:Exception
     {
+        public object? RealErrorMessage { get; set; }
         public TransactionalException()
         {
             
         }
 
-        public TransactionalException(string? message) : base(message)
+        public TransactionalException(object realErrorMessage, string? message = "unsuccessful operations") : base(message)
         {
+            RealErrorMessage = realErrorMessage;    
         }
     }
 }

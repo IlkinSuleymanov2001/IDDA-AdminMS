@@ -1,4 +1,5 @@
-﻿using Application.Repositories;
+﻿using Application.Common.Exceptions;
+using Application.Repositories;
 using Application.Repositories.Cores;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.DependencyInjection;
@@ -54,11 +55,10 @@ namespace Infastructure.Repositories.Context
                     await _context.SaveChangesAsync();
                     await CommitAsync();
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
                     await RollBackTransactionAsync();
-                    // throw new TransactionalException("dont save all operations");
-                    throw;
+                    throw new TransactionalException(ex.Message);
                 }
             }
 

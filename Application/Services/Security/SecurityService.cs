@@ -12,8 +12,10 @@ namespace Application.Services.Security
     public class SecurityService : ISecurityService
     {
 
-        public string? GetUsername(string token)
+        public string? GetUsername(IHttpContextAccessor httpContextAccessor)
         {
+            var token = GetToken(httpContextAccessor);
+
             if (string.IsNullOrEmpty(token)) return default;
             return CheckTokenFormat(token).Claims?.Where(c => c.Type == ClaimTypes.NameIdentifier)?.FirstOrDefault()?.Value;
         }
@@ -48,6 +50,7 @@ namespace Application.Services.Security
         {
             var jwtHandler = new JwtSecurityTokenHandler();
             JwtSecurityToken tokenData;
+
             try
             {
                 tokenData = jwtHandler.ReadJwtToken(token);
@@ -56,6 +59,7 @@ namespace Application.Services.Security
             {
                 throw new UnauthorizedAccessException("invalid token format ");
             }
+
             return tokenData;
         }
 

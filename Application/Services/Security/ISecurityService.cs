@@ -4,7 +4,7 @@ namespace Application.Services.Abstracts
 {
     public interface ISecurityService
     {
-        string? GetUsername(string token);
+        string? GetUsername(IHttpContextAccessor httpContextAccessor);
 
         IEnumerable<string> GetRoles(IHttpContextAccessor httpContextAccessor);
     }

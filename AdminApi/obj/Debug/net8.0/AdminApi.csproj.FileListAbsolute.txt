@@ -155,3 +155,4 @@ C:\Users\ilkin.suleymanov\source\repos\AdminApi\AdminApi\bin\Debug\net8.0\Fluent
 C:\Users\ilkin.suleymanov\source\repos\AdminApi\AdminApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\ilkin.suleymanov\source\repos\AdminApi\AdminApi\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\ilkin.suleymanov\source\repos\AdminApi\AdminApi\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\AdminApi\obj\Debug\net8.0\AdminApi.sourcelink.json

@@ -41,6 +41,12 @@ namespace Application.Common.Exceptions
                 case NotFoundException _:
                     code = HttpStatusCode.NotFound;
                     break;
+                case UnAuthorizationException _:
+                    code = HttpStatusCode.Unauthorized;
+                    break;
+                case TransactionalException _:
+                    //log database 
+                    break;
             }
 
             

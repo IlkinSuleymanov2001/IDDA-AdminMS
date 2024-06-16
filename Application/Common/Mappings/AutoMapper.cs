@@ -13,7 +13,7 @@ namespace Application.Common.Mappings
     {
         public AutoMapper()
         {
-            CreateMap<UserDto, User>().ReverseMap();
+            CreateMap<UserDto, User>().ReverseMap(); 
             //ApplyMappingsFromAssembly(Assembly.GetExecutingAssembly());
         }
 
