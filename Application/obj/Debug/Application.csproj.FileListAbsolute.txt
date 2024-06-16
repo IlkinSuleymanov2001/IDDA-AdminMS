@@ -1,0 +1,15 @@
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\bin\Debug\Application.deps.json
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\bin\Debug\Application.dll
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\bin\Debug\Application.pdb
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\bin\Debug\Domain.dll
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\bin\Debug\Domain.pdb
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\obj\Debug\Application.csproj.AssemblyReference.cache
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\obj\Debug\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\obj\Debug\Application.AssemblyInfoInputs.cache
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\obj\Debug\Application.AssemblyInfo.cs
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\obj\Debug\Application.csproj.CoreCompileInputs.cache
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\obj\Debug\Applicat.44B5EDA2.Up2Date
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\obj\Debug\Application.dll
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\obj\Debug\refint\Application.dll
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\obj\Debug\Application.pdb
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\obj\Debug\ref\Application.dll
