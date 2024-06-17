@@ -20,6 +20,7 @@
           "Microsoft.Extensions.Configuration.Binder": "8.0.1",
           "Microsoft.IdentityModel.Tokens": "7.5.1",
           "Newtonsoft.Json": "13.0.3",
+          "Serilog": "3.1.1",
           "Serilog.Sinks.File": "5.0.0",
           "Serilog.Sinks.PostgreSQL": "2.3.0",
           "System.IdentityModel.Tokens.Jwt": "7.5.1"
@@ -242,17 +243,17 @@
           }
         }
       },
-      "Serilog/2.10.0": {
+      "Serilog/3.1.1": {
         "runtime": {
-          "lib/netstandard2.1/Serilog.dll": {
+          "lib/net7.0/Serilog.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.10.0.0"
+            "fileVersion": "3.1.1.0"
           }
         }
       },
       "Serilog.Sinks.File/5.0.0": {
         "dependencies": {
-          "Serilog": "2.10.0"
+          "Serilog": "3.1.1"
         },
         "runtime": {
           "lib/net5.0/Serilog.Sinks.File.dll": {
@@ -263,7 +264,7 @@
       },
       "Serilog.Sinks.PeriodicBatching/2.3.0": {
         "dependencies": {
-          "Serilog": "2.10.0",
+          "Serilog": "3.1.1",
           "System.Collections.Concurrent": "4.0.12",
           "System.Threading.Timer": "4.0.1"
         },
@@ -277,7 +278,7 @@
       "Serilog.Sinks.PostgreSQL/2.3.0": {
         "dependencies": {
           "Npgsql": "5.0.5",
-          "Serilog": "2.10.0",
+          "Serilog": "3.1.1",
           "Serilog.Sinks.PeriodicBatching": "2.3.0"
         },
         "runtime": {
@@ -633,12 +634,12 @@
       "path": "npgsql/5.0.5",
       "hashPath": "npgsql.5.0.5.nupkg.sha512"
     },
-    "Serilog/2.10.0": {
+    "Serilog/3.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+QX0hmf37a0/OZLxM3wL7V6/ADvC1XihXN4Kq/p6d8lCPfgkRdiuhbWlMaFjR9Av0dy5F0+MBeDmDdRZN/YwQA==",
-      "path": "serilog/2.10.0",
-      "hashPath": "serilog.2.10.0.nupkg.sha512"
+      "sha512": "sha512-P6G4/4Kt9bT635bhuwdXlJ2SCqqn2nhh4gqFqQueCOr9bK/e7W9ll/IoX1Ter948cV2Z/5+5v8pAfJYUISY03A==",
+      "path": "serilog/3.1.1",
+      "hashPath": "serilog.3.1.1.nupkg.sha512"
     },
     "Serilog.Sinks.File/5.0.0": {
       "type": "package",

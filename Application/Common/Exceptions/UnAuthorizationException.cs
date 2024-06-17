@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Application.Common.Pipelines.Logger;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Application.Common.Exceptions
 {
-    public  class UnAuthorizationException :Exception
+    public  class UnAuthorizationException : Exception,IException
     {
         public UnAuthorizationException()
         {

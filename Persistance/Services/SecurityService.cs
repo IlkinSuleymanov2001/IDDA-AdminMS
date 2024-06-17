@@ -1,4 +1,5 @@
-﻿using Application.Services;
+﻿using Application.Common.Exceptions;
+using Application.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Primitives;
 using Microsoft.IdentityModel.Tokens;
@@ -28,7 +29,7 @@ namespace Infastructure.Services.Security
             if (roles.Any())
                 return roles;
             else
-                throw new UnauthorizedAccessException("your are not authorized");
+                throw new UnAuthorizationException("your are not authorized");
 
 
 
@@ -43,7 +44,7 @@ namespace Infastructure.Services.Security
                 string? jwtHeader = authorizationHeader.ToList().Where(c => c.Contains("Bearer")).FirstOrDefault();
                 return jwtHeader != null ? jwtHeader.Split("Bearer").Last().Trim() : string.Empty;
             }
-            throw new UnauthorizedAccessException("your are not authorized");
+            throw new UnAuthorizationException("your are not authorized");
         }
 
         private JwtSecurityToken CheckTokenFormat(string token)
@@ -57,7 +58,7 @@ namespace Infastructure.Services.Security
             }
             catch (Exception)
             {
-                throw new UnauthorizedAccessException("invalid token format ");
+                throw new UnAuthorizationException("invalid token format ");
             }
 
             return tokenData;

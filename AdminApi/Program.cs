@@ -45,7 +45,7 @@ if (app.Environment.IsDevelopment())
 else
     app.UseHsts();
 
-//app.UseCustomExceptionHandler();
+app.UseCustomExceptionHandler();
 
 app.UseHttpsRedirection();
 app.UseRouting();

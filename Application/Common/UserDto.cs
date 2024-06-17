@@ -6,7 +6,7 @@ using MediatR;
 
 namespace Application.Controllers
 {
-    public class UserDto : IQuery,ISecuredRequest
+    public class UserDto : ICommand
     { 
         public string Name { get; set; }
 

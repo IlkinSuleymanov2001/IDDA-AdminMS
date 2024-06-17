@@ -44,9 +44,6 @@ namespace Application.Common.Exceptions
                 case UnAuthorizationException _:
                     code = HttpStatusCode.Unauthorized;
                     break;
-                case TransactionalException _:
-                    //log database 
-                    break;
             }
 
             

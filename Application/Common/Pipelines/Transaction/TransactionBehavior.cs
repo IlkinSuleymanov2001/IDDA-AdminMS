@@ -29,16 +29,18 @@ public class TransactionBehavior<TRequest, TResponse> : IAsyncDisposable,IPipeli
                 var response = await next();
 
                 await transaction.CommitAsync();
+
+
                 return response;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                if (transaction is not null)
-                    await transaction.RollbackAsync();
-
-                throw new TransactionalException(ex.Message);
+                 await transaction.RollbackAsync();
+                //throw new TransactionalException(ex.Message);
+                throw;
+                //return await next();
             }
-
+           
         }
 
 

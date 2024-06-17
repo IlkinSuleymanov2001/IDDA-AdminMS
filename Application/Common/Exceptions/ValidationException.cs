@@ -1,4 +1,5 @@
-﻿using FluentValidation.Results;
+﻿using Application.Common.Pipelines.Logger;
+using FluentValidation.Results;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Application.Common.Exceptions
 {
-    public class ValidationException : Exception
+    public class ValidationException : Exception,IException
     {
         public IDictionary<string, string[]> Failures { get; }
         public ValidationException() : base("One or more validation failures have occurred.")

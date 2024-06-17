@@ -20,8 +20,8 @@ namespace AdminApi.Controllers
         public async  Task<IActionResult> POST(UserDto userDto)
         {
             await Mediator.Send(userDto);
+
             return Ok();
-        
         }
     }
 }

@@ -1,7 +1,9 @@
-﻿using Application.Repositories;
+﻿using Application.Common.Exceptions;
+using Application.Repositories;
 using AutoMapper;
 using Domain.Entities;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 
 namespace Application.Controllers
 {
@@ -20,8 +22,11 @@ namespace Application.Controllers
 
         public async Task Handle(UserDto request, CancellationToken cancellationToken)
         {
-            int count = await staff.CountAsync();
-            var user = mapper.Map<User>(request);
+           
+            await staff.CreateAsync(new Staff("Azerbaijna2","salam dunya2 ",2));
+            await staff.SaveChangeAsync();
+            //throw new ArgumentNullException("argumant excption ");
+
         }
     }
 }
