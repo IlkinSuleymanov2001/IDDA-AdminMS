@@ -1,4 +1,5 @@
 ﻿using Application.Controllers;
+using Application.Repositories;
 using Application.Repositories.Cores;
 using Domain.Entities;
 using Microsoft.AspNetCore.Http;
@@ -12,20 +13,14 @@ namespace AdminApi.Controllers
     public class ValuesController : ApiController
 
     {
-        public readonly IUnitOfWork unitOfWork;
 
-        public ValuesController(IUnitOfWork unitOfWork)
-        {
-            this.unitOfWork = unitOfWork;
-        }
+     
 
         [HttpPost]
-        public async  Task<IActionResult> GET(UserDto user)
+        public async  Task<IActionResult> POST(UserDto userDto)
         {
-
-            var response = await Mediator.Send(user);
-
-            return Ok(response);
+            await Mediator.Send(userDto);
+            return Ok();
         
         }
     }

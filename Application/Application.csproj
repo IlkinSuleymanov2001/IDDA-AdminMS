@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Futures\" />
+    <Folder Include="Repositories\Cores\Paging\" />
   </ItemGroup>
 
   <ItemGroup>

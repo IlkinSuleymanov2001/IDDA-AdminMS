@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 
-namespace Application.Services.Abstracts
+namespace Application.Services
 {
     public interface ISecurityService
     {

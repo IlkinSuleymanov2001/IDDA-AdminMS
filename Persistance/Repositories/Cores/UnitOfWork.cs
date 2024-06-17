@@ -1,6 +1,8 @@
 ﻿using Application.Common.Exceptions;
 using Application.Repositories;
+using Application.Repositories.Context;
 using Application.Repositories.Cores;
+using Domain.Entities.BaseEntities;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -23,6 +25,11 @@ namespace Infastructure.Repositories.Context
         public ICategoryRepository CategoryRepository => _categoryRepository ??= _provider.GetService<ICategoryRepository>();
         public IOrganizationRepository OrganizationRepository => _organizationRepository ??= _provider.GetService<IOrganizationRepository>();
 
+        //generic repository
+        public IRepository<TEntity, TPrimaryKey> GetRepository<TEntity, TPrimaryKey>() where TEntity : BaseEntity<TPrimaryKey>
+        {
+            return new EFRepositroy<TEntity,TPrimaryKey>(_context);
+        }
         public UnitOfWork(AdminContext context, IServiceProvider provider)
         {
             _context = context;
@@ -87,5 +94,6 @@ namespace Infastructure.Repositories.Context
             _disposed = true;
         }
 
+       
     }
 }

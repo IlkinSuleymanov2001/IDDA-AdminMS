@@ -1,14 +1,15 @@
 ﻿using Application.Common.Mappings;
 using Application.Common.Pipelines.Authorization;
+using Application.Common.Pipelines.Transaction;
 using AutoMapper;
 using MediatR;
 
 namespace Application.Controllers
 {
-    public class UserDto : IRequest<string> ,ISecuredRequest
+    public class UserDto : IQuery,ISecuredRequest
     { 
         public string Name { get; set; }
 
-        public string[] Roles => new string[] { "ADMIN" };
+        public string[] Roles =>new string[] { "ADMIN"};
     }
 }

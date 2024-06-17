@@ -1,5 +1,5 @@
 ﻿using Application.Common.Exceptions;
-using Application.Services.Abstracts;
+using Application.Services;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.IdentityModel.Tokens;
@@ -9,7 +9,7 @@ using System.Security.Claims;
 namespace Application.Common.Pipelines.Authorization
 {
     public class AuthorizationBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
-    where TRequest : IRequest<TResponse>, ISecuredRequest
+    where TRequest :IBaseRequest, ISecuredRequest
     {
         private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly ISecurityService _securityService;

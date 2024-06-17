@@ -1,8 +1,9 @@
-﻿using Domain.Entities;
+﻿using Application.Common.Pipelines.Transaction;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace Infastructure.Repositories.Context
+namespace Application.Repositories.Context
 {
     public class AdminContext : DbContext
     {

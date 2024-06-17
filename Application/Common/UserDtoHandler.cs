@@ -1,21 +1,27 @@
-﻿using AutoMapper;
+﻿using Application.Repositories;
+using AutoMapper;
+using Domain.Entities;
 using MediatR;
 
 namespace Application.Controllers
 {
-    public class UserDtoHandler : IRequestHandler<UserDto, string>
+    public class UserDtoHandler : IRequestHandler<UserDto>
     {
         private readonly IMapper mapper;
+        IStaffRepository staff;
 
-        public UserDtoHandler(IMapper mapper)
+      
+        public UserDtoHandler(IMapper mapper, IStaffRepository staff)
         {
             this.mapper = mapper;
+            this.staff = staff;
+
         }
 
-        public Task<string> Handle(UserDto request, CancellationToken cancellationToken)
+        public async Task Handle(UserDto request, CancellationToken cancellationToken)
         {
+            int count = await staff.CountAsync();
             var user = mapper.Map<User>(request);
-            return Task.FromResult(user.Name);
         }
     }
 }

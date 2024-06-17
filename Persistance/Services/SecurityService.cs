@@ -1,4 +1,4 @@
-﻿using Application.Services.Abstracts;
+﻿using Application.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Primitives;
 using Microsoft.IdentityModel.Tokens;
@@ -7,7 +7,7 @@ using System.Security.Claims;
 using System.Text;
 
 
-namespace Application.Services.Security
+namespace Infastructure.Services.Security
 {
     public class SecurityService : ISecurityService
     {
