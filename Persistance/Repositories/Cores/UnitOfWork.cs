@@ -53,24 +53,6 @@ namespace Infastructure.Repositories.Context
             await _context.Database.RollbackTransactionAsync();
         }
 
-        public async Task SaveChangeAsyncTransactional()
-        {
-            using (await OpenTransactionAsync())
-            {
-                try
-                {
-                    await _context.SaveChangesAsync();
-                    await CommitAsync();
-                }
-                catch (Exception ex)
-                {
-                    await RollBackTransactionAsync();
-                    throw new TransactionalException(ex.Message);
-                }
-            }
-
-
-        }
 
         public async Task SaveChangeAsync()
         {

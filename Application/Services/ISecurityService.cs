@@ -4,8 +4,10 @@ namespace Application.Services
 {
     public interface ISecurityService
     {
-        string? GetUsername(IHttpContextAccessor httpContextAccessor);
+        string? GetUsername();
 
-        IEnumerable<string> GetRoles(IHttpContextAccessor httpContextAccessor);
+        IEnumerable<string> GetRoles();
+
+        bool IsAdmin();
     }
 }

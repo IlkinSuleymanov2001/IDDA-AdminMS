@@ -1,7 +1,196 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\queries\\getlist\\getstafflistqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\queries\\getlist\\getstafflistqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\adminapi\\controllers\\staffscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\staffscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\repositories\\cores\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\repositories\\cores\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\mappings\\automapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\mappings\\automapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\queries\\get\\getstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\queries\\get\\getstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\pipelines\\validation\\requestvalidationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\pipelines\\validation\\requestvalidationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\pipelines\\authorization\\authorizationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\pipelines\\authorization\\authorizationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\pipelines\\logger\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\pipelines\\logger\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\commands\\update\\updatestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\update\\updatestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\dtos\\stafflistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\dtos\\stafflistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\domain\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\repositories\\cores\\paging\\pagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\repositories\\cores\\paging\\pagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\persistance\\repositories\\cores\\efrepositroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|solutionrelative:persistance\\repositories\\cores\\efrepositroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\persistance\\services\\securityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|solutionrelative:persistance\\services\\securityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\services\\isecurityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\services\\isecurityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\commands\\create\\createstaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\create\\createstaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\commands\\remove\\deletestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\remove\\deletestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\exceptions\\customexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\exceptions\\customexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\pipelines\\transaction\\transactionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\pipelines\\transaction\\transactionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\commands\\create\\createstaffcommandvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\create\\createstaffcommandvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\persistance\\infastructureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|solutionrelative:persistance\\infastructureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\applicationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\applicationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\pipelines\\transaction\\itransactional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\pipelines\\transaction\\itransactional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\userdtohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\userdtohandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\pipelines\\transaction\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\pipelines\\transaction\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\pipelines\\transaction\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\pipelines\\transaction\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\pipelines\\authorization\\isecuredrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\pipelines\\authorization\\isecuredrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\pipelines\\authorization\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\pipelines\\authorization\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\adminapi\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\domain\\entities\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\response\\dataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\response\\dataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\response\\idataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\response\\idataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\response\\iresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\response\\iresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\repositories\\cores\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\repositories\\cores\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\userdtovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\userdtovalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\adminapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\pipelines\\logger\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\pipelines\\logger\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\adminapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\persistance\\repositories\\cores\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|solutionrelative:persistance\\repositories\\cores\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\exceptions\\rollbackexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\exceptions\\rollbackexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\exceptions\\unauthorizationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\exceptions\\unauthorizationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\common\\pipelines\\logger\\iexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\common\\pipelines\\logger\\iexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +198,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +215,587 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetStaffListQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAwCEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T18:43:49.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StaffsController.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\StaffsController.cs",
+              "RelativeDocumentMoniker": "AdminApi\\Controllers\\StaffsController.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\StaffsController.cs",
+              "RelativeToolTip": "AdminApi\\Controllers\\StaffsController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAuwCIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:58:07.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SecurityService.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Persistance\\Services\\SecurityService.cs",
+              "RelativeDocumentMoniker": "Persistance\\Services\\SecurityService.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Persistance\\Services\\SecurityService.cs",
+              "RelativeToolTip": "Persistance\\Services\\SecurityService.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAA6wFIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:21:49.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoggingBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Logger\\LoggingBehavior.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Pipelines\\Logger\\LoggingBehavior.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Logger\\LoggingBehavior.cs",
+              "RelativeToolTip": "Application\\Common\\Pipelines\\Logger\\LoggingBehavior.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAUwB4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T05:52:40.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthorizationBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Authorization\\AuthorizationBehavior.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Pipelines\\Authorization\\AuthorizationBehavior.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Authorization\\AuthorizationBehavior.cs",
+              "RelativeToolTip": "Application\\Common\\Pipelines\\Authorization\\AuthorizationBehavior.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:53:35.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RequestValidationBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Validation\\RequestValidationBehavior.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Pipelines\\Validation\\RequestValidationBehavior.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Validation\\RequestValidationBehavior.cs",
+              "RelativeToolTip": "Application\\Common\\Pipelines\\Validation\\RequestValidationBehavior.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAUwCAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T05:52:40.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetStaffQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA1wBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T18:31:48.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Repositories\\Cores\\IRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Repositories\\Cores\\IRepository.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Repositories\\Cores\\IRepository.cs",
+              "RelativeToolTip": "Application\\Repositories\\Cores\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:20:28.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AutoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Mappings\\AutoMapper.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Mappings\\AutoMapper.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Mappings\\AutoMapper.cs",
+              "RelativeToolTip": "Application\\Common\\Mappings\\AutoMapper.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABYAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:51:34.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EFRepositroy.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Persistance\\Repositories\\Cores\\EFRepositroy.cs",
+              "RelativeDocumentMoniker": "Persistance\\Repositories\\Cores\\EFRepositroy.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Persistance\\Repositories\\Cores\\EFRepositroy.cs",
+              "RelativeToolTip": "Persistance\\Repositories\\Cores\\EFRepositroy.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAmwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T18:55:32.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Entities\\Staff.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Staff.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Entities\\Staff.cs",
+              "RelativeToolTip": "Domain\\Entities\\Staff.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:25:11.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateStaffCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAmwBQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T14:17:46.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StaffListDto.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Dtos\\StaffListDto.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Dtos\\StaffListDto.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Dtos\\StaffListDto.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Dtos\\StaffListDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T19:06:49.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ISecurityService.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Services\\ISecurityService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ISecurityService.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Services\\ISecurityService.cs",
+              "RelativeToolTip": "Application\\Services\\ISecurityService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:21:41.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PageRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Repositories\\Cores\\Paging\\PageRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Repositories\\Cores\\Paging\\PageRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Repositories\\Cores\\Paging\\PageRequest.cs",
+              "RelativeToolTip": "Application\\Repositories\\Cores\\Paging\\PageRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:21:03.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateStaffCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAuwDAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:27:47.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CustomExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Exceptions\\CustomExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Exceptions\\CustomExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Exceptions\\CustomExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "Application\\Common\\Exceptions\\CustomExceptionHandlerMiddleware.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T05:52:40.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DeleteStaffCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T14:08:40.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\UserDto.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\UserDto.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\UserDto.cs",
+              "RelativeToolTip": "Application\\Common\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:52:34.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateStaffCommandValidation.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandValidation.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandValidation.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandValidation.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandValidation.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T13:58:23.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TransactionBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Transaction\\TransactionBehavior.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Pipelines\\Transaction\\TransactionBehavior.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Transaction\\TransactionBehavior.cs",
+              "RelativeToolTip": "Application\\Common\\Pipelines\\Transaction\\TransactionBehavior.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAywB0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T05:51:21.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserDtoHandler.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\UserDtoHandler.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\UserDtoHandler.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\UserDtoHandler.cs",
+              "RelativeToolTip": "Application\\Common\\UserDtoHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T05:52:19.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "InfastructureServices.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Persistance\\InfastructureServices.cs",
+              "RelativeDocumentMoniker": "Persistance\\InfastructureServices.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Persistance\\InfastructureServices.cs",
+              "RelativeToolTip": "Persistance\\InfastructureServices.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T13:44:30.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ITransactional.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Transaction\\ITransactional.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Pipelines\\Transaction\\ITransactional.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Transaction\\ITransactional.cs",
+              "RelativeToolTip": "Application\\Common\\Pipelines\\Transaction\\ITransactional.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:14:44.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApplicationServices.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\ApplicationServices.cs",
+              "RelativeDocumentMoniker": "Application\\ApplicationServices.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\ApplicationServices.cs",
+              "RelativeToolTip": "Application\\ApplicationServices.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:49:53.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IQuery.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Transaction\\IQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Pipelines\\Transaction\\IQuery.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Transaction\\IQuery.cs",
+              "RelativeToolTip": "Application\\Common\\Pipelines\\Transaction\\IQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:24:48.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ClaimsPrincipalExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Authorization\\ClaimsPrincipalExtensions.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Pipelines\\Authorization\\ClaimsPrincipalExtensions.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Authorization\\ClaimsPrincipalExtensions.cs",
+              "RelativeToolTip": "Application\\Common\\Pipelines\\Authorization\\ClaimsPrincipalExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T09:34:05.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ISecuredRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Authorization\\ISecuredRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Pipelines\\Authorization\\ISecuredRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Authorization\\ISecuredRequest.cs",
+              "RelativeToolTip": "Application\\Common\\Pipelines\\Authorization\\ISecuredRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T09:34:07.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Transaction\\ICommand.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Pipelines\\Transaction\\ICommand.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Transaction\\ICommand.cs",
+              "RelativeToolTip": "Application\\Common\\Pipelines\\Transaction\\ICommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:24:49.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ApiController.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\ApiController.cs",
+              "RelativeDocumentMoniker": "AdminApi\\Controllers\\ApiController.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\ApiController.cs",
+              "RelativeToolTip": "AdminApi\\Controllers\\ApiController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T09:33:40.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "Domain\\Entities\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:24:54.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Organization.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Entities\\Organization.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Organization.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Entities\\Organization.cs",
+              "RelativeToolTip": "Domain\\Entities\\Organization.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:24:57.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "Application\\Common\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:25:01.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Response\\Response.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Response\\Response.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Response\\Response.cs",
+              "RelativeToolTip": "Application\\Common\\Response\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:31:21.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IDataResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Response\\IDataResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Response\\IDataResponse.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Response\\IDataResponse.cs",
+              "RelativeToolTip": "Application\\Common\\Response\\IDataResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:33:36.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "DataResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Response\\DataResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Response\\DataResponse.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Response\\DataResponse.cs",
+              "RelativeToolTip": "Application\\Common\\Response\\DataResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:34:08.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Response\\IResponse.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Response\\IResponse.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Response\\IResponse.cs",
+              "RelativeToolTip": "Application\\Common\\Response\\IResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:30:58.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ValidationException.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Exceptions\\ValidationException.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Exceptions\\ValidationException.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Exceptions\\ValidationException.cs",
+              "RelativeToolTip": "Application\\Common\\Exceptions\\ValidationException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:24:57.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "AdminApi\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "AdminApi\\Controllers\\ValuesController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwBUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T05:52:40.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Repositories\\Cores\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Application\\Repositories\\Cores\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Repositories\\Cores\\IUnitOfWork.cs",
+              "RelativeToolTip": "Application\\Repositories\\Cores\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:26:38.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UserDtoValidation.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\UserDtoValidation.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\UserDtoValidation.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\UserDtoValidation.cs",
+              "RelativeToolTip": "Application\\Common\\UserDtoValidation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:03:58.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Logger\\Logger.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Pipelines\\Logger\\Logger.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Logger\\Logger.cs",
+              "RelativeToolTip": "Application\\Common\\Pipelines\\Logger\\Logger.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:48:15.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\appsettings.json",
+              "RelativeDocumentMoniker": "AdminApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\appsettings.json",
+              "RelativeToolTip": "AdminApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-18T06:49:26.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UnAuthorizationException.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Exceptions\\UnAuthorizationException.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Exceptions\\UnAuthorizationException.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Exceptions\\UnAuthorizationException.cs",
+              "RelativeToolTip": "Application\\Common\\Exceptions\\UnAuthorizationException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:24:58.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Persistance\\Repositories\\Cores\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Persistance\\Repositories\\Cores\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Persistance\\Repositories\\Cores\\UnitOfWork.cs",
+              "RelativeToolTip": "Persistance\\Repositories\\Cores\\UnitOfWork.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAswDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:25:54.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RollBackException.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Exceptions\\RollBackException.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Exceptions\\RollBackException.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Exceptions\\RollBackException.cs",
+              "RelativeToolTip": "Application\\Common\\Exceptions\\RollBackException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T05:48:18.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IException.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Logger\\IException.cs",
+              "RelativeDocumentMoniker": "Application\\Common\\Pipelines\\Logger\\IException.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Common\\Pipelines\\Logger\\IException.cs",
+              "RelativeToolTip": "Application\\Common\\Pipelines\\Logger\\IException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T06:14:57.256Z"
             }
           ]
         }

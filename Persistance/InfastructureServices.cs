@@ -24,10 +24,9 @@ namespace Infastructure
             services.AddScoped<IStaffRepository, StaffRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IOrganizationRepository, OrginazitionRepository>();
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            //services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<ISecurityService, SecurityService>();
-            services.AddScoped(typeof(IRepository<,>), typeof(EFRepositroy<,>));
-
+            //services.AddScoped(typeof(IRepository<,>), typeof(EFRepositroy<,>));
 
             return services;
         }

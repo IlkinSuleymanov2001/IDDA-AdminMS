@@ -1,5 +1,9 @@
 ﻿using Application.Controllers;
+using Application.Futures.Staff.Commands.Create;
+using Application.Futures.Staff.Commands.Update;
+using Application.Futures.Staff.Dtos;
 using AutoMapper;
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +18,9 @@ namespace Application.Common.Mappings
         public AutoMapper()
         {
             CreateMap<UserDto, User>().ReverseMap(); 
+            CreateMap<Staff, CreateStaffCommandRequest>().ReverseMap(); 
+            CreateMap<Staff, UpdateStaffCommandRequest>().ReverseMap();
+            CreateMap<Staff, StaffListDto>().ForMember(c => c.OrganizationName, c => c.MapFrom(c => c.Organization.Name)).ReverseMap(); 
             //ApplyMappingsFromAssembly(Assembly.GetExecutingAssembly());
         }
 

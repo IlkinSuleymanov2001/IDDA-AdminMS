@@ -6,10 +6,9 @@ using MediatR;
 
 namespace Application.Controllers
 {
-    public class UserDto : ICommand
+    public class UserDto : IQuery,ISecuredRequest
     { 
         public string Name { get; set; }
-
-        public string[] Roles =>new string[] { "ADMIN"};
+        public string[] Roles =>new string[] {"TTTT","abc", "Test","USER", "TTTT" };
     }
 }

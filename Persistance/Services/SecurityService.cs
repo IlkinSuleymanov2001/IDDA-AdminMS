@@ -12,19 +12,25 @@ namespace Infastructure.Services.Security
 {
     public class SecurityService : ISecurityService
     {
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public string? GetUsername(IHttpContextAccessor httpContextAccessor)
+        public SecurityService(IHttpContextAccessor httpContextAccessor)
         {
-            var token = GetToken(httpContextAccessor);
+            _httpContextAccessor = httpContextAccessor;
+        }
+
+        public string? GetUsername()
+        {
+            var token = GetToken();
 
             if (string.IsNullOrEmpty(token)) return default;
             return CheckTokenFormat(token).Claims?.Where(c => c.Type == ClaimTypes.NameIdentifier)?.FirstOrDefault()?.Value;
         }
 
-        public IEnumerable<string> GetRoles(IHttpContextAccessor httpContextAccessor)
+        public IEnumerable<string> GetRoles()
         {
 
-            var token = GetToken(httpContextAccessor);
+            var token = GetToken();
             var roles = CheckTokenFormat(token).Claims.Where(c => c.Type == ClaimTypes.Role).Select(c => c.Value).ToList();
             if (roles.Any())
                 return roles;
@@ -35,9 +41,9 @@ namespace Infastructure.Services.Security
 
         }
 
-        private string GetToken(IHttpContextAccessor httpContextAccessor)
+        private string GetToken()
         {
-            var authorizationHeader = httpContextAccessor.HttpContext.Request.Headers["authorization"];
+            var authorizationHeader = _httpContextAccessor.HttpContext.Request.Headers["authorization"];
 
             if (authorizationHeader != StringValues.Empty)
             {
@@ -69,6 +75,11 @@ namespace Infastructure.Services.Security
         public static SecurityKey CreateSecurityKey(string securityKey)
         {
             return new SymmetricSecurityKey(Encoding.UTF8.GetBytes(securityKey));
+        }
+
+        public bool IsAdmin()
+        {
+           return GetRoles().Any(c=>c=="ADMIN");
         }
     }
 }

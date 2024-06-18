@@ -14,7 +14,6 @@ namespace Domain.Entities
 
         public string? Fullname { get; set; }
         public string  Username  { get; set; }
-
         public int OrganizationID { get; set; }
 
         public virtual Organization Organization { get; set; }
@@ -24,6 +23,11 @@ namespace Domain.Entities
             Fullname = fullname;
             Username = username;
             OrganizationID = organizationID;
+        }
+
+        public Staff()
+        {
+            
         }
     }
 }

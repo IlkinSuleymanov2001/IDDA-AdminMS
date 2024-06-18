@@ -1,4 +1,5 @@
 ﻿using Application.Common.Exceptions;
+using Application.Common.Pipelines.Logger;
 using Application.Repositories.Context;
 using MediatR;
 using Microsoft.EntityFrameworkCore.Storage;
@@ -10,6 +11,7 @@ public class TransactionBehavior<TRequest, TResponse> : IAsyncDisposable,IPipeli
 {
     private readonly AdminContext _dbContext;
     private bool _disposed = false;
+    private  IDbContextTransaction _transaction;
 
     public TransactionBehavior(AdminContext dbContext)
     {
@@ -19,8 +21,7 @@ public class TransactionBehavior<TRequest, TResponse> : IAsyncDisposable,IPipeli
     public async  Task<TResponse> Handle(TRequest request, RequestHandlerDelegate<TResponse> next, CancellationToken cancellationToken)
     {
 
-        var transaction = default(IDbContextTransaction);
-        using (transaction = await _dbContext.Database.BeginTransactionAsync())
+        using (_transaction = await _dbContext.Database.BeginTransactionAsync())
         {
 
             try
@@ -28,27 +29,32 @@ public class TransactionBehavior<TRequest, TResponse> : IAsyncDisposable,IPipeli
                 // Continue to next handler in the pipeline
                 var response = await next();
 
-                await transaction.CommitAsync();
-
-
+                await Done();
                 return response;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                 await transaction.RollbackAsync();
-                //throw new TransactionalException(ex.Message);
+                if (ex is RollBackException || ex is not IException)
+                {
+                    await _transaction.RollbackAsync();
+                    throw;
+                }
+
+                await Done();
                 throw;
-                //return await next();
             }
+ 
+             
+
            
         }
 
 
-}
+ }
 
    public async ValueTask DisposeAsync()
     {
-        await DisposeAsync(true);
+            await DisposeAsync(true);
         GC.SuppressFinalize(this);
     }
 
@@ -65,5 +71,11 @@ public class TransactionBehavior<TRequest, TResponse> : IAsyncDisposable,IPipeli
             // Dispose unmanaged resources
             _disposed = true;
         }
+    }
+
+    private async Task Done() 
+    {
+        await _dbContext.SaveChangesAsync();
+        await _transaction.CommitAsync();
     }
 }
