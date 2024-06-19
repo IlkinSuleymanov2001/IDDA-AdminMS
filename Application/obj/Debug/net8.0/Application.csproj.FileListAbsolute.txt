@@ -14,3 +14,5 @@ C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\obj\Debug\net8.0\ref
 C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\obj\Debug\net8.0\ref\Application.dll
 C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\obj\Debug\net8.0\Application.sourcelink.json
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\bin\Debug\net8.0\Core.dll
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\bin\Debug\net8.0\Core.pdb

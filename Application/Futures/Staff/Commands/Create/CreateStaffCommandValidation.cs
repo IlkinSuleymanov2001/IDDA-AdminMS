@@ -11,7 +11,7 @@ namespace Application.Futures.Staff.Commands.Create
     {
         public CreateStaffCommandValidation()
         {
-            RuleFor(c => c.Username).NotEmpty().MinimumLength(5);
+            RuleFor(c => c.Username).NotEmpty().EmailAddress();
             RuleFor(c=>c.Fullname).NotEmpty().MinimumLength(5);
             RuleFor(c => c.OrganizationName).NotEmpty();
         }

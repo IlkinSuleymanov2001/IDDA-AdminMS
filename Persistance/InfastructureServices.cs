@@ -1,10 +1,8 @@
 ﻿using Application.Repositories;
 using Application.Repositories.Context;
-using Application.Repositories.Cores;
-using Application.Services;
+using Infastructure.Pipelines;
 using Infastructure.Repositories;
-using Infastructure.Repositories.Context;
-using Infastructure.Services.Security;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -20,13 +18,11 @@ namespace Infastructure
             {
                 options.UseSqlServer(configuration.GetConnectionString("ADMINMS"));
             });
- 
+
             services.AddScoped<IStaffRepository, StaffRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IOrganizationRepository, OrginazitionRepository>();
-            //services.AddScoped<IUnitOfWork, UnitOfWork>();
-            services.AddScoped<ISecurityService, SecurityService>();
-            //services.AddScoped(typeof(IRepository<,>), typeof(EFRepositroy<,>));
+            services.AddScoped(typeof(IPipelineBehavior<,>), typeof(_TransactionBehavior<,>));
 
             return services;
         }

@@ -1,16 +1,11 @@
 ﻿using Application.Repositories;
 using Application.Repositories.Context;
+using Core.Repository;
 using Domain.Entities;
-using Infastructure.Repositories.Context;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Infastructure.Repositories
 {
-    public class StaffRepository : EFRepositroy<Staff, int>,IStaffRepository
+    public class StaffRepository : EFRepository<AdminContext, Staff, int>,IStaffRepository
     {
         public StaffRepository(AdminContext context) : base(context)
         {

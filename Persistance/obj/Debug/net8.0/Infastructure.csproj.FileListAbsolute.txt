@@ -15,6 +15,8 @@ C:\Users\ilkin.suleymanov\source\repos\AdminApi\Persistance\obj\Debug\net8.0\Inf
 C:\Users\ilkin.suleymanov\source\repos\AdminApi\Persistance\obj\Debug\net8.0\refint\Infastructure.dll
 C:\Users\ilkin.suleymanov\source\repos\AdminApi\Persistance\obj\Debug\net8.0\Infastructure.pdb
 C:\Users\ilkin.suleymanov\source\repos\AdminApi\Persistance\obj\Debug\net8.0\ref\Infastructure.dll
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\Persistance\obj\Debug\net8.0\Infastructure.sourcelink.json
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\Persistance\bin\Debug\net8.0\Core.dll
+C:\Users\ilkin.suleymanov\source\repos\AdminApi\Persistance\bin\Debug\net8.0\Core.pdb
 C:\Users\ilkin.suleymanov\source\repos\AdminApi\Persistance\bin\Debug\net8.0\Infastructure.runtimeconfig.json
 C:\Users\ilkin.suleymanov\source\repos\AdminApi\Persistance\obj\Debug\net8.0\Infastructure.genruntimeconfig.cache
-C:\Users\ilkin.suleymanov\source\repos\AdminApi\Persistance\obj\Debug\net8.0\Infastructure.sourcelink.json

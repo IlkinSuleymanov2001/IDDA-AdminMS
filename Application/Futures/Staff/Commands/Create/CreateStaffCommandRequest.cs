@@ -1,10 +1,9 @@
-﻿
-using Application.Common.Exceptions;
-using Application.Common.Pipelines.Authorization;
-using Application.Common.Pipelines.Transaction;
-using Application.Common.Response;
-using Application.Repositories;
+﻿using Application.Repositories;
 using AutoMapper;
+using Core.Exceptions;
+using Core.Pipelines.Authorization;
+using Core.Pipelines.Transaction;
+using Core.Response;
 using MediatR;
 
 namespace Application.Futures.Staff.Commands.Create

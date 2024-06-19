@@ -1,5 +1,6 @@
 ﻿
-using Domain.Entities.BaseEntities;
+
+using Core.BaseEntities;
 
 namespace Domain.Entities
 {

@@ -2,7 +2,7 @@ using Application;
 using Infastructure;
 using AdminApi.Commons.Extensions;
 using Microsoft.AspNetCore.Mvc;
-using Application.Common.Exceptions;
+using Core.Exceptions;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -63,7 +63,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-//await app.ApplyMigrations();
+await app.ApplyMigrations();
 
 app.Run();
 

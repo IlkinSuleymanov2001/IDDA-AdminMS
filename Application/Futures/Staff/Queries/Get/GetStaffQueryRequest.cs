@@ -1,8 +1,8 @@
-﻿using Application.Common.Pipelines.Authorization;
-using Application.Common.Pipelines.Transaction;
-using Application.Common.Response;
+﻿using Application.Common.Pipelines.Transaction;
 using Application.Repositories;
-using Application.Services;
+using Core.Pipelines.Authorization;
+using Core.Response;
+using Core.Services.Security;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 

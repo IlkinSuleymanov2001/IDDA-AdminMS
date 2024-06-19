@@ -1,16 +1,9 @@
-﻿using Application.Common.Exceptions;
-using Application.Common.Pipelines.Authorization;
-using Application.Common.Pipelines.Transaction;
-using Application.Common.Response;
-using Application.Futures.Staff.Commands.Create;
-using Application.Repositories;
-using AutoMapper;
+﻿using Application.Repositories;
+using Core.Exceptions;
+using Core.Pipelines.Authorization;
+using Core.Pipelines.Transaction;
+using Core.Response;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.Futures.Staff.Commands.Remove
 {

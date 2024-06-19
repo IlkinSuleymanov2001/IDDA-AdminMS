@@ -1,11 +1,11 @@
-﻿using Application.Common.Pipelines.Authorization;
-using Application.Common.Pipelines.Transaction;
-using Application.Common.Response;
+﻿using Application.Common.Pipelines.Transaction;
 using Application.Futures.Staff.Dtos;
 using Application.Repositories;
 using Application.Repositories.Cores.Paging;
-using Application.Services;
 using AutoMapper;
+using Core.Pipelines.Authorization;
+using Core.Response;
+using Core.Services.Security;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
@@ -41,7 +41,6 @@ namespace Application.Futures.Staff.Queries.GetList
                 var staff = await _staffRepository.GetAsync(c=>c.Username== _securityService.GetUsername()
                 ,include:c=>c.Include(c=>c.Organization),enableTracking:false);
 
-
                 staffList = await _staffRepository.GetListAsync(c => c.OrganizationID ==staff.OrganizationID,
                     include: c => c.Include(c => c.Organization),index: request.PageRequest.Page,
                     size: request.PageRequest.PageSize, enableTracking: false);
@@ -52,9 +51,6 @@ namespace Application.Futures.Staff.Queries.GetList
                 Data = _mapper.Map<IEnumerable<StaffListDto>>(staffList),
                 Message ="success"
             };
-               
-
-
 
         }
     }

@@ -1,18 +1,10 @@
-﻿using Application.Common.Exceptions;
-using Application.Common.Pipelines.Authorization;
-using Application.Common.Pipelines.Transaction;
-using Application.Common.Response;
-using Application.Futures.Staff.Commands.Create;
-using Application.Repositories;
-using Application.Services;
+﻿using Application.Repositories;
 using AutoMapper;
+using Core.Pipelines.Authorization;
+using Core.Pipelines.Transaction;
+using Core.Response;
+using Core.Services.Security;
 using MediatR;
-using Microsoft.AspNetCore.Http;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.Futures.Staff.Commands.Update
 {

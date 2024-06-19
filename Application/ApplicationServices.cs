@@ -1,13 +1,11 @@
-﻿using Application.Repositories.Cores;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 using FluentValidation;
 using MediatR;
-using FluentValidation.AspNetCore;
-using Application.Common.Pipelines.Validation;
-using Application.Common.Pipelines.Authorization;
-using Application.Common.Pipelines.Transaction;
-using Application.Common.Pipelines.Logger;
+using Core;
+using Core.Pipelines.Authorization;
+using Core.Pipelines.Validation;
+using Core.Pipelines.Logger;
 
 namespace Application
 {
@@ -25,10 +23,9 @@ namespace Application
 
             
             services.AddScoped(typeof(IPipelineBehavior<,>), typeof(RequestValidationBehavior<,>));
-            services.AddScoped(typeof(IPipelineBehavior<,>), typeof(AuthorizationBehavior<,>));
-            services.AddScoped(typeof(IPipelineBehavior<,>), typeof(TransactionBehavior<,>));
+            services.AddScoped(typeof(IPipelineBehavior<,>), typeof(AuthorizationBehavior<,>));           
             services.AddScoped(typeof(IPipelineBehavior<,>), typeof(LoggingBehavior<,>));
-            services.AddScoped<Logger>();
+            services.AddCoreService();
 
 
 
