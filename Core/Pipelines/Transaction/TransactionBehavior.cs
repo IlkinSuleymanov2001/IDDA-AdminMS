@@ -6,12 +6,11 @@ using Microsoft.EntityFrameworkCore.Storage;
 
 namespace Core.Pipelines.Transaction;
 
-public class TransactionBehavior<TRequest, TResponse,TContext> : IAsyncDisposable,IPipelineBehavior<TRequest, TResponse>
+public class TransactionBehavior<TRequest, TResponse,TContext> :IPipelineBehavior<TRequest, TResponse>
      where TRequest : IBaseRequest,ITransactional
      where TContext : DbContext
 {
     private readonly TContext _dbContext;
-    private bool _disposed = false;
     private  IDbContextTransaction _transaction;
 
     public TransactionBehavior(TContext dbContext)
@@ -28,55 +27,31 @@ public class TransactionBehavior<TRequest, TResponse,TContext> : IAsyncDisposabl
             try
             {
                 // Continue to next handler in the pipeline
-                var response = await next();
 
-                await Done();
+                var response = await next();
+                await CommitAsync(cancellationToken);
                 return response;
             }
             catch (Exception ex)
             {
                 if (ex is RollBackException || ex is not IException)
                 {
-                    await _transaction.RollbackAsync();
+                    await _transaction.RollbackAsync(cancellationToken);
                     throw;
                 }
 
-                await Done();
+                await CommitAsync(cancellationToken);
                 throw;
             }
- 
-             
-
            
         }
-
-
  }
 
-   public async ValueTask DisposeAsync()
+    private async Task CommitAsync(CancellationToken cancellationToken) 
     {
-            await DisposeAsync(true);
-        GC.SuppressFinalize(this);
+        await _dbContext.SaveChangesAsync(cancellationToken);
+        await _transaction.CommitAsync(cancellationToken);
     }
 
-    protected virtual async ValueTask DisposeAsync(bool disposing)
-    {
-        if (!_disposed)
-        {
-            if (disposing)
-            {
-                // Dispose managed resources
-               await _dbContext.DisposeAsync();
-            }
-
-            // Dispose unmanaged resources
-            _disposed = true;
-        }
-    }
-
-    private async Task Done() 
-    {
-        await _dbContext.SaveChangesAsync();
-        await _transaction.CommitAsync();
-    }
+  
 }

@@ -1,8 +1,10 @@
 ﻿using Application.Repositories.Cores;
 using Core.BaseEntities;
+using Core.Pipelines.Transaction;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
 using System.Linq.Expressions;
+using System.Threading;
 
 namespace Core.Repository
 {
@@ -200,12 +202,19 @@ namespace Core.Repository
 
         public async Task CommitAsync()
         {
+            await _context.SaveChangesAsync();
             await _context.Database.CommitTransactionAsync();
         }
 
         public async Task RollBackAsync()
         {
             await _context.Database.RollbackTransactionAsync();
+        }
+
+        public async  Task CreateSavepointAsync()
+        {
+            await _context.SaveChangesAsync();
+            await _context.Database.CurrentTransaction.CreateSavepointAsync(SavePointNames.savepointone);
         }
     }
 }

@@ -23,6 +23,9 @@ namespace Infastructure
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IOrganizationRepository, OrginazitionRepository>();
             services.AddScoped(typeof(IPipelineBehavior<,>), typeof(_TransactionBehavior<,>));
+            services.AddScoped(typeof(IPipelineBehavior<,>), typeof(_SavePointTransactionBehavior<,>));
+
+
 
             return services;
         }

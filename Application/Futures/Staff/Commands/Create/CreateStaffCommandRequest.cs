@@ -8,7 +8,7 @@ using MediatR;
 
 namespace Application.Futures.Staff.Commands.Create
 {
-    public record CreateStaffCommandRequest(string? Fullname, string Username, string OrganizationName) : ICommand<IResponse>,ISecuredRequest
+    public record CreateStaffCommandRequest(string? Fullname, string Username, string OrganizationName) :ICommandSavePoint<IResponse>,ISecuredRequest
     {
         public string[] Roles => ["ADMIN"];
     }

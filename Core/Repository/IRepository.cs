@@ -1,4 +1,5 @@
 ﻿using Core.BaseEntities;
+using Core.Pipelines.Transaction;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
 using System.Linq.Expressions;
@@ -57,6 +58,10 @@ namespace Application.Repositories.Cores
         Task SaveChange();
         Task CommitAsync();
         Task RollBackAsync();
+        Task CreateSavepointAsync();
+
+        //Task OpenTransactionAsync();
+
 
 
     }
