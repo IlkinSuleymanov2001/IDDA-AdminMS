@@ -1,4 +1,5 @@
-﻿using Application.Repositories;
+﻿using Application.Futures.Constants;
+using Application.Repositories;
 using AutoMapper;
 using Core.Exceptions;
 using Core.Pipelines.Authorization;
@@ -8,9 +9,9 @@ using MediatR;
 
 namespace Application.Futures.Staff.Commands.Create
 {
-    public record CreateStaffCommandRequest(string? Fullname, string Username, string OrganizationName) :ICommandSavePoint<IResponse>,ISecuredRequest
+    public record CreateStaffCommandRequest(string? Fullname, string Username, string OrganizationName) :ICommand<IResponse>,ISecuredRequest
     {
-        public string[] Roles => ["ADMIN"];
+        public string[] Roles => [Role.ADMIN,Role.SUPER_STAFF];
     }
 
     public class CreateStaffCommandHandler : IRequestHandler<CreateStaffCommandRequest, IResponse>

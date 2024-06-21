@@ -1,6 +1,4 @@
 ﻿
-
-
 using Core.BaseEntities;
 
 namespace Domain.Entities

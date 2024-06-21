@@ -1,4 +1,5 @@
-﻿using Application.Repositories;
+﻿using Application.Futures.Constants;
+using Application.Repositories;
 using Core.Pipelines.Authorization;
 using Core.Pipelines.Transaction;
 using Core.Response;
@@ -9,7 +10,7 @@ namespace Application.Futures.Organization.Create;
 
 public record CreateOrganizationCommandRequest([NotNull]string Name) : ICommand<IResponse>, ISecuredRequest
     {
-        public string[] Roles => ["ADMIN"];
+        public string[] Roles => [Role.ADMIN];
     }
 
 public class CreateOrganiztionCommandHandler : IRequestHandler<CreateOrganizationCommandRequest, IResponse>
@@ -26,7 +27,7 @@ public class CreateOrganiztionCommandHandler : IRequestHandler<CreateOrganizatio
       await   _organizationRepository.CreateAsync(new Domain.Entities.Organization {Name = request.Name });
       return new Response 
       {
-        Message =$"Created success {request.Name} Organization "
+        Message =$"Category was successfully added{request.Name} "
       };
          
     }

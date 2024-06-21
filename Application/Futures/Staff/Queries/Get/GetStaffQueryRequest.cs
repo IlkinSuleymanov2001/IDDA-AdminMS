@@ -1,4 +1,5 @@
 ﻿using Application.Common.Pipelines.Transaction;
+using Application.Futures.Constants;
 using Application.Repositories;
 using Core.Pipelines.Authorization;
 using Core.Response;
@@ -10,7 +11,7 @@ namespace Application.Futures.Staff.Queries.Get
 {
     public record GetStaffQueryRequest : IQuery<IDataResponse>, ISecuredRequest
     {
-        public string[] Roles => ["GOVERMENT"];
+        public string[] Roles => [Role.ADMIN, Role.STAFF, Role.SUPER_STAFF];
     }
 
     public class GetStaffQueryHandler : IRequestHandler<GetStaffQueryRequest, IDataResponse>
@@ -39,7 +40,6 @@ namespace Application.Futures.Staff.Queries.Get
                 },
                 Message = "success"
             };
-
         }
     }
 }

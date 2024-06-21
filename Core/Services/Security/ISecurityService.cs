@@ -6,6 +6,6 @@
 
         IEnumerable<string> GetRoles();
 
-        bool IsAdmin();
+        bool IsHaveRole(string roleName="ADMIN");
     }
 }

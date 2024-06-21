@@ -1,4 +1,5 @@
-﻿using Application.Repositories;
+﻿using Application.Futures.Constants;
+using Application.Repositories;
 using AutoMapper;
 using Core.Pipelines.Authorization;
 using Core.Pipelines.Transaction;
@@ -10,7 +11,7 @@ namespace Application.Futures.Staff.Commands.Update
 {
     public record UpdateStaffCommandRequest(string? Fullname, string Username) : ICommand<IResponse>, ISecuredRequest
     {
-        public string[] Roles => ["GOVERMENT"];
+        public string[] Roles => [Role.ADMIN,Role.STAFF,Role.SUPER_STAFF];
     }
 
     public class UpdateStaffCommandHandler : IRequestHandler<UpdateStaffCommandRequest, IResponse>

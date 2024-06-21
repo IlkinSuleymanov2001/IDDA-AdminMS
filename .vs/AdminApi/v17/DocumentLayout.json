@@ -3,8 +3,112 @@
   "WorkspaceRootPath": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\applicationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\applicationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\queries\\get\\getstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\queries\\get\\getstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\pipelines\\transaction\\transactionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\pipelines\\transaction\\transactionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\category\\commands\\update\\updatecategorycommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\category\\commands\\update\\updatecategorycommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\adminapi\\controllers\\categoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\categoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\adminapi\\controllers\\staffscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\staffscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\adminapi\\controllers\\organozationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\organozationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\category\\commands\\delete\\deletecategorycommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\category\\commands\\delete\\deletecategorycommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\category\\commands\\create\\createcategorycommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\category\\commands\\create\\createcategorycommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\domain\\entities\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\domain\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\mapper\\automapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\mapper\\automapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\organization\\create\\createorganizationcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\create\\createorganizationcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\commands\\update\\updatestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\update\\updatestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\queries\\getlist\\getstafflistqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\queries\\getlist\\getstafflistqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\queries\\search\\searchstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\queries\\search\\searchstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\applicationinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\applicationinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\services\\security\\securityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\services\\security\\securityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\services\\security\\isecurityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\services\\security\\isecurityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\constants\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\constants\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\commands\\remove\\deletestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\remove\\deletestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\commands\\create\\createstaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\create\\createstaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\organization\\delete\\removeorganizationcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\delete\\removeorganizationcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\persistance\\infastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|solutionrelative:persistance\\infastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,15 +138,353 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationServices.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\ApplicationServices.cs",
-              "RelativeDocumentMoniker": "Application\\ApplicationServices.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\ApplicationServices.cs",
-              "RelativeToolTip": "Application\\ApplicationServices.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "UpdateCategoryCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Category\\Commands\\Update\\UpdateCategoryCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Category\\Commands\\Update\\UpdateCategoryCommandRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Category\\Commands\\Update\\UpdateCategoryCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Category\\Commands\\Update\\UpdateCategoryCommandRequest.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwB0AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T13:04:55.155Z",
+              "WhenOpened": "2024-06-21T05:34:06.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeleteCategoryCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Category\\Commands\\Delete\\DeleteCategoryCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Category\\Commands\\Delete\\DeleteCategoryCommandRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Category\\Commands\\Delete\\DeleteCategoryCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Category\\Commands\\Delete\\DeleteCategoryCommandRequest.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAACMAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T05:25:37.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AutoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Mapper\\AutoMapper.cs",
+              "RelativeDocumentMoniker": "Application\\Mapper\\AutoMapper.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Mapper\\AutoMapper.cs",
+              "RelativeToolTip": "Application\\Mapper\\AutoMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T05:17:19.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Organization.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Entities\\Organization.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Organization.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Entities\\Organization.cs",
+              "RelativeToolTip": "Domain\\Entities\\Organization.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T05:13:58.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetStaffQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAewCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T04:49:19.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Domain",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-21T04:35:56.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategorysController.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\CategorysController.cs",
+              "RelativeDocumentMoniker": "AdminApi\\Controllers\\CategorysController.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\CategorysController.cs",
+              "RelativeToolTip": "AdminApi\\Controllers\\CategorysController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA+wBoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T05:54:41.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrganozationsController.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\OrganozationsController.cs",
+              "RelativeDocumentMoniker": "AdminApi\\Controllers\\OrganozationsController.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\OrganozationsController.cs",
+              "RelativeToolTip": "AdminApi\\Controllers\\OrganozationsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T05:55:00.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransactionBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Pipelines\\Transaction\\TransactionBehavior.cs",
+              "RelativeDocumentMoniker": "Core\\Pipelines\\Transaction\\TransactionBehavior.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Pipelines\\Transaction\\TransactionBehavior.cs",
+              "RelativeToolTip": "Core\\Pipelines\\Transaction\\TransactionBehavior.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAIwCsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T05:19:24.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StaffsController.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\StaffsController.cs",
+              "RelativeDocumentMoniker": "AdminApi\\Controllers\\StaffsController.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\StaffsController.cs",
+              "RelativeToolTip": "AdminApi\\Controllers\\StaffsController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T05:55:09.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Entities\\Staff.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Staff.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Entities\\Staff.cs",
+              "RelativeToolTip": "Domain\\Entities\\Staff.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAowAgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T05:13:58.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateCategoryCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Category\\Commands\\Create\\CreateCategoryCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Category\\Commands\\Create\\CreateCategoryCommandRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Category\\Commands\\Create\\CreateCategoryCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Category\\Commands\\Create\\CreateCategoryCommandRequest.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAmwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T04:53:23.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "Domain\\Entities\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T04:50:50.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Core",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Core.csproj",
+              "RelativeDocumentMoniker": "Core\\Core.csproj",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Core.csproj",
+              "RelativeToolTip": "Core\\Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-21T04:35:57.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SearchStaffQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\Search\\SearchStaffQueryRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\Search\\SearchStaffQueryRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\Search\\SearchStaffQueryRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\Search\\SearchStaffQueryRequest.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T04:49:12.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateOrganizationCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Create\\CreateOrganizationCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Create\\CreateOrganizationCommandRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Create\\CreateOrganizationCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Organization\\Create\\CreateOrganizationCommandRequest.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwB0AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T04:38:52.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationInjection.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\ApplicationInjection.cs",
+              "RelativeDocumentMoniker": "Application\\ApplicationInjection.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\ApplicationInjection.cs",
+              "RelativeToolTip": "Application\\ApplicationInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T04:47:33.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SecurityService.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Services\\Security\\SecurityService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\Security\\SecurityService.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Services\\Security\\SecurityService.cs",
+              "RelativeToolTip": "Core\\Services\\Security\\SecurityService.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAowE0AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T04:43:58.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetStaffListQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIAwwBAAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T04:43:52.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UpdateStaffCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T04:41:26.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ISecurityService.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Services\\Security\\ISecurityService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\Security\\ISecurityService.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Services\\Security\\ISecurityService.cs",
+              "RelativeToolTip": "Core\\Services\\Security\\ISecurityService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T04:43:34.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DeleteStaffCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T04:41:09.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RemoveOrganizationCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Delete\\RemoveOrganizationCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Delete\\RemoveOrganizationCommandRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Delete\\RemoveOrganizationCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Organization\\Delete\\RemoveOrganizationCommandRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T04:39:19.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Constants\\Role.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Constants\\Role.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Constants\\Role.cs",
+              "RelativeToolTip": "Application\\Futures\\Constants\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T04:37:37.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Application",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-21T04:35:58.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateStaffCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAA0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T04:36:14.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Infastructure",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Persistance\\Infastructure.csproj",
+              "RelativeDocumentMoniker": "Persistance\\Infastructure.csproj",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Persistance\\Infastructure.csproj",
+              "RelativeToolTip": "Persistance\\Infastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-21T04:35:54.644Z",
               "EditorCaption": ""
             }
           ]

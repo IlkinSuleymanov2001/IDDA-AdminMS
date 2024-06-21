@@ -1,4 +1,5 @@
 ﻿using Application.Common.Pipelines.Transaction;
+using Application.Futures.Constants;
 using Application.Repositories;
 using Core.Exceptions;
 using Core.Pipelines.Authorization;
@@ -10,7 +11,7 @@ namespace Application.Futures.Staff.Queries.Search
 {
     public record SearchStaffQueryRequest(string Username) : IQuery<IDataResponse>, ISecuredRequest
     {
-        public string[] Roles => ["ADMIN","GOVERMENT"];
+        public string[] Roles => [Role.ADMIN, Role.STAFF, Role.SUPER_STAFF];
     }
 
     public class SearchStaffQueryHandler : IRequestHandler<SearchStaffQueryRequest, IDataResponse>

@@ -75,9 +75,9 @@ namespace Core.Services.Security
             return new SymmetricSecurityKey(Encoding.UTF8.GetBytes(securityKey));
         }
 
-        public bool IsAdmin()
+        public bool IsHaveRole(string roleName = "ADMIN")
         {
-            return GetRoles().Any(c => c == "ADMIN");
+            return GetRoles().Any(c => c == roleName);
         }
     }
 }

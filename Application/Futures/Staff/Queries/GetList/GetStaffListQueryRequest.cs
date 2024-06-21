@@ -1,4 +1,5 @@
 ﻿using Application.Common.Pipelines.Transaction;
+using Application.Futures.Constants;
 using Application.Futures.Staff.Dtos;
 using Application.Repositories;
 using Application.Repositories.Cores.Paging;
@@ -13,7 +14,7 @@ namespace Application.Futures.Staff.Queries.GetList
 {
     public record GetStaffListQueryRequest(PageRequest PageRequest): IQuery<IDataResponse>, ISecuredRequest
     {
-        public string[] Roles => ["ADMIN","GOVERMENT"];
+        public string[] Roles => [Role.ADMIN,Role.SUPER_STAFF,Role.STAFF];
     }
 
     public class GetStaffListQueryHandler : IRequestHandler<GetStaffListQueryRequest, IDataResponse>
@@ -31,7 +32,8 @@ namespace Application.Futures.Staff.Queries.GetList
 
         public async Task<IDataResponse> Handle(GetStaffListQueryRequest request, CancellationToken cancellationToken)
         {
-            var admin = _securityService.IsAdmin();
+            var admin = _securityService.IsHaveRole(Role.ADMIN);
+
             IEnumerable<Domain.Entities.Staff> staffList;
             if (admin)
                 staffList = await _staffRepository.GetListAsync(include: c => c.Include(c => c.Organization),

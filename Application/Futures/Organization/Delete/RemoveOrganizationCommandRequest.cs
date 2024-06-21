@@ -1,4 +1,5 @@
-﻿using Application.Repositories;
+﻿using Application.Futures.Constants;
+using Application.Repositories;
 using Core.Pipelines.Authorization;
 using Core.Pipelines.Transaction;
 using Core.Response;
@@ -9,7 +10,7 @@ namespace Application.Futures.Organization.Delete;
 
 public record RemoveOrganizationCommandRequest([NotNull] string Name) : ICommand<IResponse>, ISecuredRequest
 {
-    public string[] Roles => ["ADMIN"];
+    public string[] Roles => [Role.ADMIN];
 
 }
 public class RemoveOrganiztionCommandHandler : IRequestHandler<RemoveOrganizationCommandRequest, IResponse>

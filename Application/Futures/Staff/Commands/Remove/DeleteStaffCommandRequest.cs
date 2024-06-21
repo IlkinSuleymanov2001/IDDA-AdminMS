@@ -1,4 +1,5 @@
-﻿using Application.Repositories;
+﻿using Application.Futures.Constants;
+using Application.Repositories;
 using Core.Exceptions;
 using Core.Pipelines.Authorization;
 using Core.Pipelines.Transaction;
@@ -9,7 +10,7 @@ namespace Application.Futures.Staff.Commands.Remove
 {
     public record DeleteStaffCommandRequest(string Username) : ICommand<IResponse>, ISecuredRequest
     {
-        public string[] Roles => ["ADMIN"];
+        public string[] Roles => [Role.ADMIN,Role.SUPER_STAFF];
     }
     public class DeleteStaffCommandHandler : IRequestHandler<DeleteStaffCommandRequest, IResponse>
     {

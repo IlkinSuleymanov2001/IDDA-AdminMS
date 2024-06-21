@@ -9,7 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Infastructure
 {
-    public static  class InfastructureServices
+    public static  class InfastructureInjection
     {
         public static IServiceCollection AddInfastructureServices(this IServiceCollection services,
             IConfiguration configuration)

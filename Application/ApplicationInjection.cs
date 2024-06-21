@@ -9,7 +9,7 @@ using Core.Pipelines.Logger;
 
 namespace Application
 {
-    public static  class ApplicationServices
+    public static  class ApplicationInjection
     {
         public static IServiceCollection AddApplicationsServices(this IServiceCollection services)
         {
@@ -20,8 +20,6 @@ namespace Application
             services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
-
-            
             services.AddScoped(typeof(IPipelineBehavior<,>), typeof(RequestValidationBehavior<,>));
             services.AddScoped(typeof(IPipelineBehavior<,>), typeof(AuthorizationBehavior<,>));           
             services.AddScoped(typeof(IPipelineBehavior<,>), typeof(LoggingBehavior<,>));

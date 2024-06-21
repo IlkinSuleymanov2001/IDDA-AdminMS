@@ -4,7 +4,7 @@ using Application.Futures.Staff.Dtos;
 using AutoMapper;
 using Domain.Entities;
 
-namespace Application.Mappings
+namespace Application.Mapper
 {
     public class AutoMapper : Profile
     {
