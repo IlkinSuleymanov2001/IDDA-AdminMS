@@ -44,6 +44,9 @@ namespace Core.Exceptions
                 case UnAuthorizationException _:
                     code = HttpStatusCode.Unauthorized;
                     break;
+                case ForbiddenException _:
+                    code = HttpStatusCode.Forbidden;
+                    break;
             }
 
             

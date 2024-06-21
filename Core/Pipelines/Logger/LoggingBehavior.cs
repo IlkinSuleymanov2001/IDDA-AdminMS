@@ -21,7 +21,7 @@ public class LoggingBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, 
         {
             return await next();
         }
-        catch (Exception ex) when(ex is not IException)
+        catch (Exception ex) when(ex is not INonLogException)
         {
                 _logger.LogErrorToFile(ex);
                 throw;

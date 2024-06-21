@@ -18,13 +18,9 @@ namespace Core.Pipelines.Authorization
 
         public async Task<TResponse> Handle(TRequest request, RequestHandlerDelegate<TResponse> next, CancellationToken cancellationToken)
         {
-            //List<string>? roleClaims = _httpContextAccessor.HttpContext.User.Claims(ClaimTypes.Role);
-            IEnumerable<string> roleClaims  = _securityService.GetRoles();
-
-            bool isNotMatchedARoleClaimWithRequestRoles =
-                roleClaims.FirstOrDefault(roleClaim => request.Roles.Any(role => role == roleClaim)).IsNullOrEmpty();
-            // user admin        
-            if (isNotMatchedARoleClaimWithRequestRoles) throw new UnAuthorizationException("You are not authorized.");
+            //List<string>? roleClaims = _httpContextAccessor.HttpContext.User.Claims(ClaimTypes.Role);  
+            _securityService.ValidateToken();
+            _securityService.IsAccessToRequest(request);
 
             TResponse response = await next();
             return response;

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Storage;
 
 namespace Application.Repositories.Cores
 {
-    public interface IUnitOfWork : IDisposable
+    public interface IUnitOfWork
     {
 
         IRepository<TEntity,TPrimaryKey> GetRepository<TEntity,TPrimaryKey>() where TEntity: BaseEntity<TPrimaryKey>;

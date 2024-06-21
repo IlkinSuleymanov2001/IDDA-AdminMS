@@ -3,7 +3,7 @@ using Core.Pipelines.Logger;
 
 namespace Core.Exceptions
 {
-    public  class NotFoundException:Exception,IException
+    public  class NotFoundException:Exception,INonLogException
     {
         public NotFoundException(string name, object key) : base($"Entity \"{name}\" ({key}) was not found.")
         {

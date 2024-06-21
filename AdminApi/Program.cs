@@ -15,6 +15,7 @@ builder.Services.AddControllers();
 builder.Services.AddApplicationsServices();
 builder.Services.AddInfastructureServices(builder.Configuration);
 builder.Services.AddSwagger();
+//builder.Services.AddJwtBearer(builder.Configuration);
 
 
 builder.Services.AddHttpContextAccessor();
@@ -23,10 +24,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddHealthChecks();
 
 // Customise default API behaviour
-builder.Services.Configure<ApiBehaviorOptions>(options =>
+/*builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
     options.SuppressModelStateInvalidFilter = true;
-});
+});*/
 
 
 
@@ -63,7 +64,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-await app.ApplyMigrations();
+//await app.ApplyMigrations();
 
 app.Run();
 

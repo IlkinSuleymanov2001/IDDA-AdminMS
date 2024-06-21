@@ -34,7 +34,7 @@ public class TransactionBehavior<TRequest, TResponse,TContext> :IPipelineBehavio
             }
             catch (Exception ex)
             {
-                if (ex is RollBackException || ex is not IException)
+                if (ex is RollBackException || ex is not INonLogException)
                 {
                     await _transaction.RollbackAsync(cancellationToken);
                     throw;

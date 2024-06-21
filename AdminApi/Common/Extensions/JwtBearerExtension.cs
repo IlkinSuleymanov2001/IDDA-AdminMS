@@ -7,7 +7,7 @@ namespace AdminApi.Commons.Extensions
     public static class JwtBearerExtension
     {
 
-        public static IServiceCollection AddSwaggerAndJwtBearer(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddJwtBearer(this IServiceCollection services, IConfiguration configuration)
         {
             var tokenOptions = configuration.GetSection("TokenOptions").Get<TokenOptions>();
 

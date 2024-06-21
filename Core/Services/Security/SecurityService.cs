@@ -1,5 +1,9 @@
 ﻿using Core.Exceptions;
+using Core.Pipelines.Authorization;
+using MediatR;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Primitives;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -11,10 +15,14 @@ namespace Core.Services.Security
     public class SecurityService : ISecurityService
     {
         private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly IConfiguration _configuration;
+        private readonly TokenOptions _tokenOptions;
 
-        public SecurityService(IHttpContextAccessor httpContextAccessor)
+        public SecurityService(IHttpContextAccessor httpContextAccessor, IConfiguration configuration)
         {
             _httpContextAccessor = httpContextAccessor;
+            _configuration = configuration;
+            _tokenOptions = _configuration.GetSection("TokenOptions").Get<TokenOptions>();
         }
 
         public string? GetUsername()
@@ -78,6 +86,49 @@ namespace Core.Services.Security
         public bool IsHaveRole(string roleName = "ADMIN")
         {
             return GetRoles().Any(c => c == roleName);
+        }
+
+
+        private TokenValidationParameters GetValidationParameters()
+        {
+            return new TokenValidationParameters
+            {
+                ValidateIssuer = true,
+                ValidateAudience = true,
+                ValidateLifetime = true,
+                RequireExpirationTime = true,
+
+                ValidIssuer = _tokenOptions.Issuer,
+                ValidAudience = _tokenOptions.Audience,
+                ValidateIssuerSigningKey = true,
+                IssuerSigningKey = CreateSecurityKey(_tokenOptions.SecurityKey),
+                LifetimeValidator = (notBefore, expires, securityToken, validationParameters) =>
+                    expires != null ? expires > DateTime.UtcNow : false
+            };
+        }
+
+        public void  ValidateToken()
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var validationParameters = GetValidationParameters();
+
+            try
+            {
+                // Validate token and set claimsPrincipal
+                tokenHandler.ValidateToken(GetToken(), validationParameters, out SecurityToken validatedToken);
+                return ;
+            }
+            catch (Exception)
+            {
+                throw new UnAuthorizationException("invalid token");
+            }
+        }
+
+        public void IsAccessToRequest(ISecuredRequest securedRequest)
+        {
+            bool isNotMatchedARoleClaimWithRequestRoles =
+                GetRoles().FirstOrDefault(tokenRole => securedRequest.Roles.Any(RequestRole => RequestRole == tokenRole)).IsNullOrEmpty();
+            if (isNotMatchedARoleClaimWithRequestRoles) throw new ForbiddenException("You are not access.");
         }
     }
 }

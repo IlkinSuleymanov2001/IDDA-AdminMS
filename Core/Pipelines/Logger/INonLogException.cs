@@ -1,7 +1,7 @@
 ﻿
 namespace Core.Pipelines.Logger
 {
-    public  interface IException
+    public  interface INonLogException
     {
     }
 }

@@ -10,7 +10,6 @@ namespace Infastructure.Repositories.Context
         where TContext : DbContext
     {
         private readonly TContext  _context;
-        private bool _disposed = false;
 
 
         public IRepository<TEntity, TPrimaryKey> GetRepository<TEntity, TPrimaryKey>() where TEntity : BaseEntity<TPrimaryKey>
@@ -29,7 +28,7 @@ namespace Infastructure.Repositories.Context
 
         public async Task<IDbContextTransaction> OpenTransactionAsync()
         {
-            return await _context.Database.BeginTransactionAsync();
+            return  await _context.Database.BeginTransactionAsync();
         }
 
         public async Task RollBackTransactionAsync()
@@ -45,21 +44,5 @@ namespace Infastructure.Repositories.Context
 
         }
 
-        public void Dispose()
-        {
-            Dispose(true);
-            GC.SuppressFinalize(this);
-        }
-
-
-        protected virtual void Dispose(bool disposing)
-        {
-            if (!_disposed)
-                if (disposing)
-                    _context.Dispose();
-            _disposed = true;
-        }
-
-       
     }
 }

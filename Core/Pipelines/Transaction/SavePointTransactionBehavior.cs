@@ -34,7 +34,7 @@ public class SavePointTransactionBehavior<TRequest, TResponse, TContext> : IPipe
             }
             catch (Exception ex)
             {
-                if (ex is RollBackException || ex is not IException)
+                if (ex is RollBackException || ex is not INonLogException)
                 {
                     await RollBackSavePointOperationAsync(cancellationToken);
                     throw;

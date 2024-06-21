@@ -4,7 +4,7 @@ using FluentValidation.Results;
 
 namespace Core.Exceptions
 {
-    public class ValidationException : Exception,IException
+    public class ValidationException : Exception,INonLogException
     {
         public IDictionary<string, string[]> Failures { get; }
         public ValidationException() : base("One or more validation failures have occurred.")

@@ -4,7 +4,7 @@ using Core.Pipelines.Logger;
 
 namespace Core.Exceptions
 {
-    public  class UnAuthorizationException : Exception,IException
+    public  class UnAuthorizationException : Exception,INonLogException
     {
         public UnAuthorizationException()
         {

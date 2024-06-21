@@ -3,7 +3,7 @@
 
 namespace Core.Exceptions
 {
-    public  class RollBackException:Exception,IException
+    public  class RollBackException:Exception,INonLogException
     {
         public RollBackException()
         {     
