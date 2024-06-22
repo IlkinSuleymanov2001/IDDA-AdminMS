@@ -1,10 +1,9 @@
 ﻿using Application.Repositories.Cores;
 using Core.BaseEntities;
-using Core.Pipelines.Transaction;
+using Core.Repository.Paging;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
 using System.Linq.Expressions;
-using System.Threading;
 
 namespace Core.Repository
 {
@@ -52,7 +51,7 @@ namespace Core.Repository
         }
 
 
-        public async Task CreateAsync(TEntity entity)
+        public async Task<TEntity> CreateAsync(TEntity entity)
         {
             var entry = _context.Entry(entity);
             if (entry.State != EntityState.Detached)
@@ -63,15 +62,19 @@ namespace Core.Repository
             {
                 await _dbset.AddAsync(entity);
             }
-           
+            await SaveChangeAsync();
+            return entity;
+
         }
 
-        public async Task CreateAsync(IEnumerable<TEntity> entities)
+        public async Task<IEnumerable<TEntity>> CreateAsync(IEnumerable<TEntity> entities)
         {
             await _dbset.AddRangeAsync(entities);
+            await SaveChangeAsync();
+            return entities;
         }
 
-        public bool Delete(TEntity entity)
+        public async Task<TEntity> DeleteAsync(TEntity entity)
         {
 
             var entry = _context.Entry(entity);
@@ -84,16 +87,16 @@ namespace Core.Repository
                 _dbset.Attach(entity);
                 _dbset.Remove(entity);
             }
-            return  true;
+             await  SaveChangeAsync();
+            return entity;
            
         }
 
         public async Task DeleteWhere(Expression<Func<TEntity, bool>> predicate)
         {
             IEnumerable<TEntity> entities = query.Where(predicate);
-
-            foreach (var entity in entities)
-                Delete(entity);
+            _dbset.RemoveRange(entities);
+            await SaveChangeAsync();
         }
 
 
@@ -110,15 +113,6 @@ namespace Core.Repository
             return await querable.FirstOrDefaultAsync(predicate);
         }
 
-      
-
-
-
-        public TEntity? Get(Expression<Func<TEntity, bool>> predicate)
-        {
-            return query.FirstOrDefault(predicate);
-        }
-
         public async Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> predicate,
             Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null,
             bool enableTracking = false)
@@ -129,19 +123,21 @@ namespace Core.Repository
             return await queryable.FirstOrDefaultAsync(predicate);
         }
 
-        public async Task<IEnumerable<TEntity>> GetListAsync(Expression<Func<TEntity, bool>>? predicate = null,
+        public async Task<IPaginate<TEntity>> GetListAsync(Expression<Func<TEntity, bool>>? predicate = null,
             Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null,
             Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null,
             int index=1,int size=10,
-            bool enableTracking = false)
+            bool enableTracking = false,
+            CancellationToken cancellationToken = default)
         {
             IQueryable<TEntity> queryable = query;
             if (!enableTracking) queryable = queryable.AsNoTracking();
             if (include != null) queryable = include(queryable);
             if (predicate != null) queryable = queryable.Where(predicate);
-            if (orderBy != null) queryable = orderBy(queryable);
-            //if (pageRequest != null) queryable.Skip((index - 1) * size ).Take(size);
-            return await queryable.ToListAsync();
+            if (orderBy != null)
+                return await orderBy(queryable).ToPaginateAsync(index, size, 0, cancellationToken);
+
+            return await queryable.ToPaginateAsync(index, size, 0, cancellationToken);
         }
 
         public IQueryable<TEntity> FindBy(Expression<Func<TEntity, bool>> predicate)
@@ -156,7 +152,7 @@ namespace Core.Repository
             return queryable;
         }
 
-        public bool Update(TEntity entity)
+        public async Task<TEntity> Update(TEntity entity)
         {
             var entry = _context.Entry(entity);
             if (entry.State == EntityState.Detached)
@@ -164,7 +160,9 @@ namespace Core.Repository
                 _dbset.Attach(entity);
             }
             entry.State = EntityState.Modified;
-            return true;
+            await SaveChangeAsync();
+            return entity;
+
         }
 
         public async Task<TEntity> FindAsync(TPrimaryKey id)
@@ -181,7 +179,7 @@ namespace Core.Repository
         {
             var entity = await FindAsync(id);
             if (entity == null) return default; // not found; assume already deleted.
-            Delete(entity);
+            await DeleteAsync(entity);
             return entity;
         }
 
@@ -197,33 +195,37 @@ namespace Core.Repository
             return Expression.Lambda<Func<TEntity, bool>>(lambdaBody, lambdaParam);
         }
 
-        public async Task<int> SaveChangeAsync(CancellationToken cancellationToken = default)
+        private  async Task<int> SaveChangeAsync()
         {
-            return await _context.SaveChangesAsync(cancellationToken);
-        }
-
-        public Task SaveChange()
-        {
-           return Task.Run(() => _context.SaveChanges());
+            return await _context.SaveChangesAsync();
         }
 
         public async Task CommitAsync()
         {
-            await _context.SaveChangesAsync();
             await _context.Database.CommitTransactionAsync();
+            await _context.DisposeAsync();
         }
 
         public async Task RollBackAsync()
         {
             await _context.Database.RollbackTransactionAsync();
+            await _context.DisposeAsync();
         }
 
-        public async  Task CreateSavepointAsync()
+        public async  Task CreateSavepointAsync(string name = "savepointone")
         {
-            await _context.SaveChangesAsync();
-            await _context.Database.CurrentTransaction.CreateSavepointAsync(SavePointNames.savepointone);
+            await _context.Database.CurrentTransaction.CreateSavepointAsync(name);
         }
 
-      
+        public async Task OpenTransactionAsync()
+        {
+            await _context.Database.BeginTransactionAsync();
+        }
+
+        public async Task RollbackToSavePointAsync(string name = "savepointone")
+        {
+            await _context.Database.CurrentTransaction.RollbackToSavepointAsync(name);
+            await _context.DisposeAsync();
+        }
     }
 }

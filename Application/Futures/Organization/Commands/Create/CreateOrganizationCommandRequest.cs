@@ -26,6 +26,7 @@ public class CreateOrganiztionCommandHandler : IRequestHandler<CreateOrganizatio
     {
         await _organizationRepository.CreateAsync(new Domain.Entities.Organization { Name = request.Name });
         return new Response
+
         {
             Message = $"Category was successfully added{request.Name} "
         };

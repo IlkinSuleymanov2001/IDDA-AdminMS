@@ -2,8 +2,8 @@
 
 namespace Core.Pipelines.Transaction
 {
-    public  interface ICommand<T>:IRequest<T>,ITransactional
+    public  interface ICommand<T>:IRequest<T>
     {}
 
-    public interface ICommand : IRequest, ITransactional { }
+    public interface ICommand : IRequest { }
 }

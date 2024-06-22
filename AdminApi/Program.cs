@@ -39,12 +39,13 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-    app.UseDeveloperExceptionPage();
-  //  app.UseMigrationsEndPoint();
+    //app.UseDeveloperExceptionPage();
+    //  app.UseMigrationsEndPoint();
 }
 else
+{
     app.UseHsts();
-
+}
 
 //app.UseCustomExceptionHandler();
 

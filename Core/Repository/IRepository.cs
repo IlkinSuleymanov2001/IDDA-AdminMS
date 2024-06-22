@@ -1,8 +1,6 @@
 ﻿using Core.BaseEntities;
-using Core.Pipelines.Transaction;
-using Microsoft.EntityFrameworkCore;
+using Core.Repository.Paging;
 using Microsoft.EntityFrameworkCore.Query;
-using System;
 using System.Linq.Expressions;
 
 namespace Application.Repositories.Cores
@@ -11,18 +9,17 @@ namespace Application.Repositories.Cores
         where TEntity : BaseEntity<TPrimaryKey>
     {
 
-        TEntity? Get(Expression<Func<TEntity, bool>> predicate);
         Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> predicate, Func<IQueryable<TEntity>,
                       IIncludableQueryable<TEntity, object>>? include = null,
                       bool enableTracking = false);
 
-
-
-        Task<IEnumerable<TEntity>> GetListAsync(Expression<Func<TEntity, bool>>? predicate = null,
+        Task<IPaginate<TEntity>> GetListAsync(Expression<Func<TEntity, bool>>? predicate = null,
            Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null,
            Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null,
            int index = 1, int size = 10,
-           bool enableTracking = false);
+           bool enableTracking = false,
+           CancellationToken cancellationToken = default);
+
 
         IQueryable<TEntity> FindBy(Expression<Func<TEntity, bool>>? predicate = null,
           int index = 1, int size = 10);
@@ -36,13 +33,13 @@ namespace Application.Repositories.Cores
 
         Task<int> CountAsync(Expression<Func<TEntity, bool>> predicate=null);
 
-        Task CreateAsync(TEntity entity);
+        Task<TEntity> CreateAsync(TEntity entity);
 
-        Task CreateAsync(IEnumerable<TEntity> entities);
+        Task<IEnumerable<TEntity>> CreateAsync(IEnumerable<TEntity> entities);
 
-        bool Update(TEntity entity);
+        Task<TEntity> Update(TEntity entity);
 
-        bool Delete(TEntity entity);
+        Task<TEntity> DeleteAsync(TEntity entity);
 
         Task DeleteWhere(Expression<Func<TEntity, bool>> predicate);
 
@@ -56,14 +53,12 @@ namespace Application.Repositories.Cores
 
         Task<TEntity> GetSingle(TPrimaryKey id);
 
-        Task<int> SaveChangeAsync(CancellationToken cancellationToken=default);
-        Task SaveChange();
         Task CommitAsync();
         Task RollBackAsync();
-        Task CreateSavepointAsync();
 
-        //Task OpenTransactionAsync();
-
+        Task RollbackToSavePointAsync(string name="savepointone");
+        Task CreateSavepointAsync(string name= "savepointone");
+        Task OpenTransactionAsync();
 
 
     }

@@ -13,7 +13,7 @@ namespace Application.Futures.Organization.Queries.Get
 {
     public record GetOrganizationQueryRequest(string OrganizationName) : IQuery<IDataResponse>, ISecuredRequest
     {
-        public string[] Roles => [nameof(Role.ADMIN),nameof(Role.STAFF),nameof(Role.USER)];
+        public string[] Roles => [Role.ADMIN,Role.STAFF,Role.USER];
     }
 
     public class GetOrganizationQueryHandler : IRequestHandler<GetOrganizationQueryRequest, IDataResponse>

@@ -1,8 +1,6 @@
 ﻿using Core.Exceptions;
 using Core.Pipelines.Authorization;
-using MediatR;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Primitives;
 using Microsoft.IdentityModel.Tokens;

@@ -34,8 +34,8 @@ namespace Application.Futures.Staff.Queries.GetList
         {
             var admin = _securityService.IsHaveRole(Role.ADMIN);
 
-            IEnumerable<Domain.Entities.Staff> staffList;
-            if (admin)
+            IEnumerable<Domain.Entities.Staff> staffList=default;
+/*            if (admin)
                 staffList = await _staffRepository.GetListAsync(include: c => c.Include(c => c.Organization),
                     index:request.PageRequest.Page,size:request.PageRequest.PageSize,enableTracking:false);
             else 
@@ -47,7 +47,7 @@ namespace Application.Futures.Staff.Queries.GetList
                     include: c => c.Include(c => c.Organization),index: request.PageRequest.Page,
                     size: request.PageRequest.PageSize, enableTracking: false);
             }
-
+*/
             return new DataResponse 
             {
                 Data = _mapper.Map<IEnumerable<StaffListDto>>(staffList),

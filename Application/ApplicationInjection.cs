@@ -6,6 +6,7 @@ using Core;
 using Core.Pipelines.Authorization;
 using Core.Pipelines.Validation;
 using Core.Pipelines.Logger;
+using Core.Pipelines.Transaction;
 
 namespace Application
 {
@@ -23,6 +24,7 @@ namespace Application
             services.AddScoped(typeof(IPipelineBehavior<,>), typeof(RequestValidationBehavior<,>));
             services.AddScoped(typeof(IPipelineBehavior<,>), typeof(AuthorizationBehavior<,>));           
             services.AddScoped(typeof(IPipelineBehavior<,>), typeof(LoggingBehavior<,>));
+            services.AddScoped(typeof(IPipelineBehavior<,>), typeof(TransactionBehavior<,>));
             services.AddCoreService();
 
 

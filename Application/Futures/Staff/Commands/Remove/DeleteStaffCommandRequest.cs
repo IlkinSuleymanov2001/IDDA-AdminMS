@@ -27,7 +27,7 @@ namespace Application.Futures.Staff.Commands.Remove
             var staf = await StaffRepository.GetAsync(c => c.Username == request.Username);
             if (staf is null) throw new NotFoundException("staff not found");
 
-            StaffRepository.Delete(staf);
+            await StaffRepository.DeleteAsync(staf);
 
             return new Response { Message = "Staff success deleted" };
 
