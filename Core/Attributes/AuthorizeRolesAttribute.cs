@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
-using System.Data;
 
-namespace AdminApi.Commons.Attributes
+namespace Core.Attributes
 {
     public class AuthorizeRolesAttribute : AuthorizeAttribute
     {

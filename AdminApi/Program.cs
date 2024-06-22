@@ -1,7 +1,6 @@
 using Application;
 using Infastructure;
 using AdminApi.Commons.Extensions;
-using Microsoft.AspNetCore.Mvc;
 using Core.Exceptions;
 
 
@@ -46,7 +45,8 @@ if (app.Environment.IsDevelopment())
 else
     app.UseHsts();
 
-app.UseCustomExceptionHandler();
+
+//app.UseCustomExceptionHandler();
 
 app.UseHttpsRedirection();
 app.UseRouting();

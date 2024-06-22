@@ -1,5 +1,4 @@
-﻿using AdminApi.Commons.Attributes;
-using Application.Futures.Category.Commands.Create;
+﻿using Application.Futures.Category.Commands.Create;
 using Application.Futures.Category.Commands.Delete;
 using Application.Futures.Category.Commands.Update;
 using Microsoft.AspNetCore.Mvc;
@@ -10,7 +9,6 @@ namespace AdminApi.Controllers
     [ApiController]
     public class CategorysController : ApiController
     {
-        [AuthorizeRoles(Roles=Role.ADMIN)]
         [HttpPost("create")]
         public async Task<IActionResult> Create(CreateCategoryCommandRequest createCategoryCommandRequest) =>
              Ok(await Mediator.Send(createCategoryCommandRequest));

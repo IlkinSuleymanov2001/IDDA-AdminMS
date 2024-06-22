@@ -40,7 +40,7 @@ namespace Application.Futures.Staff.Commands.Create
            if (organization is null) throw new NotFoundException("Organization not found");
 
             var staff = _mapper.Map<Domain.Entities.Staff>(request);
-            staff.Organization = organization;
+            staff.OrganizationID = organization.Id;
             await StaffRepository.CreateAsync(staff);
 
             return new Response{ Message = "Staff success created" };

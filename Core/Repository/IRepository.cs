@@ -2,6 +2,7 @@
 using Core.Pipelines.Transaction;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
+using System;
 using System.Linq.Expressions;
 
 namespace Application.Repositories.Cores
@@ -13,7 +14,7 @@ namespace Application.Repositories.Cores
         TEntity? Get(Expression<Func<TEntity, bool>> predicate);
         Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> predicate, Func<IQueryable<TEntity>,
                       IIncludableQueryable<TEntity, object>>? include = null,
-                      bool enableTracking = true);
+                      bool enableTracking = false);
 
 
 
@@ -21,9 +22,10 @@ namespace Application.Repositories.Cores
            Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null,
            Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null,
            int index = 1, int size = 10,
-           bool enableTracking = true);
+           bool enableTracking = false);
 
-
+        IQueryable<TEntity> FindBy(Expression<Func<TEntity, bool>>? predicate = null,
+          int index = 1, int size = 10);
 
 
         IQueryable<TEntity> FindBy(Expression<Func<TEntity, bool>> predicate);

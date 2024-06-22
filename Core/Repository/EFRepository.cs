@@ -121,7 +121,7 @@ namespace Core.Repository
 
         public async Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> predicate,
             Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null,
-            bool enableTracking = true)
+            bool enableTracking = false)
         {
             IQueryable<TEntity> queryable = query;
             if (!enableTracking) queryable = queryable.AsNoTracking();
@@ -133,7 +133,7 @@ namespace Core.Repository
             Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null,
             Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null,
             int index=1,int size=10,
-            bool enableTracking = true)
+            bool enableTracking = false)
         {
             IQueryable<TEntity> queryable = query;
             if (!enableTracking) queryable = queryable.AsNoTracking();
@@ -147,6 +147,13 @@ namespace Core.Repository
         public IQueryable<TEntity> FindBy(Expression<Func<TEntity, bool>> predicate)
         {
             return query.Where(predicate);
+        }
+
+        public IQueryable<TEntity> FindBy(Expression<Func<TEntity, bool>>? predicate = null, int index = 1, int size = 10)
+        {
+            IQueryable<TEntity> queryable = query;
+            if (predicate != null) queryable = queryable.Where(predicate);
+            return queryable;
         }
 
         public bool Update(TEntity entity)
@@ -216,5 +223,7 @@ namespace Core.Repository
             await _context.SaveChangesAsync();
             await _context.Database.CurrentTransaction.CreateSavepointAsync(SavePointNames.savepointone);
         }
+
+      
     }
 }

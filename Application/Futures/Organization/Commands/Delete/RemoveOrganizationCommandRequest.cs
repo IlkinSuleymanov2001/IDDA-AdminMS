@@ -6,7 +6,7 @@ using Core.Response;
 using MediatR;
 using System.Diagnostics.CodeAnalysis;
 
-namespace Application.Futures.Organization.Delete;
+namespace Application.Futures.Organization.Commands.Delete;
 
 public record RemoveOrganizationCommandRequest([NotNull] string Name) : ICommand<IResponse>, ISecuredRequest
 {
@@ -24,7 +24,7 @@ public class RemoveOrganiztionCommandHandler : IRequestHandler<RemoveOrganizatio
 
     public async Task<IResponse> Handle(RemoveOrganizationCommandRequest request, CancellationToken cancellationToken)
     {
-         await _organizationRepository.DeleteWhere(c=>c.Name == request.Name);
+        await _organizationRepository.DeleteWhere(c => c.Name == request.Name);
         return new Response
         {
             Message = $"Deleted  success {request.Name} Organization"

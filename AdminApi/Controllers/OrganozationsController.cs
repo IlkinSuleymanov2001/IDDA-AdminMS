@@ -1,5 +1,8 @@
-﻿using Application.Futures.Organization.Create;
-using Application.Futures.Organization.Delete;
+﻿using Application.Futures.Organization.Commands.Create;
+using Application.Futures.Organization.Commands.Delete;
+using Application.Futures.Organization.Queries.Get;
+using Application.Futures.Organization.Queries.GetList;
+using Application.Repositories.Cores.Paging;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AdminApi.Controllers
@@ -16,5 +19,14 @@ namespace AdminApi.Controllers
         [HttpDelete("delete")]
         public async Task<IActionResult> Delete(RemoveOrganizationCommandRequest removeOrganizationCommandRequest) =>
             Ok(await Mediator.Send(removeOrganizationCommandRequest));
+
+
+        [HttpGet("getlist")]
+        public async Task<IActionResult> GetList([FromQuery]PageRequest pageRequest) =>
+            Ok(await Mediator.Send(new GetOrganizationListQueryRequest(pageRequest)));
+        
+        [HttpPost("get")]
+        public async Task<IActionResult> Get(GetOrganizationQueryRequest getOrganizationQueryRequest ) =>
+            Ok(await Mediator.Send(getOrganizationQueryRequest));
     }
 }

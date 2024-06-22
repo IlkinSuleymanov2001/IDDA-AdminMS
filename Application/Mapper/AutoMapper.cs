@@ -1,4 +1,5 @@
-﻿using Application.Futures.Staff.Commands.Create;
+﻿using Application.Futures.Organization.Dtos;
+using Application.Futures.Staff.Commands.Create;
 using Application.Futures.Staff.Commands.Update;
 using Application.Futures.Staff.Dtos;
 using AutoMapper;
@@ -13,6 +14,14 @@ namespace Application.Mapper
             CreateMap<Staff, CreateStaffCommandRequest>().ReverseMap();
             CreateMap<Staff, UpdateStaffCommandRequest>().ReverseMap();
             CreateMap<Staff, StaffListDto>().ForMember(c => c.OrganizationName, c => c.MapFrom(c => c.Organization.Name)).ReverseMap();
+            CreateMap<Organization, OrganizationDto>()
+                .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Name))
+                .ForMember(dest => dest.Staffs, opt => opt.MapFrom(src => src.Staffs));
+
+
+            CreateMap<Staff, StaffDto>()
+                .ForMember(dest => dest.Fullname, opt => opt.MapFrom(src => src.Fullname))
+                .ForMember(dest => dest.Username, opt => opt.MapFrom(src => src.Username));
             //ApplyMappingsFromAssembly(Assembly.GetExecutingAssembly());
         }
 
