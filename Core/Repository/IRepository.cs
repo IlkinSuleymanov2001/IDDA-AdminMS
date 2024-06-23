@@ -16,16 +16,12 @@ namespace Application.Repositories.Cores
         Task<IPaginate<TEntity>> GetListAsync(Expression<Func<TEntity, bool>>? predicate = null,
            Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null,
            Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null,
-           int index = 1, int size = 10,
+           int index = 0, int size = 10,
            bool enableTracking = false,
            CancellationToken cancellationToken = default);
 
 
-        IQueryable<TEntity> FindBy(Expression<Func<TEntity, bool>>? predicate = null,
-          int index = 1, int size = 10);
-
-
-        IQueryable<TEntity> FindBy(Expression<Func<TEntity, bool>> predicate);
+        IQueryable<TEntity> FindBy(Expression<Func<TEntity, bool>>? predicate = null);
 
         Task<bool> AnyAsync(Expression<Func<TEntity, bool>> predicate);
 
@@ -37,7 +33,7 @@ namespace Application.Repositories.Cores
 
         Task<IEnumerable<TEntity>> CreateAsync(IEnumerable<TEntity> entities);
 
-        Task<TEntity> Update(TEntity entity);
+        Task<TEntity> UpdateAsync(TEntity entity);
 
         Task<TEntity> DeleteAsync(TEntity entity);
 

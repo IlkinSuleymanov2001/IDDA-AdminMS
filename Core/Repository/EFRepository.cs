@@ -126,7 +126,7 @@ namespace Core.Repository
         public async Task<IPaginate<TEntity>> GetListAsync(Expression<Func<TEntity, bool>>? predicate = null,
             Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null,
             Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null,
-            int index=1,int size=10,
+            int index=0,int size=10,
             bool enableTracking = false,
             CancellationToken cancellationToken = default)
         {
@@ -140,19 +140,15 @@ namespace Core.Repository
             return await queryable.ToPaginateAsync(index, size, 0, cancellationToken);
         }
 
-        public IQueryable<TEntity> FindBy(Expression<Func<TEntity, bool>> predicate)
-        {
-            return query.Where(predicate);
-        }
 
-        public IQueryable<TEntity> FindBy(Expression<Func<TEntity, bool>>? predicate = null, int index = 1, int size = 10)
+        public IQueryable<TEntity> FindBy(Expression<Func<TEntity, bool>>? predicate = null)
         {
             IQueryable<TEntity> queryable = query;
             if (predicate != null) queryable = queryable.Where(predicate);
             return queryable;
         }
 
-        public async Task<TEntity> Update(TEntity entity)
+        public async Task<TEntity> UpdateAsync(TEntity entity)
         {
             var entry = _context.Entry(entity);
             if (entry.State == EntityState.Detached)

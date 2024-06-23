@@ -5,6 +5,7 @@ using Application.Repositories;
 using Application.Repositories.Cores.Paging;
 using AutoMapper;
 using Core.Pipelines.Authorization;
+using Core.Repository.Paging;
 using Core.Response;
 using Core.Services.Security;
 using MediatR;
@@ -34,24 +35,24 @@ namespace Application.Futures.Staff.Queries.GetList
         {
             var admin = _securityService.IsHaveRole(Role.ADMIN);
 
-            IEnumerable<Domain.Entities.Staff> staffList=default;
-/*            if (admin)
-                staffList = await _staffRepository.GetListAsync(include: c => c.Include(c => c.Organization),
-                    index:request.PageRequest.Page,size:request.PageRequest.PageSize,enableTracking:false);
-            else 
-            {
-                var staff = await _staffRepository.GetAsync(c=>c.Username== _securityService.GetUsername()
-                ,include:c=>c.Include(c=>c.Organization),enableTracking:false);
+            IPaginate<Domain.Entities.Staff> staffList=default;
 
-                staffList = await _staffRepository.GetListAsync(c => c.OrganizationID ==staff.OrganizationID,
-                    include: c => c.Include(c => c.Organization),index: request.PageRequest.Page,
+            if (admin)
+                staffList = await _staffRepository.GetListAsync(include: c => c.Include(c => c.Organization),
+                    index: request.PageRequest.Page, size: request.PageRequest.PageSize, enableTracking: false);
+            else
+            {
+                var staff = await _staffRepository.GetAsync(c => c.Username == _securityService.GetUsername()
+                , include: c => c.Include(c => c.Organization), enableTracking: false);
+
+                staffList = await _staffRepository.GetListAsync(c => c.OrganizationID == staff.OrganizationID,
+                    include: c => c.Include(c => c.Organization), index: request.PageRequest.Page,
                     size: request.PageRequest.PageSize, enableTracking: false);
             }
-*/
+
             return new DataResponse 
             {
-                Data = _mapper.Map<IEnumerable<StaffListDto>>(staffList),
-                Message ="success"
+                Data = _mapper.Map<PaginateStaffModel>(staffList)
             };
 
         }

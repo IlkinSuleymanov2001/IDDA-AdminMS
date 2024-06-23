@@ -3,136 +3,96 @@
   "WorkspaceRootPath": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\adminapi\\controllers\\categoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\categoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\adminapi\\controllers\\staffscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\staffscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\adminapi\\controllers\\organozationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\organozationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\organization\\commands\\update\\updatestaffcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\commands\\update\\updatestaffcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\adminapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\adminapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\repository\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\repository\\paging\\paginate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\paging\\paginate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\repository\\paging\\pagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\paging\\pagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\repository\\paging\\iqueryablepaginateextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\paging\\iqueryablepaginateextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\repository\\paging\\ipaginate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\paging\\ipaginate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\repository\\paging\\basepageablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\paging\\basepageablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\queries\\search\\searchstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\queries\\search\\searchstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\repository\\paging\\pagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\paging\\pagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\queries\\getlist\\getstafflistqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\queries\\getlist\\getstafflistqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\queries\\get\\getstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\queries\\get\\getstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\mapper\\automapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\mapper\\automapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\dtos\\paginatestaffmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\dtos\\paginatestaffmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\dtos\\staffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\dtos\\staffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\organization\\queries\\getlist\\getorganizationlistqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\queries\\getlist\\getorganizationlistqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\commands\\remove\\deletestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\remove\\deletestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\adminapi\\errorlog\\20240623.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\errorlog\\20240623.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\commands\\create\\createstaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\create\\createstaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\repository\\paging\\paginate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\paging\\paginate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\organization\\commands\\delete\\removeorganizationcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\commands\\delete\\removeorganizationcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\queries\\search\\searchstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\queries\\search\\searchstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\organization\\commands\\create\\createorganizationcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\commands\\create\\createorganizationcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\repository\\paging\\ipaginate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\paging\\ipaginate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\organization\\dtos\\organizationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\dtos\\organizationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\commands\\create\\createstaffcommandvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\create\\createstaffcommandvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\category\\commands\\create\\createcategorycommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\category\\commands\\create\\createcategorycommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\applicationinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\applicationinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\persistance\\infastructureinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|solutionrelative:persistance\\infastructureinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\coreinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\coreinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\pipelines\\transaction\\itransactional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\pipelines\\transaction\\itransactional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\pipelines\\transaction\\transactionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\pipelines\\transaction\\transactionbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\pipelines\\transaction\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\pipelines\\transaction\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\pipelines\\transaction\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\pipelines\\transaction\\iquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\pipelines\\transaction\\savepointnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\pipelines\\transaction\\savepointnames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\category\\commands\\update\\updatecategorycommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\category\\commands\\update\\updatecategorycommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\queries\\get\\getstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\queries\\get\\getstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\organization\\queries\\get\\getorganizationqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\queries\\get\\getorganizationqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\constants\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\constants\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\organization\\dtos\\paginateorganizationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\dtos\\paginateorganizationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\commands\\update\\updatestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\update\\updatestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\organization\\dtos\\organizationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\dtos\\organizationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\domain\\entities\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\domain\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\repository\\paging\\pageablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\paging\\pageablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -142,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 26,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -162,431 +122,301 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetStaffListQueryRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwCUAAAAYAAAA",
+              "DocumentIndex": 0,
+              "Title": "CategorysController.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\CategorysController.cs",
+              "RelativeDocumentMoniker": "AdminApi\\Controllers\\CategorysController.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\CategorysController.cs",
+              "RelativeToolTip": "AdminApi\\Controllers\\CategorysController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAAA0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T16:32:53.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GetOrganizationListQueryRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Queries\\GetList\\GetOrganizationListQueryRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Queries\\GetList\\GetOrganizationListQueryRequest.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Queries\\GetList\\GetOrganizationListQueryRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Organization\\Queries\\GetList\\GetOrganizationListQueryRequest.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAzwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T16:30:20.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IQueryablePaginateExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\IQueryablePaginateExtensions.cs",
-              "RelativeDocumentMoniker": "Core\\Repository\\Paging\\IQueryablePaginateExtensions.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\IQueryablePaginateExtensions.cs",
-              "RelativeToolTip": "Core\\Repository\\Paging\\IQueryablePaginateExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T16:17:12.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PageRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\PageRequest.cs",
-              "RelativeDocumentMoniker": "Core\\Repository\\Paging\\PageRequest.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\PageRequest.cs",
-              "RelativeToolTip": "Core\\Repository\\Paging\\PageRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T16:15:54.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BasePageableModel.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\BasePageableModel.cs",
-              "RelativeDocumentMoniker": "Core\\Repository\\Paging\\BasePageableModel.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\BasePageableModel.cs",
-              "RelativeToolTip": "Core\\Repository\\Paging\\BasePageableModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T16:15:32.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IPaginate.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\IPaginate.cs",
-              "RelativeDocumentMoniker": "Core\\Repository\\Paging\\IPaginate.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\IPaginate.cs",
-              "RelativeToolTip": "Core\\Repository\\Paging\\IPaginate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T16:14:34.244Z",
+              "WhenOpened": "2024-06-23T09:38:18.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Paginate.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\Paginate.cs",
-              "RelativeDocumentMoniker": "Core\\Repository\\Paging\\Paginate.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\Paginate.cs",
-              "RelativeToolTip": "Core\\Repository\\Paging\\Paginate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T16:13:39.085Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DeleteStaffCommandRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAgwB0AAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T16:04:04.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "OrganizationDto.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Dtos\\OrganizationDto.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Dtos\\OrganizationDto.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Dtos\\OrganizationDto.cs",
-              "RelativeToolTip": "Application\\Futures\\Organization\\Dtos\\OrganizationDto.cs",
+              "Title": "StaffsController.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\StaffsController.cs",
+              "RelativeDocumentMoniker": "AdminApi\\Controllers\\StaffsController.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\StaffsController.cs",
+              "RelativeToolTip": "AdminApi\\Controllers\\StaffsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T15:45:48.665Z",
+              "WhenOpened": "2024-06-23T10:05:13.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RemoveOrganizationCommandRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Commands\\Delete\\RemoveOrganizationCommandRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Commands\\Delete\\RemoveOrganizationCommandRequest.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Commands\\Delete\\RemoveOrganizationCommandRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Organization\\Commands\\Delete\\RemoveOrganizationCommandRequest.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBsAAAAbAAAA",
+              "DocumentIndex": 2,
+              "Title": "OrganozationsController.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\OrganozationsController.cs",
+              "RelativeDocumentMoniker": "AdminApi\\Controllers\\OrganozationsController.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\OrganozationsController.cs",
+              "RelativeToolTip": "AdminApi\\Controllers\\OrganozationsController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBkAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T15:45:13.21Z",
+              "WhenOpened": "2024-06-23T10:00:50.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CreateStaffCommandValidation.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandValidation.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandValidation.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandValidation.cs",
-              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandValidation.cs",
+              "DocumentIndex": 3,
+              "Title": "UpdateStaffCommand.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Commands\\Update\\UpdateStaffCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Commands\\Update\\UpdateStaffCommand.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Commands\\Update\\UpdateStaffCommand.cs",
+              "RelativeToolTip": "Application\\Futures\\Organization\\Commands\\Update\\UpdateStaffCommand.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:51:01.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Program.cs",
+              "RelativeDocumentMoniker": "AdminApi\\Program.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Program.cs",
+              "RelativeToolTip": "AdminApi\\Program.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:49:32.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\appsettings.json",
+              "RelativeDocumentMoniker": "AdminApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\appsettings.json",
+              "RelativeToolTip": "AdminApi\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T15:43:48.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CreateStaffCommandRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAgwCwAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T12:44:23.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CreateOrganizationCommandRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Commands\\Create\\CreateOrganizationCommandRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Commands\\Create\\CreateOrganizationCommandRequest.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Commands\\Create\\CreateOrganizationCommandRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Organization\\Commands\\Create\\CreateOrganizationCommandRequest.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA1wBsAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T15:43:38.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CreateCategoryCommandRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Category\\Commands\\Create\\CreateCategoryCommandRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Category\\Commands\\Create\\CreateCategoryCommandRequest.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Category\\Commands\\Create\\CreateCategoryCommandRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Category\\Commands\\Create\\CreateCategoryCommandRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T15:42:13.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ApplicationInjection.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\ApplicationInjection.cs",
-              "RelativeDocumentMoniker": "Application\\ApplicationInjection.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\ApplicationInjection.cs",
-              "RelativeToolTip": "Application\\ApplicationInjection.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T15:41:40.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "InfastructureInjection.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Persistance\\InfastructureInjection.cs",
-              "RelativeDocumentMoniker": "Persistance\\InfastructureInjection.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Persistance\\InfastructureInjection.cs",
-              "RelativeToolTip": "Persistance\\InfastructureInjection.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T15:41:23.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CoreInjection.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\CoreInjection.cs",
-              "RelativeDocumentMoniker": "Core\\CoreInjection.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\CoreInjection.cs",
-              "RelativeToolTip": "Core\\CoreInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T15:40:50.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\IRepository.cs",
-              "RelativeDocumentMoniker": "Core\\Repository\\IRepository.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\IRepository.cs",
-              "RelativeToolTip": "Core\\Repository\\IRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T15:37:39.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "SavePointNames.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Pipelines\\Transaction\\SavePointNames.cs",
-              "RelativeDocumentMoniker": "Core\\Pipelines\\Transaction\\SavePointNames.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Pipelines\\Transaction\\SavePointNames.cs",
-              "RelativeToolTip": "Core\\Pipelines\\Transaction\\SavePointNames.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T15:32:28.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IQuery.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Pipelines\\Transaction\\IQuery.cs",
-              "RelativeDocumentMoniker": "Core\\Pipelines\\Transaction\\IQuery.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Pipelines\\Transaction\\IQuery.cs",
-              "RelativeToolTip": "Core\\Pipelines\\Transaction\\IQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T15:32:22.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ICommand.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Pipelines\\Transaction\\ICommand.cs",
-              "RelativeDocumentMoniker": "Core\\Pipelines\\Transaction\\ICommand.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Pipelines\\Transaction\\ICommand.cs",
-              "RelativeToolTip": "Core\\Pipelines\\Transaction\\ICommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T15:31:40.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ITransactional.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Pipelines\\Transaction\\ITransactional.cs",
-              "RelativeDocumentMoniker": "Core\\Pipelines\\Transaction\\ITransactional.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Pipelines\\Transaction\\ITransactional.cs",
-              "RelativeToolTip": "Core\\Pipelines\\Transaction\\ITransactional.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T15:31:38.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EFRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\EFRepository.cs",
-              "RelativeDocumentMoniker": "Core\\Repository\\EFRepository.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\EFRepository.cs",
-              "RelativeToolTip": "Core\\Repository\\EFRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T14:05:27.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "TransactionBehavior.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Pipelines\\Transaction\\TransactionBehavior.cs",
-              "RelativeDocumentMoniker": "Core\\Pipelines\\Transaction\\TransactionBehavior.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Pipelines\\Transaction\\TransactionBehavior.cs",
-              "RelativeToolTip": "Core\\Pipelines\\Transaction\\TransactionBehavior.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAqwAoAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T12:44:23.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UpdateCategoryCommandRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Category\\Commands\\Update\\UpdateCategoryCommandRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Category\\Commands\\Update\\UpdateCategoryCommandRequest.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Category\\Commands\\Update\\UpdateCategoryCommandRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Category\\Commands\\Update\\UpdateCategoryCommandRequest.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwCIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T12:43:56.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "GetOrganizationQueryRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAgwDMAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T12:42:05.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "UpdateStaffCommandRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T12:41:22.959Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-23T09:49:31.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Repository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\IRepository.cs",
+              "RelativeToolTip": "Core\\Repository\\IRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:45:57.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PageRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\PageRequest.cs",
+              "RelativeDocumentMoniker": "Core\\Repository\\Paging\\PageRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\PageRequest.cs",
+              "RelativeToolTip": "Core\\Repository\\Paging\\PageRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:45:43.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PaginateStaffModel.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Dtos\\PaginateStaffModel.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Dtos\\PaginateStaffModel.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Dtos\\PaginateStaffModel.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Dtos\\PaginateStaffModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:44:17.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240623.txt",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\errorlog\\20240623.txt",
+              "RelativeDocumentMoniker": "AdminApi\\errorlog\\20240623.txt",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\errorlog\\20240623.txt",
+              "RelativeToolTip": "AdminApi\\errorlog\\20240623.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-23T09:43:07.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "SearchStaffQueryRequest.cs",
               "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\Search\\SearchStaffQueryRequest.cs",
               "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\Search\\SearchStaffQueryRequest.cs",
               "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\Search\\SearchStaffQueryRequest.cs",
               "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\Search\\SearchStaffQueryRequest.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T12:40:32.724Z",
+              "WhenOpened": "2024-06-23T09:34:46.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "GetStaffListQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAIwDYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:33:08.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StaffDto.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Dtos\\StaffDto.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Dtos\\StaffDto.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Dtos\\StaffDto.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Dtos\\StaffDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:29:30.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "GetStaffQueryRequest.cs",
               "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
               "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
               "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
               "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAA6wCMAAAARAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAQwCYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T12:39:40.243Z",
+              "WhenOpened": "2024-06-23T09:29:02.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Constants\\Role.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Constants\\Role.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Constants\\Role.cs",
-              "RelativeToolTip": "Application\\Futures\\Constants\\Role.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 17,
+              "Title": "IPaginate.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\IPaginate.cs",
+              "RelativeDocumentMoniker": "Core\\Repository\\Paging\\IPaginate.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\IPaginate.cs",
+              "RelativeToolTip": "Core\\Repository\\Paging\\IPaginate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T12:39:13.294Z",
+              "WhenOpened": "2024-06-23T09:24:36.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Organization.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Entities\\Organization.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Organization.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Entities\\Organization.cs",
-              "RelativeToolTip": "Domain\\Entities\\Organization.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 15,
+              "Title": "Paginate.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\Paginate.cs",
+              "RelativeDocumentMoniker": "Core\\Repository\\Paging\\Paginate.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\Paginate.cs",
+              "RelativeToolTip": "Core\\Repository\\Paging\\Paginate.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAmwGAAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T12:38:51.397Z",
+              "WhenOpened": "2024-06-23T09:24:34.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Staff.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Entities\\Staff.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Staff.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Entities\\Staff.cs",
-              "RelativeToolTip": "Domain\\Entities\\Staff.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "EFRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\EFRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Repository\\EFRepository.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\EFRepository.cs",
+              "RelativeToolTip": "Core\\Repository\\EFRepository.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAqwIAAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T12:38:49.126Z",
+              "WhenOpened": "2024-06-23T09:24:32.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "Domain\\Entities\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 22,
+              "Title": "PageableModel.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\PageableModel.cs",
+              "RelativeDocumentMoniker": "Core\\Repository\\Paging\\PageableModel.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\PageableModel.cs",
+              "RelativeToolTip": "Core\\Repository\\Paging\\PageableModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T12:38:45.7Z",
+              "WhenOpened": "2024-06-23T09:23:11.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PaginateOrganizationModel.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Dtos\\PaginateOrganizationModel.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Dtos\\PaginateOrganizationModel.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Dtos\\PaginateOrganizationModel.cs",
+              "RelativeToolTip": "Application\\Futures\\Organization\\Dtos\\PaginateOrganizationModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:22:58.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AutoMapper.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Mapper\\AutoMapper.cs",
+              "RelativeDocumentMoniker": "Application\\Mapper\\AutoMapper.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Mapper\\AutoMapper.cs",
+              "RelativeToolTip": "Application\\Mapper\\AutoMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:20:13.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetOrganizationListQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Queries\\GetList\\GetOrganizationListQueryRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Queries\\GetList\\GetOrganizationListQueryRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Queries\\GetList\\GetOrganizationListQueryRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Organization\\Queries\\GetList\\GetOrganizationListQueryRequest.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwBYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:19:19.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrganizationDto.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Dtos\\OrganizationDto.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Dtos\\OrganizationDto.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Dtos\\OrganizationDto.cs",
+              "RelativeToolTip": "Application\\Futures\\Organization\\Dtos\\OrganizationDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:18:42.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GetOrganizationQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
+              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCYAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:14:58.901Z",
               "EditorCaption": ""
             }
           ]

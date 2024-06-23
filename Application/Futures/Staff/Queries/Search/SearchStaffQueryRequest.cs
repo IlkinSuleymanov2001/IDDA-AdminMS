@@ -1,6 +1,8 @@
 ﻿using Application.Common.Pipelines.Transaction;
 using Application.Futures.Constants;
+using Application.Futures.Staff.Dtos;
 using Application.Repositories;
+using AutoMapper;
 using Core.Exceptions;
 using Core.Pipelines.Authorization;
 using Core.Response;
@@ -17,10 +19,12 @@ namespace Application.Futures.Staff.Queries.Search
     public class SearchStaffQueryHandler : IRequestHandler<SearchStaffQueryRequest, IDataResponse>
     {
         private readonly IStaffRepository _staffRepository;
+        private readonly IMapper _mapper;
 
-        public SearchStaffQueryHandler(IStaffRepository staffRepository)
+        public SearchStaffQueryHandler(IStaffRepository staffRepository, IMapper mapper)
         {
             _staffRepository = staffRepository;
+            _mapper = mapper;
         }
 
         public async Task<IDataResponse> Handle(SearchStaffQueryRequest request, CancellationToken cancellationToken)
@@ -28,16 +32,10 @@ namespace Application.Futures.Staff.Queries.Search
             var currentStaff = await _staffRepository.GetAsync(g => g.Username == request.Username
             ,include: ef => ef.Include(c => c.Organization));
 
-            if (currentStaff is null) throw new NotFoundException("current not found");
+            if (currentStaff is null) throw new NotFoundException("staff not found");
             return new DataResponse
             {
-                Data = new
-                {
-                    currentStaff.Fullname,
-                    currentStaff.Username,
-                    OrganizationName = currentStaff.Organization.Name
-                },
-                Message = "success"
+                Data = _mapper.Map<StaffDto>(currentStaff)
             };
 
         }

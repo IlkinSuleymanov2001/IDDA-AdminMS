@@ -30,7 +30,7 @@ namespace Application.Futures.Category.Commands.Update
             if (category is null) throw new NotFoundException("not found category");
             category.Name = request.newName;
 
-            _categoryRepository.Update(category);
+            _categoryRepository.UpdateAsync(category);
             return new Response() { Message = "category was successfully Updated"};
         }
     }

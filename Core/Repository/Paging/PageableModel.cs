@@ -1,7 +1,7 @@
 ﻿
 namespace Core.Repository.Paging
 {
-    public class BasePageableModel
+    public abstract class PageableModel<TData>
     {
         public int Index { get; set; }
         public int Size { get; set; }
@@ -9,5 +9,6 @@ namespace Core.Repository.Paging
         public int Pages { get; set; }
         public bool HasPrevious { get; set; }
         public bool HasNext { get; set; }
+        public IList<TData> Items { get; set; }
     }
 }

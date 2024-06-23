@@ -1,0 +1,26 @@
+2024-06-23 01:26:48.802 -07:00 [Error] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Paginate`1 -> IPaginate`1
+Core.Repository.Paging.Paginate`1[[Domain.Entities.Staff, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Core.Repository.Paging.IPaginate`1[[Application.Futures.Staff.Dtos.StaffListDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Paginate`1 -> IPaginate`1
+Core.Repository.Paging.Paginate`1[[Domain.Entities.Staff, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Core.Repository.Paging.IPaginate`1[[Application.Futures.Staff.Dtos.StaffListDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method56(Closure, Object, IPaginate`1, ResolutionContext)
+   at Application.Futures.Staff.Queries.GetList.GetStaffListQueryHandler.Handle(GetStaffListQueryRequest request, CancellationToken cancellationToken) in C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\Futures\Staff\Queries\GetList\GetStaffListQueryRequest.cs:line 53
+   at Core.Pipelines.Logger.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ilkin.suleymanov\source\repos\AdminApi\Core\Pipelines\Logger\LoggingBehavior.cs:line 22
+2024-06-23 02:42:21.503 -07:00 [Error] Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Paginate`1 -> Paginate`1
+Core.Repository.Paging.Paginate`1[[Domain.Entities.Staff, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Core.Repository.Paging.Paginate`1[[Application.Futures.Staff.Dtos.StaffListDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Paginate`1 -> Paginate`1
+Core.Repository.Paging.Paginate`1[[Domain.Entities.Staff, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> Core.Repository.Paging.Paginate`1[[Application.Futures.Staff.Dtos.StaffListDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method60(Closure, Object, Paginate`1, ResolutionContext)
+   at Application.Futures.Staff.Queries.GetList.GetStaffListQueryHandler.Handle(GetStaffListQueryRequest request, CancellationToken cancellationToken) in C:\Users\ilkin.suleymanov\source\repos\AdminApi\Application\Futures\Staff\Queries\GetList\GetStaffListQueryRequest.cs:line 53
+   at Core.Pipelines.Logger.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in C:\Users\ilkin.suleymanov\source\repos\AdminApi\Core\Pipelines\Logger\LoggingBehavior.cs:line 22

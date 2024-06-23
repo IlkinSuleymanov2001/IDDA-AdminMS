@@ -34,29 +34,9 @@ namespace Application.Futures.Organization.Queries.Get
 
         public async Task<IDataResponse> Handle(GetOrganizationQueryRequest request, CancellationToken cancellationToken)
         {
-            Domain.Entities.Organization org=default;
 
-            if (_securityService.IsHaveRole(Role.ADMIN))
-            {
-                org = await _organizationRepository.GetAsync(c => c.Name == request.OrganizationName, include: c => c.Include(c => c.Staffs));
-                return new DataResponse { Data = _mapper.Map<OrganizationDto>(org) };
-            }
-            else if (_securityService.IsHaveRole(Role.STAFF))
-            {
-                var username = _securityService.GetUsername();
-
-                var staff = await _staffRepository.GetAsync(c => c.Username == username, include: c => c.Include(c => c.Organization));
-                if (staff != null && staff.Organization.Name == request.OrganizationName)
-                {
-                    org = await _organizationRepository.GetAsync(c => c.Name == request.OrganizationName, include: c => c.Include(c => c.Staffs));
-                    return new DataResponse { Data = _mapper.Map<OrganizationDto>(org) };
-                }
-            }
-            
-            org = await _organizationRepository.GetAsync(c => c.Name == request.OrganizationName);
-
-
-            return new DataResponse { Data = new { org.Name } };
+            var org = await _organizationRepository.GetAsync(c=>c.Name==request.OrganizationName);
+            return new DataResponse { Data = _mapper.Map<OrganizationDto>(org) };
         }
     }
 

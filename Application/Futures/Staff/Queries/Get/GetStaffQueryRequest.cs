@@ -1,6 +1,8 @@
 ﻿using Application.Common.Pipelines.Transaction;
 using Application.Futures.Constants;
+using Application.Futures.Staff.Dtos;
 using Application.Repositories;
+using AutoMapper;
 using Core.Pipelines.Authorization;
 using Core.Response;
 using Core.Services.Security;
@@ -18,11 +20,13 @@ namespace Application.Futures.Staff.Queries.Get
     {
         private readonly IStaffRepository _staffRepository;
         private readonly ISecurityService _securityService;
+        private readonly IMapper _mapper;
 
-        public GetStaffQueryHandler(IStaffRepository staffRepository, ISecurityService securityService)
+        public GetStaffQueryHandler(IStaffRepository staffRepository, ISecurityService securityService, IMapper mapper)
         {
             _staffRepository = staffRepository;
             _securityService = securityService;
+            _mapper = mapper;
         }
 
         public async Task<IDataResponse> Handle(GetStaffQueryRequest request, CancellationToken cancellationToken)
@@ -32,13 +36,7 @@ namespace Application.Futures.Staff.Queries.Get
             , include: ef => ef.Include(c => c.Organization));
             return new DataResponse
             {
-                Data = new
-                {
-                    currentStaff.Fullname,
-                    currentStaff.Username,
-                    OrganizationName = currentStaff.Organization.Name
-                },
-                Message = "success"
+                Data = _mapper.Map<StaffDto>(currentStaff)
             };
         }
     }

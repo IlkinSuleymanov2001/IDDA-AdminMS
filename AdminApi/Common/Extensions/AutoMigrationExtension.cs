@@ -1,5 +1,4 @@
 ﻿using Application.Repositories.Context;
-using Infastructure.Repositories.Context;
 using Microsoft.EntityFrameworkCore;
 
 namespace AdminApi.Commons.Extensions

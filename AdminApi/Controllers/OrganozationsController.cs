@@ -1,5 +1,6 @@
 ﻿using Application.Futures.Organization.Commands.Create;
 using Application.Futures.Organization.Commands.Delete;
+using Application.Futures.Organization.Commands.Update;
 using Application.Futures.Organization.Queries.Get;
 using Application.Futures.Organization.Queries.GetList;
 using Application.Repositories.Cores.Paging;
@@ -19,6 +20,11 @@ namespace AdminApi.Controllers
         [HttpDelete("delete")]
         public async Task<IActionResult> Delete(RemoveOrganizationCommandRequest removeOrganizationCommandRequest) =>
             Ok(await Mediator.Send(removeOrganizationCommandRequest));
+
+        [HttpPut("update")]
+        public async Task<IActionResult> Update(UpdateStaffCommand updateStaffCommand)=>
+            Ok(await Mediator.Send(updateStaffCommand));
+            
 
 
         [HttpGet("getlist")]
