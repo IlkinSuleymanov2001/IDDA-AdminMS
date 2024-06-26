@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FZggGVdjttM07C75Al2FVPtbz8ew0qr1sIggTp3ApDM=",
+  "Source": "AdminApi",
+  "BasePath": "_content/AdminApi",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -2,10 +2,8 @@
 
 namespace Domain.Entities
 {
-    public  class Staff:BaseEntity<int>
+    public  class Staff:BaseEntity<int>, IEntity
     {
-      
-
         public string? Fullname { get; set; }
         public string  Username  { get; set; }
         public int OrganizationID { get; set; }
@@ -20,8 +18,7 @@ namespace Domain.Entities
         }
 
         public Staff()
-        {
-            
+        {      
         }
     }
 }

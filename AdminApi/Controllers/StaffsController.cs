@@ -3,6 +3,7 @@ using Application.Futures.Staff.Commands.Remove;
 using Application.Futures.Staff.Commands.Update;
 using Application.Futures.Staff.Queries.Get;
 using Application.Futures.Staff.Queries.GetList;
+using Application.Futures.Staff.Queries.GetLIstByOrganizationName;
 using Application.Futures.Staff.Queries.Search;
 using Application.Repositories.Cores.Paging;
 using Microsoft.AspNetCore.Mvc;
@@ -37,6 +38,10 @@ namespace AdminApi.Controllers
         [HttpPost("serach")]
         public async Task<IActionResult> GetList([FromBody]SearchStaffQueryRequest searchStaffQueryRequest) =>
            Ok(await Mediator.Send(searchStaffQueryRequest));
+
+        [HttpPost("getbyorganizationname/{organizatioName}")]
+        public async Task<IActionResult> GetByOrganizationName([FromQuery] PageRequest pageRequest,[FromRoute] string organizatioName) =>
+           Ok(await Mediator.Send(new GetStaffListByOrganizationNameQuery(pageRequest,organizatioName)));
 
 
     }

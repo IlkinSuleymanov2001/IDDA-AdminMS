@@ -33,7 +33,7 @@ namespace Application.Futures.Staff.Queries.GetLIstByOrganizationName
         public async Task<IDataResponse> Handle(GetStaffListByOrganizationNameQuery request, CancellationToken cancellationToken)
         {
             var org  = await organizationRepository.GetAsync(c => c.Name == request.OrganizationName);
-            if (org is null) throw new NotFoundException("goverment not found ");
+            if (org is null) throw new NotFoundException();
 
             var staffList = await staffRepository.GetListAsync(predicate:c=>c.Organization.Name==request.OrganizationName,
                 index:request.PageRequest.Page,size:request.PageRequest.PageSize,

@@ -1,9 +1,5 @@
 ﻿using MediatR;
-
-
 namespace Core.Pipelines.Logger;
-
-
 
 public class LoggingBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
      where TRequest : IBaseRequest
@@ -23,8 +19,8 @@ public class LoggingBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, 
         }
         catch (Exception ex) when(ex is not INonLogException)
         {
-                _logger.LogErrorToFile(ex);
-                throw;
+            _logger.LogErrorToPostgreDatabase(ex);
+              throw;
         }
 
 

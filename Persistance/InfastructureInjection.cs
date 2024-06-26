@@ -15,7 +15,7 @@ namespace Infastructure
         {
             services.AddDbContext<AdminContext>(options =>
             {
-                options.UseSqlServer(configuration.GetConnectionString("ADMINMS"));
+                options.UseNpgsql(configuration.GetConnectionString("ADMINMS"));
             });
 
             services.AddScoped<IStaffRepository, StaffRepository>();

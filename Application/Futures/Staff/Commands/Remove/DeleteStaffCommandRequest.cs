@@ -4,6 +4,7 @@ using Core.Exceptions;
 using Core.Pipelines.Authorization;
 using Core.Pipelines.Transaction;
 using Core.Response;
+using Domain.Entities;
 using MediatR;
 
 namespace Application.Futures.Staff.Commands.Remove
@@ -25,11 +26,11 @@ namespace Application.Futures.Staff.Commands.Remove
         public async Task<IResponse> Handle(DeleteStaffCommandRequest request, CancellationToken cancellationToken)
         {
             var staf = await StaffRepository.GetAsync(c => c.Username == request.Username);
-            if (staf is null) throw new NotFoundException("staff not found");
+            if (staf is null) throw new NotFoundException(typeof(Domain.Entities.Staff));
 
             await StaffRepository.DeleteAsync(staf);
 
-            return new Response { Message = "Staff success deleted" };
+            return new Response();
 
         }
     }

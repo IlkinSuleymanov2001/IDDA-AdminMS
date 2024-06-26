@@ -5,7 +5,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Primitives;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
 using System.Text;
 
 namespace Core.Services.Security
@@ -28,14 +27,14 @@ namespace Core.Services.Security
             var token = GetToken();
 
             if (string.IsNullOrEmpty(token)) return default;
-            return CheckTokenFormat(token).Claims?.Where(c => c.Type == ClaimTypes.NameIdentifier)?.FirstOrDefault()?.Value;
+            return CheckTokenFormat(token).Claims?.Where(c => c.Type ==Config.Username)?.FirstOrDefault()?.Value;
         }
 
         public IEnumerable<string> GetRoles()
         {
 
             var token = GetToken();
-            var roles = CheckTokenFormat(token).Claims.Where(c => c.Type == ClaimTypes.Role).Select(c => c.Value).ToList();
+            var roles = CheckTokenFormat(token).Claims.Where(c => c.Type == Config.Roles).Select(c => c.Value).ToList();
             if (roles.Any())
                 return roles;
             else

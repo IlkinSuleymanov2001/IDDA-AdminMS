@@ -1,22 +1,20 @@
-﻿
+﻿using Core.BaseEntities;
+using Core.Repository.BaseEntities;
 
-using Core.BaseEntities;
+namespace Domain.Entities;
 
-namespace Domain.Entities
+public  class Organization:BaseEntity<int>,IEntity
 {
-    public  class Organization:BaseEntity<int>
+    public string Name { get; set; } = string.Empty;
+    public virtual ICollection<Staff> Staffs { get; set; }
+
+    public Organization()
     {
-        public string Name { get; set; } = string.Empty;
-        public virtual ICollection<Staff> Staffs { get; set; }
+        Staffs = new HashSet<Staff>();
+    }
 
-        public Organization()
-        {
-            Staffs = new HashSet<Staff>();
-        }
-
-        public Organization(string name):this()
-        {
-            Name = name;
-        }
+    public Organization(string name):this()
+    {
+        Name = name;
     }
 }

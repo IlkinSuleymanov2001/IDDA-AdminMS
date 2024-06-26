@@ -1,98 +1,238 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\",
+  "WorkspaceRootPath": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\adminapi\\controllers\\categoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\categoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\properties\\servicedependencies\\adminms - zip deploy\\profile.arm.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\properties\\servicedependencies\\adminms - zip deploy\\profile.arm.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\adminapi\\controllers\\staffscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\staffscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\adminapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\adminapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\adminapi\\controllers\\organozationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\organozationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\staff\\queries\\getlistbyorganizationname\\getstafflistbyorganizationnamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\queries\\getlistbyorganizationname\\getstafflistbyorganizationnamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\organization\\commands\\update\\updatestaffcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\commands\\update\\updatestaffcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\organization\\commands\\delete\\removeorganizationcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\commands\\delete\\removeorganizationcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\adminapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\staff\\commands\\remove\\deletestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\remove\\deletestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\adminapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\repository\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\repository\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\repository\\paging\\pagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\paging\\pagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\staff\\commands\\update\\updatestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\update\\updatestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\queries\\getlist\\getstafflistqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\staff\\queries\\getlist\\getstafflistqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\queries\\getlist\\getstafflistqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\mapper\\automapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\mapper\\automapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\dtos\\paginatestaffmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\dtos\\paginatestaffmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\dtos\\staffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\dtos\\staffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\organization\\queries\\getlist\\getorganizationlistqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\queries\\getlist\\getorganizationlistqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\adminapi\\errorlog\\20240623.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\errorlog\\20240623.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\repository\\paging\\paginate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\paging\\paginate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\queries\\search\\searchstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\queries\\search\\searchstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\repository\\paging\\ipaginate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\paging\\ipaginate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\staff\\queries\\get\\getstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\staff\\queries\\get\\getstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\queries\\get\\getstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\organization\\queries\\get\\getorganizationqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\common\\extensions\\jwtbearerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\common\\extensions\\jwtbearerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\common\\extensions\\swaggerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\common\\extensions\\swaggerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\controllers\\staffscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\staffscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\controllers\\categoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\categoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\controllers\\organozationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\organozationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\adminapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\adminapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\staff\\commands\\create\\createstaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\create\\createstaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\organization\\commands\\update\\updatestaffcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\commands\\update\\updatestaffcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\organization\\commands\\create\\createorganizationcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\commands\\create\\createorganizationcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\organization\\queries\\list\\getorganizationlistqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\queries\\list\\getorganizationlistqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\constants\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\constants\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\services\\security\\securityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\services\\security\\securityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\services\\security\\tokenoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\services\\security\\tokenoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\services\\security\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\services\\security\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\pipelines\\logger\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\pipelines\\logger\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\exceptions\\customexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\exceptions\\customexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\exceptions\\customexceptionhandlermiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\exceptions\\customexceptionhandlermiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\persistance\\infastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|solutionrelative:persistance\\infastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\pipelines\\logger\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\pipelines\\logger\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\persistance\\repositories\\admincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|solutionrelative:persistance\\repositories\\admincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\persistance\\infastructureinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|solutionrelative:persistance\\infastructureinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\exceptions\\customexceptionhandlermiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\exceptions\\customexceptionhandlermiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\repository\\baseentities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\baseentities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\repository\\baseentities\\datetimeaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\baseentities\\datetimeaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\repository\\baseentities\\iaudited.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\baseentities\\iaudited.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\domain\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\domain\\entities\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\repository\\baseentities\\isoftdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\baseentities\\isoftdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\repository\\baseentities\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\baseentities\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\mapper\\automapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\mapper\\automapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\staff\\dtos\\paginatestaffmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\dtos\\paginatestaffmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\staff\\dtos\\staffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\dtos\\staffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\repository\\paging\\pagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\paging\\pagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\repository\\paging\\paginate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\paging\\paginate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\staff\\queries\\search\\searchstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\queries\\search\\searchstaffqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\repository\\paging\\ipaginate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\paging\\ipaginate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\organization\\queries\\get\\getorganizationqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\queries\\get\\getorganizationqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\organization\\dtos\\paginateorganizationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\organization\\dtos\\paginateorganizationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\dtos\\paginateorganizationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\application\\futures\\organization\\dtos\\organizationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\organization\\dtos\\organizationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\dtos\\organizationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\users\\ilkin.suleymanov\\source\\repos\\adminapi\\core\\repository\\paging\\pageablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\repository\\paging\\pageablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\paging\\pageablemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\persistance\\migrations\\20240625113921_mig_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|solutionrelative:persistance\\migrations\\20240625113921_mig_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -123,10 +263,231 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "profile.arm.json",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Properties\\ServiceDependencies\\adminms - Zip Deploy\\profile.arm.json",
+              "RelativeDocumentMoniker": "AdminApi\\Properties\\ServiceDependencies\\adminms - Zip Deploy\\profile.arm.json",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Properties\\ServiceDependencies\\adminms - Zip Deploy\\profile.arm.json",
+              "RelativeToolTip": "AdminApi\\Properties\\ServiceDependencies\\adminms - Zip Deploy\\profile.arm.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-26T14:23:21.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Application\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "Application\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBMAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:03:21.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetStaffListByOrganizationNameQuery.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\GetLIstByOrganizationName\\GetStaffListByOrganizationNameQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\GetLIstByOrganizationName\\GetStaffListByOrganizationNameQuery.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\GetLIstByOrganizationName\\GetStaffListByOrganizationNameQuery.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\GetLIstByOrganizationName\\GetStaffListByOrganizationNameQuery.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T15:08:37.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JwtBearerExtension.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Common\\Extensions\\JwtBearerExtension.cs",
+              "RelativeDocumentMoniker": "AdminApi\\Common\\Extensions\\JwtBearerExtension.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Common\\Extensions\\JwtBearerExtension.cs",
+              "RelativeToolTip": "AdminApi\\Common\\Extensions\\JwtBearerExtension.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:00:40.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RemoveOrganizationCommandRequest.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Commands\\Delete\\RemoveOrganizationCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Commands\\Delete\\RemoveOrganizationCommandRequest.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Commands\\Delete\\RemoveOrganizationCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Organization\\Commands\\Delete\\RemoveOrganizationCommandRequest.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAA3wCAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:59:32.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Repository\\IRepository.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\IRepository.cs",
+              "RelativeToolTip": "Core\\Repository\\IRepository.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA9wCcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:45:57.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminApi.csproj",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\AdminApi.csproj",
+              "RelativeDocumentMoniker": "AdminApi\\AdminApi.csproj",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\AdminApi.csproj",
+              "RelativeToolTip": "AdminApi\\AdminApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-25T11:31:11.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteStaffCommandRequest.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA3wBwAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:58:21.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EFRepository.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\EFRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Repository\\EFRepository.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\EFRepository.cs",
+              "RelativeToolTip": "Core\\Repository\\EFRepository.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAD4v14AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:24:32.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateStaffCommandRequest.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:57:25.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetStaffQueryRequest.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAzwCYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:29:02.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetStaffListQueryRequest.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAADwvyUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:33:08.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateStaffCommandRequest.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwCQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:58:36.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminApi.http",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\AdminApi.http",
+              "RelativeDocumentMoniker": "AdminApi\\AdminApi.http",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\AdminApi.http",
+              "RelativeToolTip": "AdminApi\\AdminApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-06-26T14:00:12.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApiController.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\ApiController.cs",
+              "RelativeDocumentMoniker": "AdminApi\\Controllers\\ApiController.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\ApiController.cs",
+              "RelativeToolTip": "AdminApi\\Controllers\\ApiController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:00:18.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SwaggerExtension.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Common\\Extensions\\SwaggerExtension.cs",
+              "RelativeDocumentMoniker": "AdminApi\\Common\\Extensions\\SwaggerExtension.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Common\\Extensions\\SwaggerExtension.cs",
+              "RelativeToolTip": "AdminApi\\Common\\Extensions\\SwaggerExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:00:38.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrganozationsController.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\OrganozationsController.cs",
+              "RelativeDocumentMoniker": "AdminApi\\Controllers\\OrganozationsController.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\OrganozationsController.cs",
+              "RelativeToolTip": "AdminApi\\Controllers\\OrganozationsController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T10:00:50.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "CategorysController.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\CategorysController.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\CategorysController.cs",
               "RelativeDocumentMoniker": "AdminApi\\Controllers\\CategorysController.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\CategorysController.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\CategorysController.cs",
               "RelativeToolTip": "AdminApi\\Controllers\\CategorysController.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAAAA0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -135,37 +496,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "StaffsController.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\StaffsController.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\StaffsController.cs",
               "RelativeDocumentMoniker": "AdminApi\\Controllers\\StaffsController.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\StaffsController.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\StaffsController.cs",
               "RelativeToolTip": "AdminApi\\Controllers\\StaffsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAIwCgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T10:05:13.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrganozationsController.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\OrganozationsController.cs",
-              "RelativeDocumentMoniker": "AdminApi\\Controllers\\OrganozationsController.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Controllers\\OrganozationsController.cs",
-              "RelativeToolTip": "AdminApi\\Controllers\\OrganozationsController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwBkAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T10:00:50.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
               "Title": "UpdateStaffCommand.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Commands\\Update\\UpdateStaffCommand.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Commands\\Update\\UpdateStaffCommand.cs",
               "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Commands\\Update\\UpdateStaffCommand.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Commands\\Update\\UpdateStaffCommand.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Commands\\Update\\UpdateStaffCommand.cs",
               "RelativeToolTip": "Application\\Futures\\Organization\\Commands\\Update\\UpdateStaffCommand.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAAwCEAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -174,250 +522,464 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 21,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Response\\Response.cs",
+              "RelativeDocumentMoniker": "Core\\Response\\Response.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Response\\Response.cs",
+              "RelativeToolTip": "Core\\Response\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:57:55.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateOrganizationCommandRequest.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Commands\\Create\\CreateOrganizationCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Commands\\Create\\CreateOrganizationCommandRequest.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Commands\\Create\\CreateOrganizationCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Organization\\Commands\\Create\\CreateOrganizationCommandRequest.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAuwB4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:23:37.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Services\\Security\\Config.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\Security\\Config.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Services\\Security\\Config.cs",
+              "RelativeToolTip": "Core\\Services\\Security\\Config.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:20:41.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Program.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Program.cs",
               "RelativeDocumentMoniker": "AdminApi\\Program.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\Program.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Program.cs",
               "RelativeToolTip": "AdminApi\\Program.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADEAAAACAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAkwDAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T09:49:32.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 57,
+              "Title": "20240625113921_mig_1.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\Migrations\\20240625113921_mig_1.cs",
+              "RelativeDocumentMoniker": "Persistance\\Migrations\\20240625113921_mig_1.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\Migrations\\20240625113921_mig_1.cs",
+              "RelativeToolTip": "Persistance\\Migrations\\20240625113921_mig_1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T11:39:21.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\appsettings.json",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\appsettings.json",
               "RelativeDocumentMoniker": "AdminApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\appsettings.json",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\appsettings.json",
               "RelativeToolTip": "AdminApi\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAowAwAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-23T09:49:31.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T09:49:31.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\IRepository.cs",
-              "RelativeDocumentMoniker": "Core\\Repository\\IRepository.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\IRepository.cs",
-              "RelativeToolTip": "Core\\Repository\\IRepository.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBIAAAAYAAAA",
+              "DocumentIndex": 30,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Pipelines\\Logger\\Logger.cs",
+              "RelativeDocumentMoniker": "Core\\Pipelines\\Logger\\Logger.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Pipelines\\Logger\\Logger.cs",
+              "RelativeToolTip": "Core\\Pipelines\\Logger\\Logger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:45:57.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T11:36:39.351Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PageRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\PageRequest.cs",
-              "RelativeDocumentMoniker": "Core\\Repository\\Paging\\PageRequest.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\PageRequest.cs",
-              "RelativeToolTip": "Core\\Repository\\Paging\\PageRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "DocumentIndex": 34,
+              "Title": "LoggingBehavior.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Pipelines\\Logger\\LoggingBehavior.cs",
+              "RelativeDocumentMoniker": "Core\\Pipelines\\Logger\\LoggingBehavior.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Pipelines\\Logger\\LoggingBehavior.cs",
+              "RelativeToolTip": "Core\\Pipelines\\Logger\\LoggingBehavior.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:45:43.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T11:37:10.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PaginateStaffModel.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Dtos\\PaginateStaffModel.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Dtos\\PaginateStaffModel.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Dtos\\PaginateStaffModel.cs",
-              "RelativeToolTip": "Application\\Futures\\Staff\\Dtos\\PaginateStaffModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:44:17.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20240623.txt",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\errorlog\\20240623.txt",
-              "RelativeDocumentMoniker": "AdminApi\\errorlog\\20240623.txt",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\AdminApi\\errorlog\\20240623.txt",
-              "RelativeToolTip": "AdminApi\\errorlog\\20240623.txt",
+              "DocumentIndex": 24,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Constants\\Role.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Constants\\Role.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Constants\\Role.cs",
+              "RelativeToolTip": "Application\\Futures\\Constants\\Role.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-06-23T09:43:07.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SearchStaffQueryRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\Search\\SearchStaffQueryRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\Search\\SearchStaffQueryRequest.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\Search\\SearchStaffQueryRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\Search\\SearchStaffQueryRequest.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:34:46.633Z",
+              "WhenOpened": "2024-06-26T13:22:31.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GetStaffListQueryRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAIwDYAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:33:08.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "StaffDto.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Dtos\\StaffDto.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Dtos\\StaffDto.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Dtos\\StaffDto.cs",
-              "RelativeToolTip": "Application\\Futures\\Staff\\Dtos\\StaffDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:29:30.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "GetStaffQueryRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAQwCYAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:29:02.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IPaginate.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\IPaginate.cs",
-              "RelativeDocumentMoniker": "Core\\Repository\\Paging\\IPaginate.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\IPaginate.cs",
-              "RelativeToolTip": "Core\\Repository\\Paging\\IPaginate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:24:36.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Paginate.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\Paginate.cs",
-              "RelativeDocumentMoniker": "Core\\Repository\\Paging\\Paginate.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\Paginate.cs",
-              "RelativeToolTip": "Core\\Repository\\Paging\\Paginate.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAmwGAAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:24:34.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EFRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\EFRepository.cs",
-              "RelativeDocumentMoniker": "Core\\Repository\\EFRepository.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\EFRepository.cs",
-              "RelativeToolTip": "Core\\Repository\\EFRepository.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAqwIAAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:24:32.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "PageableModel.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\PageableModel.cs",
-              "RelativeDocumentMoniker": "Core\\Repository\\Paging\\PageableModel.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Repository\\Paging\\PageableModel.cs",
-              "RelativeToolTip": "Core\\Repository\\Paging\\PageableModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:23:11.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "PaginateOrganizationModel.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Dtos\\PaginateOrganizationModel.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Dtos\\PaginateOrganizationModel.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Dtos\\PaginateOrganizationModel.cs",
-              "RelativeToolTip": "Application\\Futures\\Organization\\Dtos\\PaginateOrganizationModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:22:58.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AutoMapper.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Mapper\\AutoMapper.cs",
-              "RelativeDocumentMoniker": "Application\\Mapper\\AutoMapper.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Mapper\\AutoMapper.cs",
-              "RelativeToolTip": "Application\\Mapper\\AutoMapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:20:13.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "GetOrganizationListQueryRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Queries\\GetList\\GetOrganizationListQueryRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Queries\\GetList\\GetOrganizationListQueryRequest.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Queries\\GetList\\GetOrganizationListQueryRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Organization\\Queries\\GetList\\GetOrganizationListQueryRequest.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwBYAAAApAAAA",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Queries\\List\\GetOrganizationListQueryRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Queries\\List\\GetOrganizationListQueryRequest.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Queries\\List\\GetOrganizationListQueryRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Organization\\Queries\\List\\GetOrganizationListQueryRequest.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T09:19:19.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "OrganizationDto.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Dtos\\OrganizationDto.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Dtos\\OrganizationDto.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Dtos\\OrganizationDto.cs",
-              "RelativeToolTip": "Application\\Futures\\Organization\\Dtos\\OrganizationDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:18:42.718Z",
-              "EditorCaption": ""
+              "DocumentIndex": 33,
+              "Title": "Infastructure.csproj",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\Infastructure.csproj",
+              "RelativeDocumentMoniker": "Persistance\\Infastructure.csproj",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\Infastructure.csproj",
+              "RelativeToolTip": "Persistance\\Infastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-25T11:37:55.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
+              "Title": "SecurityService.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Services\\Security\\SecurityService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\Security\\SecurityService.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Services\\Security\\SecurityService.cs",
+              "RelativeToolTip": "Core\\Services\\Security\\SecurityService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:19:30.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TokenOptions.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Services\\Security\\TokenOptions.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\Security\\TokenOptions.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Services\\Security\\TokenOptions.cs",
+              "RelativeToolTip": "Core\\Services\\Security\\TokenOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:21:37.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CustomExceptionHandlerMiddlewareExtensions.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Exceptions\\CustomExceptionHandlerMiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "Application\\Exceptions\\CustomExceptionHandlerMiddlewareExtensions.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Exceptions\\CustomExceptionHandlerMiddlewareExtensions.cs",
+              "RelativeToolTip": "Application\\Exceptions\\CustomExceptionHandlerMiddlewareExtensions.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T11:46:12.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CustomExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Exceptions\\CustomExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "Application\\Exceptions\\CustomExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Exceptions\\CustomExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "Application\\Exceptions\\CustomExceptionHandlerMiddleware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T11:46:15.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CustomExceptionHandlerMiddlewareExtensions.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Exceptions\\CustomExceptionHandlerMiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "Core\\Exceptions\\CustomExceptionHandlerMiddlewareExtensions.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Exceptions\\CustomExceptionHandlerMiddlewareExtensions.cs",
+              "RelativeToolTip": "Core\\Exceptions\\CustomExceptionHandlerMiddlewareExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T11:30:57.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "InfastructureInjection.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\InfastructureInjection.cs",
+              "RelativeDocumentMoniker": "Persistance\\InfastructureInjection.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\InfastructureInjection.cs",
+              "RelativeToolTip": "Persistance\\InfastructureInjection.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAkwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T11:28:19.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AdminContext.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\Repositories\\AdminContext.cs",
+              "RelativeDocumentMoniker": "Persistance\\Repositories\\AdminContext.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\Repositories\\AdminContext.cs",
+              "RelativeToolTip": "Persistance\\Repositories\\AdminContext.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA5wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T11:28:16.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Core.csproj",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Core.csproj",
+              "RelativeDocumentMoniker": "Core\\Core.csproj",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Core.csproj",
+              "RelativeToolTip": "Core\\Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-25T11:28:11.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IAudited.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\BaseEntities\\IAudited.cs",
+              "RelativeDocumentMoniker": "Core\\Repository\\BaseEntities\\IAudited.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\BaseEntities\\IAudited.cs",
+              "RelativeToolTip": "Core\\Repository\\BaseEntities\\IAudited.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T09:30:51.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "Domain\\Entities\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T09:14:15.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Domain\\Entities\\Staff.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Staff.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Domain\\Entities\\Staff.cs",
+              "RelativeToolTip": "Domain\\Entities\\Staff.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T08:55:30.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Organization.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Domain\\Entities\\Organization.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Organization.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Domain\\Entities\\Organization.cs",
+              "RelativeToolTip": "Domain\\Entities\\Organization.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T08:53:45.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\BaseEntities\\IEntity.cs",
+              "RelativeDocumentMoniker": "Core\\Repository\\BaseEntities\\IEntity.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\BaseEntities\\IEntity.cs",
+              "RelativeToolTip": "Core\\Repository\\BaseEntities\\IEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T08:53:22.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\BaseEntities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Core\\Repository\\BaseEntities\\BaseEntity.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\BaseEntities\\BaseEntity.cs",
+              "RelativeToolTip": "Core\\Repository\\BaseEntities\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T08:53:14.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ISoftDelete.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\BaseEntities\\ISoftDelete.cs",
+              "RelativeDocumentMoniker": "Core\\Repository\\BaseEntities\\ISoftDelete.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\BaseEntities\\ISoftDelete.cs",
+              "RelativeToolTip": "Core\\Repository\\BaseEntities\\ISoftDelete.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAlwAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T08:51:03.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DateTimeAz.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\BaseEntities\\DateTimeAz.cs",
+              "RelativeDocumentMoniker": "Core\\Repository\\BaseEntities\\DateTimeAz.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\BaseEntities\\DateTimeAz.cs",
+              "RelativeToolTip": "Core\\Repository\\BaseEntities\\DateTimeAz.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T08:47:39.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PageRequest.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\Paging\\PageRequest.cs",
+              "RelativeDocumentMoniker": "Core\\Repository\\Paging\\PageRequest.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\Paging\\PageRequest.cs",
+              "RelativeToolTip": "Core\\Repository\\Paging\\PageRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:45:43.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PaginateStaffModel.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Dtos\\PaginateStaffModel.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Dtos\\PaginateStaffModel.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Dtos\\PaginateStaffModel.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Dtos\\PaginateStaffModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:44:17.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "SearchStaffQueryRequest.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\Search\\SearchStaffQueryRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\Search\\SearchStaffQueryRequest.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\Search\\SearchStaffQueryRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\Search\\SearchStaffQueryRequest.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:34:46.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "StaffDto.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Dtos\\StaffDto.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Dtos\\StaffDto.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Dtos\\StaffDto.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Dtos\\StaffDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:29:30.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IPaginate.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\Paging\\IPaginate.cs",
+              "RelativeDocumentMoniker": "Core\\Repository\\Paging\\IPaginate.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\Paging\\IPaginate.cs",
+              "RelativeToolTip": "Core\\Repository\\Paging\\IPaginate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:24:36.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Paginate.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\Paging\\Paginate.cs",
+              "RelativeDocumentMoniker": "Core\\Repository\\Paging\\Paginate.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\Paging\\Paginate.cs",
+              "RelativeToolTip": "Core\\Repository\\Paging\\Paginate.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAmwGAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:24:34.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "PageableModel.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\Paging\\PageableModel.cs",
+              "RelativeDocumentMoniker": "Core\\Repository\\Paging\\PageableModel.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\Paging\\PageableModel.cs",
+              "RelativeToolTip": "Core\\Repository\\Paging\\PageableModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:23:11.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "PaginateOrganizationModel.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Dtos\\PaginateOrganizationModel.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Dtos\\PaginateOrganizationModel.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Dtos\\PaginateOrganizationModel.cs",
+              "RelativeToolTip": "Application\\Futures\\Organization\\Dtos\\PaginateOrganizationModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:22:58.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AutoMapper.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Mapper\\AutoMapper.cs",
+              "RelativeDocumentMoniker": "Application\\Mapper\\AutoMapper.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Mapper\\AutoMapper.cs",
+              "RelativeToolTip": "Application\\Mapper\\AutoMapper.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAiwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:20:13.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "OrganizationDto.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Dtos\\OrganizationDto.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Dtos\\OrganizationDto.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Dtos\\OrganizationDto.cs",
+              "RelativeToolTip": "Application\\Futures\\Organization\\Dtos\\OrganizationDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:18:42.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
               "Title": "GetOrganizationQueryRequest.cs",
-              "DocumentMoniker": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
               "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
-              "ToolTip": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
               "RelativeToolTip": "Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAQwCYAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:14:58.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T09:14:58.901Z"
             }
           ]
         }

@@ -37,7 +37,7 @@ namespace Application.Repositories.Cores
 
         Task<TEntity> DeleteAsync(TEntity entity);
 
-        Task DeleteWhere(Expression<Func<TEntity, bool>> predicate);
+        Task<bool> DeleteWhere(Expression<Func<TEntity, bool>> predicate);
 
         Task<TEntity?> Delete(TPrimaryKey id);
 

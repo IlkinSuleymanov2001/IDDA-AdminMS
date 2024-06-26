@@ -1,8 +1,10 @@
 ﻿using Application.Futures.Constants;
 using Application.Repositories;
+using Core.Exceptions;
 using Core.Pipelines.Authorization;
 using Core.Pipelines.Transaction;
 using Core.Response;
+using Domain.Entities;
 using MediatR;
 using System.Diagnostics.CodeAnalysis;
 
@@ -24,11 +26,9 @@ public class RemoveOrganiztionCommandHandler : IRequestHandler<RemoveOrganizatio
 
     public async Task<IResponse> Handle(RemoveOrganizationCommandRequest request, CancellationToken cancellationToken)
     {
-        await _organizationRepository.DeleteWhere(c => c.Name == request.Name);
-        return new Response
-        {
-            Message = $"Deleted  success {request.Name} Organization"
-        };
+        var result = await _organizationRepository.DeleteWhere(c => c.Name == request.Name);
+        if (!result) throw new NotFoundException(typeof(Domain.Entities.Organization));
+        return new Response();
 
     }
 }

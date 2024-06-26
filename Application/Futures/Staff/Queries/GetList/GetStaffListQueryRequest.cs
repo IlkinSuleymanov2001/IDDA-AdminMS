@@ -33,11 +33,9 @@ namespace Application.Futures.Staff.Queries.GetList
 
         public async Task<IDataResponse> Handle(GetStaffListQueryRequest request, CancellationToken cancellationToken)
         {
-            var admin = _securityService.IsHaveRole(Role.ADMIN);
-
             IPaginate<Domain.Entities.Staff> staffList=default;
 
-            if (admin)
+            if (_securityService.IsHaveRole(Role.ADMIN))
                 staffList = await _staffRepository.GetListAsync(include: c => c.Include(c => c.Organization),
                     index: request.PageRequest.Page, size: request.PageRequest.PageSize, enableTracking: false);
             else

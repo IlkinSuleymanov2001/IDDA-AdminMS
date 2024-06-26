@@ -8,28 +8,27 @@ using System.Diagnostics.CodeAnalysis;
 
 namespace Application.Futures.Organization.Commands.Create;
 
-public record CreateOrganizationCommandRequest([NotNull] string Name) : ICommand<IResponse>, ISecuredRequest
+public record CreateOrganizationCommandRequest([NotNull] string Name) : ICommand<IResponse>,ISecuredRequest
 {
     public string[] Roles => [Role.ADMIN];
 }
 
 public class CreateOrganiztionCommandHandler : IRequestHandler<CreateOrganizationCommandRequest, IResponse>
 {
-    public CreateOrganiztionCommandHandler(IOrganizationRepository organizationRepository)
+    public CreateOrganiztionCommandHandler(IOrganizationRepository organizationRepository, ICategoryRepository categoryRepository)
     {
         _organizationRepository = organizationRepository;
+        this.categoryRepository = categoryRepository;
     }
 
     private readonly IOrganizationRepository _organizationRepository;
+    ICategoryRepository categoryRepository;
 
     public async Task<IResponse> Handle(CreateOrganizationCommandRequest request, CancellationToken cancellationToken)
     {
         await _organizationRepository.CreateAsync(new Domain.Entities.Organization { Name = request.Name });
-        return new Response
 
-        {
-            Message = $"Category was successfully added{request.Name} "
-        };
+        return new Response();
 
     }
 }

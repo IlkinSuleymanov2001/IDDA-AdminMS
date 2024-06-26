@@ -92,11 +92,13 @@ namespace Core.Repository
            
         }
 
-        public async Task DeleteWhere(Expression<Func<TEntity, bool>> predicate)
+        public async Task<bool> DeleteWhere(Expression<Func<TEntity, bool>> predicate)
         {
             IEnumerable<TEntity> entities = query.Where(predicate);
+            if (entities.Count() == 0) return false;
             _dbset.RemoveRange(entities);
             await SaveChangeAsync();
+            return true;
         }
 
 

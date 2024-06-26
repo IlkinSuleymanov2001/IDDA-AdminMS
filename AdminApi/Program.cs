@@ -7,7 +7,6 @@ using Core.Exceptions;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
@@ -35,20 +34,16 @@ builder.Services.AddHealthChecks();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-    //app.UseDeveloperExceptionPage();
-    //  app.UseMigrationsEndPoint();
-}
-else
-{
-    app.UseHsts();
-}
 
-//app.UseCustomExceptionHandler();
+app
+.UseSwagger()
+.UseSwaggerUI()
+.UseDeveloperExceptionPage()
+    //app.UseMigrationsEndPoint();
+.UseHsts();
 
+/*app.UseCustomExceptionHandler();
+*/
 app.UseHttpsRedirection();
 app.UseRouting();
 app.UseCors(builder =>
@@ -59,7 +54,7 @@ app.UseCors(builder =>
             .AllowAnyHeader();
 });
 
-//app.UseCookiePolicy();
+app.UseCookiePolicy();
 
 app.UseAuthentication();
 app.UseAuthorization();

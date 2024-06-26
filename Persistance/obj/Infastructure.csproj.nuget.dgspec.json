@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Persistance\\Infastructure.csproj": {}
+    "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\Infastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Application.csproj": {
+    "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Application.csproj",
+        "projectPath": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\ilkin.suleymanov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\obj\\",
+        "outputPath": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Domain.csproj"
+              "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Domain\\Domain.csproj"
               }
             }
           }
@@ -77,16 +77,21 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
       }
     },
-    "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Core.csproj": {
+    "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Core.csproj",
+        "projectPath": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\ilkin.suleymanov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\obj\\",
+        "outputPath": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -192,16 +197,21 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
       }
     },
-    "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Domain.csproj": {
+    "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\Domain.csproj",
+        "projectPath": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\ilkin.suleymanov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Domain\\obj\\",
+        "outputPath": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -223,8 +233,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Core\\Core.csproj"
+              "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Core.csproj": {
+                "projectPath": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Core.csproj"
               }
             }
           }
@@ -261,16 +271,21 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
       }
     },
-    "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Persistance\\Infastructure.csproj": {
+    "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\Infastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Persistance\\Infastructure.csproj",
+        "projectUniqueName": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\Infastructure.csproj",
         "projectName": "Infastructure",
-        "projectPath": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Persistance\\Infastructure.csproj",
+        "projectPath": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\Infastructure.csproj",
         "packagesPath": "C:\\Users\\ilkin.suleymanov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Persistance\\obj\\",
+        "outputPath": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -292,8 +307,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\ilkin.suleymanov\\source\\repos\\AdminApi\\Application\\Application.csproj"
+              "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Application.csproj": {
+                "projectPath": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Application.csproj"
               }
             }
           }
@@ -313,10 +328,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.6, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -345,6 +356,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }

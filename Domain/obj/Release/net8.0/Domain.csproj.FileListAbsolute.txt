@@ -1,0 +1,16 @@
+C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\Domain\bin\Release\net8.0\Domain.deps.json
+C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\Domain\bin\Release\net8.0\Domain.dll
+C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\Domain\bin\Release\net8.0\Domain.pdb
+C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\Domain\bin\Release\net8.0\Core.dll
+C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\Domain\bin\Release\net8.0\Core.pdb
+C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\Domain\obj\Release\net8.0\Domain.csproj.AssemblyReference.cache
+C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\Domain\obj\Release\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\Domain\obj\Release\net8.0\Domain.AssemblyInfoInputs.cache
+C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\Domain\obj\Release\net8.0\Domain.AssemblyInfo.cs
+C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\Domain\obj\Release\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\Domain\obj\Release\net8.0\Domain.sourcelink.json
+C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\Domain\obj\Release\net8.0\Domain.csproj.Up2Date
+C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\Domain\obj\Release\net8.0\Domain.dll
+C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\Domain\obj\Release\net8.0\refint\Domain.dll
+C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\Domain\obj\Release\net8.0\Domain.pdb
+C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\Domain\obj\Release\net8.0\ref\Domain.dll
