@@ -42,8 +42,8 @@ app
     //app.UseMigrationsEndPoint();
 .UseHsts();
 
-/*app.UseCustomExceptionHandler();
-*/
+app.UseCustomExceptionHandler();
+
 app.UseHttpsRedirection();
 app.UseRouting();
 app.UseCors(builder =>

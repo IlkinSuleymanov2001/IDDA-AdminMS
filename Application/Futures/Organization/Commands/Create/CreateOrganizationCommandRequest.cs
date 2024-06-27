@@ -1,8 +1,10 @@
 ﻿using Application.Futures.Constants;
 using Application.Repositories;
+using Core.Exceptions;
 using Core.Pipelines.Authorization;
 using Core.Pipelines.Transaction;
 using Core.Response;
+using Domain.Entities;
 using MediatR;
 using System.Diagnostics.CodeAnalysis;
 
@@ -15,17 +17,17 @@ public record CreateOrganizationCommandRequest([NotNull] string Name) : ICommand
 
 public class CreateOrganiztionCommandHandler : IRequestHandler<CreateOrganizationCommandRequest, IResponse>
 {
-    public CreateOrganiztionCommandHandler(IOrganizationRepository organizationRepository, ICategoryRepository categoryRepository)
+    public CreateOrganiztionCommandHandler(IOrganizationRepository organizationRepository)
     {
         _organizationRepository = organizationRepository;
-        this.categoryRepository = categoryRepository;
     }
 
     private readonly IOrganizationRepository _organizationRepository;
-    ICategoryRepository categoryRepository;
 
     public async Task<IResponse> Handle(CreateOrganizationCommandRequest request, CancellationToken cancellationToken)
     {
+        var isHaveOrganization  = await _organizationRepository.AnyAsync(c=>c.Name==request.Name);
+        if (isHaveOrganization) throw new DublicatedEntityException(typeof(Domain.Entities.Organization));
         await _organizationRepository.CreateAsync(new Domain.Entities.Organization { Name = request.Name });
 
         return new Response();

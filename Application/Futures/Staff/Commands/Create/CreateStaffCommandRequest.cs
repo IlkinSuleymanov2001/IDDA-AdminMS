@@ -37,8 +37,11 @@ namespace Application.Futures.Staff.Commands.Create
         public async Task<IResponse> Handle(CreateStaffCommandRequest request, CancellationToken cancellationToken)
         {
            var organization =  await OrganizationRepository.GetAsync(c => c.Name == request.OrganizationName);
-           if (organization is null) throw new NotFoundException("Organization not found");
+           if (organization is null) throw new NotFoundException(typeof(Domain.Entities.Organization));
 
+            var isHaveStaff = await StaffRepository.AnyAsync(c => c.Username == request.Username);
+            if (isHaveStaff) throw new DublicatedEntityException(typeof(Domain.Entities.Organization));
+           
             var staff = _mapper.Map<Domain.Entities.Staff>(request);
             staff.OrganizationID = organization.Id;
             await StaffRepository.CreateAsync(staff);

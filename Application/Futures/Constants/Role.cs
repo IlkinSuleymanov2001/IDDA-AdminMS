@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Application.Futures.Constants
+﻿namespace Application.Futures.Constants
 {
     public static class Role
     {

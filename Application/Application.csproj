@@ -14,9 +14,4 @@
     <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Futures\Category\Queries\Get\" />
-    <Folder Include="Futures\Category\Queries\GetList\" />
-  </ItemGroup>
-
 </Project>

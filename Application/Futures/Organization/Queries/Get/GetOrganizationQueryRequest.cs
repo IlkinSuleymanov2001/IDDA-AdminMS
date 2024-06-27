@@ -3,11 +3,11 @@ using Application.Futures.Constants;
 using Application.Futures.Organization.Dtos;
 using Application.Repositories;
 using AutoMapper;
+using Core.Exceptions;
 using Core.Pipelines.Authorization;
 using Core.Response;
 using Core.Services.Security;
 using MediatR;
-using Microsoft.EntityFrameworkCore;
 
 namespace Application.Futures.Organization.Queries.Get
 {
@@ -36,6 +36,8 @@ namespace Application.Futures.Organization.Queries.Get
         {
 
             var org = await _organizationRepository.GetAsync(c=>c.Name==request.OrganizationName);
+            if (org is null) throw new NotFoundException(typeof(Domain.Entities.Organization));
+
             return new DataResponse { Data = _mapper.Map<OrganizationDto>(org) };
         }
     }

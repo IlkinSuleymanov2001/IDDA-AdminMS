@@ -19,12 +19,7 @@ namespace Infastructure
             });
 
             services.AddScoped<IStaffRepository, StaffRepository>();
-            services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IOrganizationRepository, OrginazitionRepository>();
-
-            
-
-
 
             return services;
         }

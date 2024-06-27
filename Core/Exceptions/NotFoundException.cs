@@ -12,8 +12,12 @@ namespace Core.Exceptions
         {
 
         }
+        public NotFoundException(Type entity) : base($"{entity.Name} was not found.")
+        {
 
-        public NotFoundException() : base()
+        }
+
+        public NotFoundException() : base("Entity was not found")
         {
         }
     }

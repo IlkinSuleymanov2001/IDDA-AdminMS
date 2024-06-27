@@ -3,24 +3,87 @@
   "WorkspaceRootPath": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\properties\\servicedependencies\\adminms - zip deploy\\profile.arm.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\properties\\servicedependencies\\adminms - zip deploy\\profile.arm.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\adminapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\adminapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\staff\\queries\\getlistbyorganizationname\\getstafflistbyorganizationnamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\queries\\getlistbyorganizationname\\getstafflistbyorganizationnamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\staff\\commands\\create\\createstaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\create\\createstaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\staff\\commands\\create\\createstaffcommandvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\create\\createstaffcommandvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\organization\\commands\\delete\\removeorganizationcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\commands\\delete\\removeorganizationcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\staff\\commands\\remove\\deletestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\remove\\deletestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\exceptions\\customexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\exceptions\\customexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\exceptions\\dublicatedentityexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\exceptions\\dublicatedentityexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\exceptions\\customexceptionhandlermiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\exceptions\\customexceptionhandlermiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\persistance\\infastructureinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|solutionrelative:persistance\\infastructureinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\persistance\\repositories\\admincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|solutionrelative:persistance\\repositories\\admincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\domain\\entities\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\adminapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\adminapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\repositories\\iorganizationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\repositories\\iorganizationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\repositories\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\repositories\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\organization\\commands\\create\\createorganizationcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\commands\\create\\createorganizationcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\organization\\queries\\get\\getorganizationqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\queries\\get\\getorganizationqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\exceptions\\forbiddenexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\exceptions\\forbiddenexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\controllers\\organozationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\organozationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\repository\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,12 +94,24 @@
       "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\staff\\commands\\update\\updatestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\update\\updatestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\applicationinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\applicationinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\constants\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\constants\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\staff\\queries\\getlistbyorganizationname\\getstafflistbyorganizationnamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\queries\\getlistbyorganizationname\\getstafflistbyorganizationnamequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\staff\\commands\\remove\\deletestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\remove\\deletestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\staff\\commands\\update\\updatestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\update\\updatestaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\staff\\queries\\getlist\\getstafflistqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,48 +134,20 @@
       "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\staffscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\controllers\\categoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\categoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\controllers\\organozationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\organozationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\adminapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\adminapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\staff\\commands\\create\\createstaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\staff\\commands\\create\\createstaffcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\organization\\commands\\update\\updatestaffcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\commands\\update\\updatestaffcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\organization\\commands\\create\\createorganizationcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\commands\\create\\createorganizationcommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\organization\\queries\\list\\getorganizationlistqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\queries\\list\\getorganizationlistqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\constants\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\constants\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\services\\security\\securityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,32 +174,12 @@
       "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\pipelines\\logger\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\exceptions\\customexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\exceptions\\customexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\exceptions\\customexceptionhandlermiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\exceptions\\customexceptionhandlermiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\persistance\\infastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|solutionrelative:persistance\\infastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\pipelines\\logger\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\pipelines\\logger\\loggingbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\persistance\\repositories\\admincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|solutionrelative:persistance\\repositories\\admincontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\persistance\\infastructureinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C5DEADC-20FF-4AF4-8866-0AF0A25BA17C}|Persistance\\Infastructure.csproj|solutionrelative:persistance\\infastructureinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\exceptions\\customexceptionhandlermiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\exceptions\\customexceptionhandlermiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\repository\\baseentities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -169,14 +196,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\domain\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\domain\\entities\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\organization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2648F5D6-1E0A-430D-8C8C-6DA7BFFC15EB}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\core\\repository\\baseentities\\isoftdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -215,10 +234,6 @@
       "RelativeMoniker": "D:0:0:{E5CEC55C-4904-4833-BC32-5583FF6047F9}|Core\\Core.csproj|solutionrelative:core\\repository\\paging\\ipaginate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\organization\\queries\\get\\getorganizationqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\queries\\get\\getorganizationqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\organization\\dtos\\paginateorganizationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\dtos\\paginateorganizationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -242,8 +257,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateStaffCommandValidation.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandValidation.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandValidation.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandValidation.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandValidation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T12:34:48.814Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -262,85 +290,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "profile.arm.json",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Properties\\ServiceDependencies\\adminms - Zip Deploy\\profile.arm.json",
-              "RelativeDocumentMoniker": "AdminApi\\Properties\\ServiceDependencies\\adminms - Zip Deploy\\profile.arm.json",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Properties\\ServiceDependencies\\adminms - Zip Deploy\\profile.arm.json",
-              "RelativeToolTip": "AdminApi\\Properties\\ServiceDependencies\\adminms - Zip Deploy\\profile.arm.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-26T14:23:21.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NotFoundException.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Exceptions\\NotFoundException.cs",
-              "RelativeDocumentMoniker": "Application\\Exceptions\\NotFoundException.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Exceptions\\NotFoundException.cs",
-              "RelativeToolTip": "Application\\Exceptions\\NotFoundException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBMAAAA9AAAA",
+              "DocumentIndex": 4,
+              "Title": "CustomExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Exceptions\\CustomExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "Core\\Exceptions\\CustomExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Exceptions\\CustomExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "Core\\Exceptions\\CustomExceptionHandlerMiddleware.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAwDMAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T14:03:21.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetStaffListByOrganizationNameQuery.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\GetLIstByOrganizationName\\GetStaffListByOrganizationNameQuery.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\GetLIstByOrganizationName\\GetStaffListByOrganizationNameQuery.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\GetLIstByOrganizationName\\GetStaffListByOrganizationNameQuery.cs",
-              "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\GetLIstByOrganizationName\\GetStaffListByOrganizationNameQuery.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAkwCQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T15:08:37.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "JwtBearerExtension.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Common\\Extensions\\JwtBearerExtension.cs",
-              "RelativeDocumentMoniker": "AdminApi\\Common\\Extensions\\JwtBearerExtension.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Common\\Extensions\\JwtBearerExtension.cs",
-              "RelativeToolTip": "AdminApi\\Common\\Extensions\\JwtBearerExtension.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T14:00:40.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RemoveOrganizationCommandRequest.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Commands\\Delete\\RemoveOrganizationCommandRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Commands\\Delete\\RemoveOrganizationCommandRequest.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Commands\\Delete\\RemoveOrganizationCommandRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Organization\\Commands\\Delete\\RemoveOrganizationCommandRequest.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA3wCAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T13:59:32.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\IRepository.cs",
-              "RelativeDocumentMoniker": "Core\\Repository\\IRepository.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\IRepository.cs",
-              "RelativeToolTip": "Core\\Repository\\IRepository.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAA9wCcAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:45:57.24Z",
+              "WhenOpened": "2024-06-27T12:30:31.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CreateStaffCommandRequest.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwCsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:58:36.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AdminApi.csproj",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\AdminApi.csproj",
               "RelativeDocumentMoniker": "AdminApi\\AdminApi.csproj",
@@ -353,98 +329,213 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DeleteStaffCommandRequest.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAA3wBwAAABBAAAA",
+              "DocumentIndex": 5,
+              "Title": "DublicatedEntityException.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Exceptions\\DublicatedEntityException.cs",
+              "RelativeDocumentMoniker": "Core\\Exceptions\\DublicatedEntityException.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Exceptions\\DublicatedEntityException.cs",
+              "RelativeToolTip": "Core\\Exceptions\\DublicatedEntityException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T13:58:21.87Z",
+              "WhenOpened": "2024-06-27T12:33:12.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EFRepository.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\EFRepository.cs",
-              "RelativeDocumentMoniker": "Core\\Repository\\EFRepository.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\EFRepository.cs",
-              "RelativeToolTip": "Core\\Repository\\EFRepository.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAD4v14AAAAVAAAA",
+              "DocumentIndex": 3,
+              "Title": "RemoveOrganizationCommandRequest.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Commands\\Delete\\RemoveOrganizationCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Commands\\Delete\\RemoveOrganizationCommandRequest.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Commands\\Delete\\RemoveOrganizationCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Organization\\Commands\\Delete\\RemoveOrganizationCommandRequest.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAArwB0AAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:24:32.825Z",
+              "WhenOpened": "2024-06-26T13:59:32.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomExceptionHandlerMiddlewareExtensions.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Exceptions\\CustomExceptionHandlerMiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "Core\\Exceptions\\CustomExceptionHandlerMiddlewareExtensions.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Exceptions\\CustomExceptionHandlerMiddlewareExtensions.cs",
+              "RelativeToolTip": "Core\\Exceptions\\CustomExceptionHandlerMiddlewareExtensions.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAYwAgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T11:30:57.524Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "UpdateStaffCommandRequest.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwCcAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T13:57:25.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GetStaffQueryRequest.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAzwCYAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:29:02.845Z",
+              "Title": "Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAUwDUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-06-27T12:27:35.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "GetStaffListQueryRequest.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAADwvyUAAAA4AAAA",
+              "Title": "AdminContext.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\Repositories\\AdminContext.cs",
+              "RelativeDocumentMoniker": "Persistance\\Repositories\\AdminContext.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\Repositories\\AdminContext.cs",
+              "RelativeToolTip": "Persistance\\Repositories\\AdminContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:33:08.37Z",
+              "WhenOpened": "2024-06-25T11:28:16.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CreateStaffCommandRequest.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Create\\CreateStaffCommandRequest.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwCQAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T13:58:36.697Z",
+              "DocumentIndex": 11,
+              "Title": "AdminApi",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\AdminApi.csproj",
+              "RelativeDocumentMoniker": "AdminApi\\AdminApi.csproj",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\AdminApi.csproj",
+              "RelativeToolTip": "AdminApi\\AdminApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-27T12:25:36.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AdminApi.http",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\AdminApi.http",
-              "RelativeDocumentMoniker": "AdminApi\\AdminApi.http",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\AdminApi.http",
-              "RelativeToolTip": "AdminApi\\AdminApi.http",
+              "DocumentIndex": 13,
+              "Title": "IStaffRepository.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Repositories\\IStaffRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Repositories\\IStaffRepository.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Repositories\\IStaffRepository.cs",
+              "RelativeToolTip": "Application\\Repositories\\IStaffRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-06-26T14:00:12.743Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T16:09:35.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Organization.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Domain\\Entities\\Organization.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Organization.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Domain\\Entities\\Organization.cs",
+              "RelativeToolTip": "Domain\\Entities\\Organization.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T08:53:45.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InfastructureInjection.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\InfastructureInjection.cs",
+              "RelativeDocumentMoniker": "Persistance\\InfastructureInjection.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\InfastructureInjection.cs",
+              "RelativeToolTip": "Persistance\\InfastructureInjection.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAArwBUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T11:28:19.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateOrganizationCommandRequest.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Commands\\Create\\CreateOrganizationCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Commands\\Create\\CreateOrganizationCommandRequest.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Commands\\Create\\CreateOrganizationCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Organization\\Commands\\Create\\CreateOrganizationCommandRequest.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAmwBMAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:23:37.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Core\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "Core\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T12:11:42.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IOrganizationRepository.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Repositories\\IOrganizationRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Repositories\\IOrganizationRepository.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Repositories\\IOrganizationRepository.cs",
+              "RelativeToolTip": "Application\\Repositories\\IOrganizationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T16:09:37.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "GetOrganizationQueryRequest.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:14:58.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Program.cs",
+              "RelativeDocumentMoniker": "AdminApi\\Program.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Program.cs",
+              "RelativeToolTip": "AdminApi\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:49:32.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ForbiddenException.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Exceptions\\ForbiddenException.cs",
+              "RelativeDocumentMoniker": "Core\\Exceptions\\ForbiddenException.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Exceptions\\ForbiddenException.cs",
+              "RelativeToolTip": "Core\\Exceptions\\ForbiddenException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T12:09:12.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrganozationsController.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\OrganozationsController.cs",
+              "RelativeDocumentMoniker": "AdminApi\\Controllers\\OrganozationsController.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\OrganozationsController.cs",
+              "RelativeToolTip": "AdminApi\\Controllers\\OrganozationsController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA+wBkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T10:00:50.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "ApiController.cs",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\ApiController.cs",
               "RelativeDocumentMoniker": "AdminApi\\Controllers\\ApiController.cs",
@@ -457,167 +548,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SwaggerExtension.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Common\\Extensions\\SwaggerExtension.cs",
-              "RelativeDocumentMoniker": "AdminApi\\Common\\Extensions\\SwaggerExtension.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Common\\Extensions\\SwaggerExtension.cs",
-              "RelativeToolTip": "AdminApi\\Common\\Extensions\\SwaggerExtension.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T14:00:38.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "OrganozationsController.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\OrganozationsController.cs",
-              "RelativeDocumentMoniker": "AdminApi\\Controllers\\OrganozationsController.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\OrganozationsController.cs",
-              "RelativeToolTip": "AdminApi\\Controllers\\OrganozationsController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T10:00:50.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CategorysController.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\CategorysController.cs",
-              "RelativeDocumentMoniker": "AdminApi\\Controllers\\CategorysController.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\CategorysController.cs",
-              "RelativeToolTip": "AdminApi\\Controllers\\CategorysController.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAAA0AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:38:18.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "StaffsController.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\StaffsController.cs",
-              "RelativeDocumentMoniker": "AdminApi\\Controllers\\StaffsController.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\StaffsController.cs",
-              "RelativeToolTip": "AdminApi\\Controllers\\StaffsController.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAIwCgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T10:05:13.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UpdateStaffCommand.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Commands\\Update\\UpdateStaffCommand.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Commands\\Update\\UpdateStaffCommand.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Commands\\Update\\UpdateStaffCommand.cs",
-              "RelativeToolTip": "Application\\Futures\\Organization\\Commands\\Update\\UpdateStaffCommand.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCEAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:51:01.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "Response.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Response\\Response.cs",
-              "RelativeDocumentMoniker": "Core\\Response\\Response.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Response\\Response.cs",
-              "RelativeToolTip": "Core\\Response\\Response.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
+              "Title": "EFRepository.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\EFRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Repository\\EFRepository.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\EFRepository.cs",
+              "RelativeToolTip": "Core\\Repository\\EFRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF4AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T13:57:55.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CreateOrganizationCommandRequest.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Commands\\Create\\CreateOrganizationCommandRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Commands\\Create\\CreateOrganizationCommandRequest.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Commands\\Create\\CreateOrganizationCommandRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Organization\\Commands\\Create\\CreateOrganizationCommandRequest.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAuwB4AAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T13:23:37.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Config.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Services\\Security\\Config.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\Security\\Config.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Services\\Security\\Config.cs",
-              "RelativeToolTip": "Core\\Services\\Security\\Config.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T08:20:41.25Z"
+              "WhenOpened": "2024-06-23T09:24:32.825Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Program.cs",
-              "RelativeDocumentMoniker": "AdminApi\\Program.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Program.cs",
-              "RelativeToolTip": "AdminApi\\Program.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAkwDAAAAAWAAAA",
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Repository\\IRepository.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\IRepository.cs",
+              "RelativeToolTip": "Core\\Repository\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:49:32.643Z",
+              "WhenOpened": "2024-06-23T09:45:57.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApplicationInjection.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\ApplicationInjection.cs",
+              "RelativeDocumentMoniker": "Application\\ApplicationInjection.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\ApplicationInjection.cs",
+              "RelativeToolTip": "Application\\ApplicationInjection.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T16:09:42.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetStaffListByOrganizationNameQuery.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\GetLIstByOrganizationName\\GetStaffListByOrganizationNameQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\GetLIstByOrganizationName\\GetStaffListByOrganizationNameQuery.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\GetLIstByOrganizationName\\GetStaffListByOrganizationNameQuery.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\GetLIstByOrganizationName\\GetStaffListByOrganizationNameQuery.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T15:08:37.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "20240625113921_mig_1.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\Migrations\\20240625113921_mig_1.cs",
-              "RelativeDocumentMoniker": "Persistance\\Migrations\\20240625113921_mig_1.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\Migrations\\20240625113921_mig_1.cs",
-              "RelativeToolTip": "Persistance\\Migrations\\20240625113921_mig_1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T11:39:21.274Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\appsettings.json",
-              "RelativeDocumentMoniker": "AdminApi\\appsettings.json",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\appsettings.json",
-              "RelativeToolTip": "AdminApi\\appsettings.json",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAowAwAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-23T09:49:31.399Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "Logger.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Pipelines\\Logger\\Logger.cs",
-              "RelativeDocumentMoniker": "Core\\Pipelines\\Logger\\Logger.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Pipelines\\Logger\\Logger.cs",
-              "RelativeToolTip": "Core\\Pipelines\\Logger\\Logger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAuAAAA",
+              "Title": "JwtBearerExtension.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Common\\Extensions\\JwtBearerExtension.cs",
+              "RelativeDocumentMoniker": "AdminApi\\Common\\Extensions\\JwtBearerExtension.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Common\\Extensions\\JwtBearerExtension.cs",
+              "RelativeToolTip": "AdminApi\\Common\\Extensions\\JwtBearerExtension.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T11:36:39.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "LoggingBehavior.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Pipelines\\Logger\\LoggingBehavior.cs",
-              "RelativeDocumentMoniker": "Core\\Pipelines\\Logger\\LoggingBehavior.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Pipelines\\Logger\\LoggingBehavior.cs",
-              "RelativeToolTip": "Core\\Pipelines\\Logger\\LoggingBehavior.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T11:37:10.719Z"
+              "WhenOpened": "2024-06-26T14:00:40.565Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -629,12 +618,179 @@
               "RelativeToolTip": "Application\\Futures\\Constants\\Role.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T13:22:31.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T13:22:31.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
+              "Title": "DeleteStaffCommandRequest.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Remove\\DeleteStaffCommandRequest.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA3wBwAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:58:21.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateStaffCommandRequest.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Commands\\Update\\UpdateStaffCommandRequest.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:57:25.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GetStaffQueryRequest.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\Get\\GetStaffQueryRequest.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAzwCYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:29:02.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GetStaffListQueryRequest.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
+              "RelativeToolTip": "Application\\Futures\\Staff\\Queries\\GetList\\GetStaffListQueryRequest.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAADwvyUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:33:08.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AdminApi.http",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\AdminApi.http",
+              "RelativeDocumentMoniker": "AdminApi\\AdminApi.http",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\AdminApi.http",
+              "RelativeToolTip": "AdminApi\\AdminApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-06-26T14:00:12.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SwaggerExtension.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Common\\Extensions\\SwaggerExtension.cs",
+              "RelativeDocumentMoniker": "AdminApi\\Common\\Extensions\\SwaggerExtension.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Common\\Extensions\\SwaggerExtension.cs",
+              "RelativeToolTip": "AdminApi\\Common\\Extensions\\SwaggerExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:00:38.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "StaffsController.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\StaffsController.cs",
+              "RelativeDocumentMoniker": "AdminApi\\Controllers\\StaffsController.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\StaffsController.cs",
+              "RelativeToolTip": "AdminApi\\Controllers\\StaffsController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAIwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T10:05:13.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UpdateStaffCommand.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Commands\\Update\\UpdateStaffCommand.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Commands\\Update\\UpdateStaffCommand.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Commands\\Update\\UpdateStaffCommand.cs",
+              "RelativeToolTip": "Application\\Futures\\Organization\\Commands\\Update\\UpdateStaffCommand.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T09:51:01.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Response\\Response.cs",
+              "RelativeDocumentMoniker": "Core\\Response\\Response.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Response\\Response.cs",
+              "RelativeToolTip": "Core\\Response\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T13:57:55.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Services\\Security\\Config.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\Security\\Config.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Services\\Security\\Config.cs",
+              "RelativeToolTip": "Core\\Services\\Security\\Config.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T08:20:41.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "20240625113921_mig_1.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\Migrations\\20240625113921_mig_1.cs",
+              "RelativeDocumentMoniker": "Persistance\\Migrations\\20240625113921_mig_1.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\Migrations\\20240625113921_mig_1.cs",
+              "RelativeToolTip": "Persistance\\Migrations\\20240625113921_mig_1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T11:39:21.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\appsettings.json",
+              "RelativeDocumentMoniker": "AdminApi\\appsettings.json",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\appsettings.json",
+              "RelativeToolTip": "AdminApi\\appsettings.json",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAowAwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-23T09:49:31.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Pipelines\\Logger\\Logger.cs",
+              "RelativeDocumentMoniker": "Core\\Pipelines\\Logger\\Logger.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Pipelines\\Logger\\Logger.cs",
+              "RelativeToolTip": "Core\\Pipelines\\Logger\\Logger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T11:36:39.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LoggingBehavior.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Pipelines\\Logger\\LoggingBehavior.cs",
+              "RelativeDocumentMoniker": "Core\\Pipelines\\Logger\\LoggingBehavior.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Pipelines\\Logger\\LoggingBehavior.cs",
+              "RelativeToolTip": "Core\\Pipelines\\Logger\\LoggingBehavior.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T11:37:10.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "GetOrganizationListQueryRequest.cs",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Queries\\List\\GetOrganizationListQueryRequest.cs",
               "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Queries\\List\\GetOrganizationListQueryRequest.cs",
@@ -642,12 +798,11 @@
               "RelativeToolTip": "Application\\Futures\\Organization\\Queries\\List\\GetOrganizationListQueryRequest.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAQwB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:19:19.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T09:19:19.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 43,
               "Title": "Infastructure.csproj",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\Infastructure.csproj",
               "RelativeDocumentMoniker": "Persistance\\Infastructure.csproj",
@@ -655,11 +810,12 @@
               "RelativeToolTip": "Persistance\\Infastructure.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-25T11:37:55.997Z"
+              "WhenOpened": "2024-06-25T11:37:55.997Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 37,
               "Title": "SecurityService.cs",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Services\\Security\\SecurityService.cs",
               "RelativeDocumentMoniker": "Core\\Services\\Security\\SecurityService.cs",
@@ -671,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 39,
               "Title": "TokenOptions.cs",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Services\\Security\\TokenOptions.cs",
               "RelativeDocumentMoniker": "Core\\Services\\Security\\TokenOptions.cs",
@@ -683,67 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "CustomExceptionHandlerMiddlewareExtensions.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Exceptions\\CustomExceptionHandlerMiddlewareExtensions.cs",
-              "RelativeDocumentMoniker": "Application\\Exceptions\\CustomExceptionHandlerMiddlewareExtensions.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Exceptions\\CustomExceptionHandlerMiddlewareExtensions.cs",
-              "RelativeToolTip": "Application\\Exceptions\\CustomExceptionHandlerMiddlewareExtensions.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAuwAkAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T11:46:12.679Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "CustomExceptionHandlerMiddleware.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Exceptions\\CustomExceptionHandlerMiddleware.cs",
-              "RelativeDocumentMoniker": "Application\\Exceptions\\CustomExceptionHandlerMiddleware.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Exceptions\\CustomExceptionHandlerMiddleware.cs",
-              "RelativeToolTip": "Application\\Exceptions\\CustomExceptionHandlerMiddleware.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T11:46:15.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "CustomExceptionHandlerMiddlewareExtensions.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Exceptions\\CustomExceptionHandlerMiddlewareExtensions.cs",
-              "RelativeDocumentMoniker": "Core\\Exceptions\\CustomExceptionHandlerMiddlewareExtensions.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Exceptions\\CustomExceptionHandlerMiddlewareExtensions.cs",
-              "RelativeToolTip": "Core\\Exceptions\\CustomExceptionHandlerMiddlewareExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T11:30:57.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "InfastructureInjection.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\InfastructureInjection.cs",
-              "RelativeDocumentMoniker": "Persistance\\InfastructureInjection.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\InfastructureInjection.cs",
-              "RelativeToolTip": "Persistance\\InfastructureInjection.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAkwBMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T11:28:19.9Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "AdminContext.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\Repositories\\AdminContext.cs",
-              "RelativeDocumentMoniker": "Persistance\\Repositories\\AdminContext.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Persistance\\Repositories\\AdminContext.cs",
-              "RelativeToolTip": "Persistance\\Repositories\\AdminContext.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA5wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T11:28:16.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 41,
               "Title": "Core.csproj",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Core.csproj",
               "RelativeDocumentMoniker": "Core\\Core.csproj",
@@ -751,11 +847,12 @@
               "RelativeToolTip": "Core\\Core.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-25T11:28:11.08Z"
+              "WhenOpened": "2024-06-25T11:28:11.08Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 47,
               "Title": "IAudited.cs",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\BaseEntities\\IAudited.cs",
               "RelativeDocumentMoniker": "Core\\Repository\\BaseEntities\\IAudited.cs",
@@ -767,19 +864,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Category.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "Domain\\Entities\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T09:14:15.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 48,
               "Title": "Staff.cs",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Domain\\Entities\\Staff.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Staff.cs",
@@ -791,19 +876,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Organization.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Domain\\Entities\\Organization.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Organization.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Domain\\Entities\\Organization.cs",
-              "RelativeToolTip": "Domain\\Entities\\Organization.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T08:53:45.038Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 50,
               "Title": "IEntity.cs",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\BaseEntities\\IEntity.cs",
               "RelativeDocumentMoniker": "Core\\Repository\\BaseEntities\\IEntity.cs",
@@ -815,7 +888,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 45,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\BaseEntities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Core\\Repository\\BaseEntities\\BaseEntity.cs",
@@ -827,7 +900,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "ISoftDelete.cs",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\BaseEntities\\ISoftDelete.cs",
               "RelativeDocumentMoniker": "Core\\Repository\\BaseEntities\\ISoftDelete.cs",
@@ -839,7 +912,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 46,
               "Title": "DateTimeAz.cs",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\BaseEntities\\DateTimeAz.cs",
               "RelativeDocumentMoniker": "Core\\Repository\\BaseEntities\\DateTimeAz.cs",
@@ -851,7 +924,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 54,
               "Title": "PageRequest.cs",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\Paging\\PageRequest.cs",
               "RelativeDocumentMoniker": "Core\\Repository\\Paging\\PageRequest.cs",
@@ -863,7 +936,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 52,
               "Title": "PaginateStaffModel.cs",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Dtos\\PaginateStaffModel.cs",
               "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Dtos\\PaginateStaffModel.cs",
@@ -875,7 +948,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 56,
               "Title": "SearchStaffQueryRequest.cs",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Queries\\Search\\SearchStaffQueryRequest.cs",
               "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Queries\\Search\\SearchStaffQueryRequest.cs",
@@ -887,7 +960,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 53,
               "Title": "StaffDto.cs",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Staff\\Dtos\\StaffDto.cs",
               "RelativeDocumentMoniker": "Application\\Futures\\Staff\\Dtos\\StaffDto.cs",
@@ -899,7 +972,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 57,
               "Title": "IPaginate.cs",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\Paging\\IPaginate.cs",
               "RelativeDocumentMoniker": "Core\\Repository\\Paging\\IPaginate.cs",
@@ -911,7 +984,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 55,
               "Title": "Paginate.cs",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\Paging\\Paginate.cs",
               "RelativeDocumentMoniker": "Core\\Repository\\Paging\\Paginate.cs",
@@ -923,7 +996,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 60,
               "Title": "PageableModel.cs",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Core\\Repository\\Paging\\PageableModel.cs",
               "RelativeDocumentMoniker": "Core\\Repository\\Paging\\PageableModel.cs",
@@ -935,7 +1008,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 58,
               "Title": "PaginateOrganizationModel.cs",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Dtos\\PaginateOrganizationModel.cs",
               "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Dtos\\PaginateOrganizationModel.cs",
@@ -947,7 +1020,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 51,
               "Title": "AutoMapper.cs",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Mapper\\AutoMapper.cs",
               "RelativeDocumentMoniker": "Application\\Mapper\\AutoMapper.cs",
@@ -959,7 +1032,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 59,
               "Title": "OrganizationDto.cs",
               "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Dtos\\OrganizationDto.cs",
               "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Dtos\\OrganizationDto.cs",
@@ -968,18 +1041,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T09:18:42.718Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "GetOrganizationQueryRequest.cs",
-              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
-              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
-              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
-              "RelativeToolTip": "Application\\Futures\\Organization\\Queries\\Get\\GetOrganizationQueryRequest.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwCYAAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T09:14:58.901Z"
             }
           ]
         }

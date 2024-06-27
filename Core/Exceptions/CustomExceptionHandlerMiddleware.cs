@@ -47,6 +47,9 @@ namespace Core.Exceptions
                 case ForbiddenException _:
                     code = HttpStatusCode.Forbidden;
                     break;
+                case DublicatedEntityException _:
+                    code = HttpStatusCode.Conflict;
+                    break;
             }
 
             
