@@ -1,5 +1,7 @@
-﻿using FluentValidation;
+﻿using Core.Exceptions;
+using FluentValidation;
 using MediatR;
+using Microsoft.IdentityModel.Tokens;
 
 
 namespace Core.Pipelines.Validation
@@ -21,13 +23,20 @@ namespace Core.Pipelines.Validation
 
             var validationResults = await Task.WhenAll(_validators.Select(v => v.ValidateAsync(context, cancellationToken)));
 
-            var failures = validationResults
+/*            var failures = validationResults
                 .Where(r => r.Errors.Any())
                 .SelectMany(r => r.Errors)
                 .ToList();
+*/
+            var error = validationResults
+                .Where(r => r.Errors.Any())
+                  .SelectMany(v => v.Errors)
+                  .Select(v => v.ErrorMessage).
+                  ToList().FirstOrDefault();
 
-            if (failures.Any())
-                throw new Exceptions.ValidationException(failures);
+
+            if (!error.IsNullOrEmpty())
+                 throw new BadRequestException(error);
 
             return await next();
         }

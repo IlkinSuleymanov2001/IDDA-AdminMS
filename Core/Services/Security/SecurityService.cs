@@ -38,7 +38,7 @@ namespace Core.Services.Security
             if (roles.Any())
                 return roles;
             else
-                throw new UnAuthorizationException("your are not authorized");
+                throw new UnAuthorizationException();
 
 
 
@@ -53,7 +53,7 @@ namespace Core.Services.Security
                 string? jwtHeader = authorizationHeader.ToList().Where(c => c.Contains("Bearer")).FirstOrDefault();
                 return jwtHeader != null ? jwtHeader.Split("Bearer").Last().Trim() : string.Empty;
             }
-            throw new UnAuthorizationException("your are not authorized");
+            throw new UnAuthorizationException();
         }
 
         private JwtSecurityToken CheckTokenFormat(string token)
@@ -67,7 +67,7 @@ namespace Core.Services.Security
             }
             catch (Exception)
             {
-                throw new UnAuthorizationException("invalid token format ");
+                throw new BadRequestException("invalid token format");
             }
 
             return tokenData;
@@ -117,7 +117,7 @@ namespace Core.Services.Security
             }
             catch (Exception)
             {
-                throw new UnAuthorizationException("invalid token");
+                throw new UnAuthorizationException();
             }
         }
 
@@ -125,7 +125,7 @@ namespace Core.Services.Security
         {
             bool isNotMatchedARoleClaimWithRequestRoles =
                 GetRoles().FirstOrDefault(tokenRole => securedRequest.Roles.Any(RequestRole => RequestRole == tokenRole)).IsNullOrEmpty();
-            if (isNotMatchedARoleClaimWithRequestRoles) throw new ForbiddenException("You are not access.");
+            if (isNotMatchedARoleClaimWithRequestRoles) throw new ForbiddenException();
         }
     }
 }

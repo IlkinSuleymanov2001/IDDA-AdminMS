@@ -1,5 +1,4 @@
-﻿
-using Core.Pipelines.Logger;
+﻿using Core.Pipelines.Logger;
 using FluentValidation.Results;
 
 namespace Core.Exceptions
@@ -7,7 +6,7 @@ namespace Core.Exceptions
     public class ValidationException : Exception,INonLogException
     {
         public IDictionary<string, string[]> Failures { get; }
-        public ValidationException() : base("One or more validation failures have occurred.")
+        public ValidationException(): base("One or more validation failures have occurred.")
         {
             Failures = new Dictionary<string, string[]>();
         }
@@ -21,7 +20,6 @@ namespace Core.Exceptions
             {
                 var propertyName = failureGroup.Key;
                 var propertyFailures = failureGroup.ToArray();
-
                 Failures.Add(propertyName, propertyFailures);
             }
         }

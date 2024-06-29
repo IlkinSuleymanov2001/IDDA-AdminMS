@@ -30,8 +30,9 @@ namespace Application.Futures.Organization.Commands.Update
             org.Name = request.NewName;
 
             await _organizationRepository.UpdateAsync(org);
+            await _organizationRepository.SaveAsync();
 
-            return new Response();
+            return  Response.Ok();
 
         }
     }

@@ -1,4 +1,5 @@
 ﻿using System.Net;
+using Core.Response.Error;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 
@@ -25,42 +26,35 @@ namespace Core.Exceptions
             }
         }
 
-        private Task HandleExceptionAsync(HttpContext context, Exception exception)
+        private Task HandleExceptionAsync(HttpContext context, Exception ex)
         {
             context.Response.ContentType = "application/json";
             var code = HttpStatusCode.InternalServerError;
 
-            var result = string.Empty;
 
-            switch (exception)
+
+            switch (ex)
             {
-                case ValidationException validationException:
-                    code = HttpStatusCode.BadRequest;
-                    result = JsonConvert.SerializeObject(validationException.Failures);
-                    break;
                 case NotFoundException _:
                     code = HttpStatusCode.NotFound;
                     break;
                 case UnAuthorizationException _:
-                    code = HttpStatusCode.Unauthorized;
-                    break;
+                    context.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
+                    return Task.CompletedTask;
                 case ForbiddenException _:
-                    code = HttpStatusCode.Forbidden;
-                    break;
+                    context.Response.StatusCode = (int)HttpStatusCode.Forbidden;
+                    return Task.CompletedTask;
                 case DublicatedEntityException _:
                     code = HttpStatusCode.Conflict;
+                    break;
+                case BadRequestException _:
+                    code = HttpStatusCode.BadRequest;
                     break;
             }
 
             
             context.Response.StatusCode = (int)code;
-
-            if (string.IsNullOrEmpty(result))
-            {
-                result = JsonConvert.SerializeObject(new { error = exception.Message });
-            }
-
-            return context.Response.WriteAsync(result);
+            return context.Response.WriteAsync(new ErrorResponse { Message = ex.Message }.ToString());
         }
     }
 }

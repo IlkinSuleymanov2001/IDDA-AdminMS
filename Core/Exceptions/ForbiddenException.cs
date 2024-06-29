@@ -9,5 +9,10 @@ namespace Core.Exceptions
         {
             
         }
+
+        public ForbiddenException()
+        {
+            
+        }
     }
 }

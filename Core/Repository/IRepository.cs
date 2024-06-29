@@ -2,6 +2,7 @@
 using Core.Repository.Paging;
 using Microsoft.EntityFrameworkCore.Query;
 using System.Linq.Expressions;
+using System.Threading.Tasks;
 
 namespace Application.Repositories.Cores
 {
@@ -37,9 +38,9 @@ namespace Application.Repositories.Cores
 
         Task<TEntity> DeleteAsync(TEntity entity);
 
-        Task<bool> DeleteWhere(Expression<Func<TEntity, bool>> predicate);
+        bool DeleteWhere(Expression<Func<TEntity, bool>> predicate);
 
-        Task<TEntity?> Delete(TPrimaryKey id);
+        Task<TEntity?> DeleteAsync(TPrimaryKey id);
 
         Task<TEntity> FindAsync(TPrimaryKey id);
 
@@ -55,6 +56,7 @@ namespace Application.Repositories.Cores
         Task RollbackToSavePointAsync(string name="savepointone");
         Task CreateSavepointAsync(string name= "savepointone");
         Task OpenTransactionAsync();
+        Task<int> SaveAsync(CancellationToken cancellationToken =default);
 
 
     }

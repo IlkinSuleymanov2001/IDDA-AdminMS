@@ -45,6 +45,7 @@ namespace Application.Futures.Staff.Commands.Create
             var staff = _mapper.Map<Domain.Entities.Staff>(request);
             staff.OrganizationID = organization.Id;
             await StaffRepository.CreateAsync(staff);
+            await StaffRepository.SaveAsync();
             return new Response();
 
         }

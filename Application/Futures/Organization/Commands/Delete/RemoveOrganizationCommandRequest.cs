@@ -26,9 +26,10 @@ public class RemoveOrganiztionCommandHandler : IRequestHandler<RemoveOrganizatio
 
     public async Task<IResponse> Handle(RemoveOrganizationCommandRequest request, CancellationToken cancellationToken)
     {
-        var result = await _organizationRepository.DeleteWhere(c => c.Name == request.Name);
+        var result =  _organizationRepository.DeleteWhere(c => c.Name == request.Name);
         if (!result) throw new NotFoundException(typeof(Domain.Entities.Organization));
-        return new Response();
+        await _organizationRepository.SaveAsync();
+        return  Response.Ok();
 
     }
 }

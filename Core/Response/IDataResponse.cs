@@ -5,6 +5,6 @@ namespace Core.Response
 {
     public  interface IDataResponse:IResponse
     {
-        object Data { get; set; }
+        object Data { get; init; }
     }
 }

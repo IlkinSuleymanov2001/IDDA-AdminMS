@@ -62,7 +62,6 @@ namespace Core.Repository
             {
                 await _dbset.AddAsync(entity);
             }
-            await SaveChangeAsync();
             return entity;
 
         }
@@ -70,11 +69,10 @@ namespace Core.Repository
         public async Task<IEnumerable<TEntity>> CreateAsync(IEnumerable<TEntity> entities)
         {
             await _dbset.AddRangeAsync(entities);
-            await SaveChangeAsync();
             return entities;
         }
 
-        public async Task<TEntity> DeleteAsync(TEntity entity)
+        public Task<TEntity> DeleteAsync(TEntity entity)
         {
 
             var entry = _context.Entry(entity);
@@ -87,17 +85,15 @@ namespace Core.Repository
                 _dbset.Attach(entity);
                 _dbset.Remove(entity);
             }
-             await  SaveChangeAsync();
-            return entity;
+            return Task.FromResult(entity);
            
         }
 
-        public async Task<bool> DeleteWhere(Expression<Func<TEntity, bool>> predicate)
+        public  bool DeleteWhere(Expression<Func<TEntity, bool>> predicate)
         {
             IEnumerable<TEntity> entities = query.Where(predicate);
             if (entities.Count() == 0) return false;
             _dbset.RemoveRange(entities);
-            await SaveChangeAsync();
             return true;
         }
 
@@ -150,7 +146,7 @@ namespace Core.Repository
             return queryable;
         }
 
-        public async Task<TEntity> UpdateAsync(TEntity entity)
+        public  Task<TEntity> UpdateAsync(TEntity entity)
         {
             var entry = _context.Entry(entity);
             if (entry.State == EntityState.Detached)
@@ -158,9 +154,7 @@ namespace Core.Repository
                 _dbset.Attach(entity);
             }
             entry.State = EntityState.Modified;
-            await SaveChangeAsync();
-            return entity;
-
+            return Task.FromResult(entity);
         }
 
         public async Task<TEntity> FindAsync(TPrimaryKey id)
@@ -173,7 +167,7 @@ namespace Core.Repository
             return query.SingleOrDefaultAsync(CreateEqualityExpressionForId(id));
         }
 
-        public async  Task<TEntity?>  Delete(TPrimaryKey id)
+        public async  Task<TEntity?>  DeleteAsync(TPrimaryKey id)
         {
             var entity = await FindAsync(id);
             if (entity == null) return default; // not found; assume already deleted.
@@ -193,9 +187,9 @@ namespace Core.Repository
             return Expression.Lambda<Func<TEntity, bool>>(lambdaBody, lambdaParam);
         }
 
-        private  async Task<int> SaveChangeAsync()
+        public async Task<int> SaveAsync(CancellationToken cancellationToken =default)
         {
-            return await _context.SaveChangesAsync();
+            return await _context.SaveChangesAsync(cancellationToken);
         }
 
         public async Task CommitAsync()

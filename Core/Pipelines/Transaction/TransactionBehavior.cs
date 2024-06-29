@@ -1,8 +1,4 @@
-﻿using Core.Exceptions;
-using Core.Pipelines.Logger;
-using MediatR;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Storage;
+﻿using MediatR;
 using System.Transactions;
 
 namespace Core.Pipelines.Transaction;
@@ -24,20 +20,14 @@ public class TransactionBehavior<TRequest, TResponse> :IPipelineBehavior<TReques
                 scope.Complete();
                 return response;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                if (ex is RollBackException || ex is not INonLogException)
-                {
-                    scope.Dispose();
-                    throw;
-                }
-
-                scope.Complete();
+                scope.Dispose();
                 throw;
-            }
+            };
+        }
            
         }
  }
 
-  
-}
+ 
