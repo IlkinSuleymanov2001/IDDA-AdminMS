@@ -56,7 +56,7 @@ namespace Application.Repositories.Cores
         Task RollbackToSavePointAsync(string name="savepointone");
         Task CreateSavepointAsync(string name= "savepointone");
         Task OpenTransactionAsync();
-        Task<int> SaveAsync(CancellationToken cancellationToken =default);
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken =default);
 
 
     }

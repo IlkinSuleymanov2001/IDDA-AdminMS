@@ -29,7 +29,7 @@ public class CreateOrganiztionCommandHandler : IRequestHandler<CreateOrganizatio
         var isHaveOrganization  = await _organizationRepository.AnyAsync(c=>c.Name==request.Name);
         if (isHaveOrganization) throw new DublicatedEntityException(typeof(Domain.Entities.Organization));
         await _organizationRepository.CreateAsync(new Domain.Entities.Organization { Name = request.Name });
-        await _organizationRepository.SaveAsync();
+        await _organizationRepository.SaveChangesAsync();
 
         return  Response.Ok();
 

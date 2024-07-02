@@ -29,7 +29,7 @@ namespace Application.Futures.Staff.Commands.Remove
             if (staf is null) throw new NotFoundException(typeof(Domain.Entities.Staff));
 
             await StaffRepository.DeleteAsync(staf);
-            await StaffRepository.SaveAsync();
+            await StaffRepository.SaveChangesAsync();
 
             return new Response();
 

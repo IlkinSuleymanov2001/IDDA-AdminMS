@@ -48,10 +48,7 @@ namespace Application.Futures.Staff.Queries.GetList
                     size: request.PageRequest.PageSize, enableTracking: false);
             }
 
-            return new DataResponse 
-            {
-                Data = _mapper.Map<PaginateStaffModel>(staffList)
-            };
+            return DataResponse.Ok(_mapper.Map<PaginateStaffModel>(staffList));
 
         }
     }

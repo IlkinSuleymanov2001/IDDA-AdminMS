@@ -39,11 +39,7 @@ namespace Application.Futures.Staff.Queries.GetLIstByOrganizationName
                 index:request.PageRequest.Page,size:request.PageRequest.PageSize,
                 include: c => c.Include(c => c.Organization));
 
-            return new DataResponse
-            {
-                 Data = mapper.Map<PaginateStaffModel>(staffList)
-            };
-
+            return DataResponse.Ok(mapper.Map<PaginateStaffModel>(staffList));
 
         }
     }

@@ -8,11 +8,12 @@ using Core.Pipelines.Authorization;
 using Core.Response;
 using MediatR;
 
+
 namespace Application.Futures.Organization.Queries.GetList
 {
     public record GetOrganizationListQueryRequest(PageRequest PageRequest) : IQuery<IDataResponse>, ISecuredRequest
     {
-        public string[] Roles => [Role.ADMIN];
+        public string[] Roles => [Role.ADMIN,Role.USER];
     }
 
     public class GetOrganizationListQueryHandler : IRequestHandler<GetOrganizationListQueryRequest, IDataResponse>

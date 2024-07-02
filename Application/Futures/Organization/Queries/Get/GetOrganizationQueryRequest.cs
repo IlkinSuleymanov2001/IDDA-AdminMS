@@ -8,12 +8,13 @@ using Core.Pipelines.Authorization;
 using Core.Response;
 using Core.Services.Security;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 
 namespace Application.Futures.Organization.Queries.Get
 {
     public record GetOrganizationQueryRequest(string OrganizationName) : IQuery<IDataResponse>, ISecuredRequest
     {
-        public string[] Roles => [Role.ADMIN,Role.STAFF,Role.USER];
+        public string[] Roles => [Role.ADMIN,Role.STAFF];
     }
 
     public class GetOrganizationQueryHandler : IRequestHandler<GetOrganizationQueryRequest, IDataResponse>
@@ -34,9 +35,13 @@ namespace Application.Futures.Organization.Queries.Get
 
         public async Task<IDataResponse> Handle(GetOrganizationQueryRequest request, CancellationToken cancellationToken)
         {
-
             var org = await _organizationRepository.GetAsync(c=>c.Name==request.OrganizationName);
             if (org is null) throw new NotFoundException(typeof(Domain.Entities.Organization));
+
+            var staff = await _staffRepository.GetAsync(c=>c.Username == _securityService.GetUsername(),
+                include:e=>e.Include(c=>c.Organization),enableTracking:false);
+
+            if (staff.Organization.Name != org.Name) throw new ForbiddenException();
 
             return new DataResponse { Data = _mapper.Map<OrganizationDto>(org) };
         }

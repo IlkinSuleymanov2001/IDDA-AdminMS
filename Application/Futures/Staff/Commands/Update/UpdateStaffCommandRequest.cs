@@ -36,7 +36,7 @@ namespace Application.Futures.Staff.Commands.Update
            string? username = _securityService.GetUsername();
            var currentStaff =  await _staffRepository.GetAsync(g => g.Username == username);
            await  _staffRepository.UpdateAsync(_mapper.Map(request, currentStaff));
-           await _staffRepository.SaveAsync();
+           await _staffRepository.SaveChangesAsync();
 
             return  Response.Ok();
 
