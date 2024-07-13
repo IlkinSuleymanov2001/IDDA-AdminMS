@@ -15,21 +15,15 @@ public record CreateOrganizationCommandRequest([NotNull] string Name) : ICommand
     public string[] Roles => [Role.ADMIN];
 }
 
-public class CreateOrganiztionCommandHandler : IRequestHandler<CreateOrganizationCommandRequest, IResponse>
+public class CreateOrganizationCommandHandler(IOrganizationRepository organizationRepository)
+    : IRequestHandler<CreateOrganizationCommandRequest, IResponse>
 {
-    public CreateOrganiztionCommandHandler(IOrganizationRepository organizationRepository)
-    {
-        _organizationRepository = organizationRepository;
-    }
-
-    private readonly IOrganizationRepository _organizationRepository;
-
     public async Task<IResponse> Handle(CreateOrganizationCommandRequest request, CancellationToken cancellationToken)
     {
-        var isHaveOrganization  = await _organizationRepository.AnyAsync(c=>c.Name==request.Name);
-        if (isHaveOrganization) throw new DublicatedEntityException(typeof(Domain.Entities.Organization));
-        await _organizationRepository.CreateAsync(new Domain.Entities.Organization { Name = request.Name });
-        await _organizationRepository.SaveChangesAsync();
+        var isHaveOrganization  = await organizationRepository.AnyAsync(c=>c.Name==request.Name);
+        if (isHaveOrganization) throw new DublicatedEntityException();
+        await organizationRepository.CreateAsync(new Domain.Entities.Organization { Name = request.Name });
+        await organizationRepository.SaveChangesAsync(cancellationToken);
 
         return  Response.Ok();
 

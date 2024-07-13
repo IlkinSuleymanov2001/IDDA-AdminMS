@@ -1,12 +1,9 @@
-﻿
-
-using Core.Pipelines.Logger;
-
+﻿using Core.Pipelines.Logger;
 namespace Core.Exceptions
 {
-    public  class UnAuthorizationException : Exception,INonLogException
+    public  class UnAuthorizationException: Exception,INonLogException
     {
-        public UnAuthorizationException()
+        public UnAuthorizationException(): base("authorize error")
         {
             
         }

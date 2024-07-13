@@ -8,8 +8,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-
 builder.Services.AddApplicationsServices();
 builder.Services.AddInfastructureServices(builder.Configuration);
 builder.Services.AddSwagger();
@@ -21,25 +19,19 @@ builder.Services.AddCors();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddHealthChecks();
 
+
 // Customise default API behaviour
 /*builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
     options.SuppressModelStateInvalidFilter = true;
 });*/
 
-
-
-//builder.Services.AddDatabaseDeveloperPageExceptionFilter()
-
 var app = builder.Build();
-
 // Configure the HTTP request pipeline.
 
 app
 .UseSwagger()
 .UseSwaggerUI()
-.UseDeveloperExceptionPage()
-    //app.UseMigrationsEndPoint();
 .UseHsts();
 
 app.UseCustomExceptionHandler();
@@ -55,12 +47,10 @@ app.UseCors(builder =>
 });
 
 app.UseCookiePolicy();
-
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
 //await app.ApplyMigrations();
-
 app.Run();
 

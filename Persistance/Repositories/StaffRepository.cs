@@ -5,10 +5,6 @@ using Domain.Entities;
 
 namespace Infastructure.Repositories
 {
-    public class StaffRepository : EFRepository<AdminContext, Staff, int>,IStaffRepository
-    {
-        public StaffRepository(AdminContext context) : base(context)
-        {
-        }
-    }
+    public class StaffRepository(AdminContext context)
+        : EFRepository<AdminContext, Staff, int>(context), IStaffRepository;
 }

@@ -1,20 +1,37 @@
 ﻿using Core.BaseEntities;
-using Core.Repository.BaseEntities;
-
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 namespace Domain.Entities;
 
-public  class Organization:BaseEntity<int>,IEntity
+[Table(name:"organization")]
+[Index(nameof(Name),IsUnique =true)]
+public sealed class Organization:BaseEntity<int>,IEntity
 {
-    public string Name { get; set; } = string.Empty;
-    public virtual ICollection<Staff> Staffs { get; set; }
+    //Changing the TypeName to "nvarchar" as it's a string property
+    [Column("name", TypeName = "varchar(100)")]
+    [Required]
+    [MaxLength(100)]
+    public string Name { get; set; } 
+
+    [Comment("The concurrency token for optimistic concurrency control")]
+    [Timestamp]
+    public byte[]? RowVersion { get; set; }
+
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    [Column("created_at")]
+    public DateTime CreatedAt { get; set; }
+
+    [Column("active")]
+    public bool? Active { get; set; }
+
+    public ICollection<Staff> Staffs { get; set; }
 
     public Organization()
     {
+        CreatedAt = DateTime.UtcNow;
         Staffs = new HashSet<Staff>();
     }
 
-    public Organization(string name):this()
-    {
-        Name = name;
-    }
 }

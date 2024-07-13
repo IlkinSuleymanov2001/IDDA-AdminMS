@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.Repositories.Cores
 {
-    public interface IRepository< TEntity, TPrimaryKey> 
+    public interface IRepository< TEntity, in TPrimaryKey> 
         where TEntity : BaseEntity<TPrimaryKey>
     {
 
@@ -19,8 +19,15 @@ namespace Application.Repositories.Cores
            Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null,
            int index = 0, int size = 10,
            bool enableTracking = false,
+           bool filterIgnore=false,
            CancellationToken cancellationToken = default);
 
+        Task<IEnumerable<TEntity>> ListAsync(
+            Expression<Func<TEntity, bool>>? predicate = null,
+            bool enableTracking = false,
+            bool ignoreFilter = false,
+            CancellationToken cancellationToken = default,
+            params Expression<Func<TEntity, object>>?[]? includes);
 
         IQueryable<TEntity> FindBy(Expression<Func<TEntity, bool>>? predicate = null);
 
@@ -28,7 +35,7 @@ namespace Application.Repositories.Cores
 
         Task<bool> AllAsync(Expression<Func<TEntity, bool>> predicate);
 
-        Task<int> CountAsync(Expression<Func<TEntity, bool>> predicate=null);
+        Task<int> CountAsync(Expression<Func<TEntity, bool>>? predicate=null);
 
         Task<TEntity> CreateAsync(TEntity entity);
 
@@ -46,9 +53,9 @@ namespace Application.Repositories.Cores
 
         Task<TEntity> GetFirst(TPrimaryKey id);
 
-        Task<TEntity> GetFirstIncluding(Expression<Func<TEntity, bool>> predicate, params Expression<Func<TEntity, object>>[] includeProperties);
+        Task<TEntity?> GetFirstIncluding(Expression<Func<TEntity?, bool>> predicate, params Expression<Func<TEntity, object>>[] includeProperties);
 
-        Task<TEntity> GetSingle(TPrimaryKey id);
+        Task<TEntity?> GetSingle(TPrimaryKey id);
 
         Task CommitAsync();
         Task RollBackAsync();

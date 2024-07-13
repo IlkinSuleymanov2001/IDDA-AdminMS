@@ -26,7 +26,7 @@ namespace AdminApi.Commons.Extensions
                         ValidateIssuerSigningKey = true,
                         IssuerSigningKey = SecurityService.CreateSecurityKey(tokenOptions.SecurityKey),
                         LifetimeValidator = (notBefore, expires, securityToken, validationParameters) =>
-                            expires != null ? expires > DateTime.UtcNow : false
+                            expires != null && expires > DateTime.UtcNow
                     };
                 });
 

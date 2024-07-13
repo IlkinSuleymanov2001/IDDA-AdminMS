@@ -14,39 +14,26 @@ namespace Application.Futures.Staff.Commands.Create
         public string[] Roles => [Role.ADMIN,Role.SUPER_STAFF];
     }
 
-    public class CreateStaffCommandHandler : IRequestHandler<CreateStaffCommandRequest, IResponse>
+    public class CreateStaffCommandHandler(
+        IStaffRepository staffRepository,
+        IOrganizationRepository organizationRepository)
+        : IRequestHandler<CreateStaffCommandRequest, IResponse>
     {
-
-        public readonly IStaffRepository StaffRepository;
-        private readonly IOrganizationRepository OrganizationRepository;
-        private readonly IMapper _mapper;
-
-
-
-        public CreateStaffCommandHandler(IStaffRepository staffRepository,
-            IOrganizationRepository organizationRepository,
-            IMapper mapper)
-        {
-            StaffRepository = staffRepository;
-            OrganizationRepository = organizationRepository;
-            _mapper = mapper;
-        }
 
 
 
         public async Task<IResponse> Handle(CreateStaffCommandRequest request, CancellationToken cancellationToken)
         {
-           var organization =  await OrganizationRepository.GetAsync(c => c.Name == request.OrganizationName);
-           if (organization is null) throw new NotFoundException(typeof(Domain.Entities.Organization));
+           var organization =  await organizationRepository.GetAsync(c => c.Name == request.OrganizationName)
+               ?? throw new NotFoundException();
 
-            var isHaveStaff = await StaffRepository.AnyAsync(c => c.Username == request.Username);
-            if (isHaveStaff) throw new DublicatedEntityException(typeof(Domain.Entities.Organization));
+           var exsitsStaff = await staffRepository.AnyAsync(c => c.Username.Contains(request.Username));
+            if (exsitsStaff)  throw new DublicatedEntityException();
            
-            var staff = _mapper.Map<Domain.Entities.Staff>(request);
-            staff.OrganizationID = organization.Id;
-            await StaffRepository.CreateAsync(staff);
-            await StaffRepository.SaveChangesAsync();
-            return new Response();
+            var staff = new Domain.Entities.Staff(request.Fullname, request.Username, organization.Id);
+            await staffRepository.CreateAsync(staff);
+            await staffRepository.SaveChangesAsync(cancellationToken);
+            return  Response.Ok();
 
         }
     }

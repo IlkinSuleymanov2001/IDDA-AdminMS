@@ -1,9 +1,5 @@
 ﻿namespace Application.Futures.Organization.Dtos
 {
-    public  record  OrganizationDto
-    {
-        public string  Name  { get; set; }
-
-    }
+    public record OrganizationDto(string Name, bool Active);
 
 }

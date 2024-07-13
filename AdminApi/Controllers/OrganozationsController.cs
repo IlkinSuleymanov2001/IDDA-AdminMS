@@ -3,6 +3,7 @@ using Application.Futures.Organization.Commands.Delete;
 using Application.Futures.Organization.Commands.Update;
 using Application.Futures.Organization.Queries.Get;
 using Application.Futures.Organization.Queries.GetList;
+using Application.Futures.Organization.Queries.List;
 using Application.Repositories.Cores.Paging;
 using Microsoft.AspNetCore.Mvc;
 
@@ -22,14 +23,18 @@ namespace AdminApi.Controllers
             Ok(await Mediator.Send(removeOrganizationCommandRequest));
 
         [HttpPut("update")]
-        public async Task<IActionResult> Update(UpdateStaffCommand updateStaffCommand)=>
+        public async Task<IActionResult> Update(UpdateOrganizationNameCommand updateStaffCommand)=>
             Ok(await Mediator.Send(updateStaffCommand));
             
 
 
+        [HttpGet("getpaginationlist")]
+        public async Task<IActionResult> GetPaginationList([FromQuery]PageRequest pageRequest) =>
+            Ok(await Mediator.Send(new GetOrganizationPaginationListQuery(pageRequest)));
+        
         [HttpGet("getlist")]
-        public async Task<IActionResult> GetList([FromQuery]PageRequest pageRequest) =>
-            Ok(await Mediator.Send(new GetOrganizationListQueryRequest(pageRequest)));
+        public async Task<IActionResult> GetList() =>
+            Ok(await Mediator.Send(new GetOrganizationListQuery()));
         
         [HttpPost("get")]
         public async Task<IActionResult> Get(GetOrganizationQueryRequest getOrganizationQueryRequest ) =>

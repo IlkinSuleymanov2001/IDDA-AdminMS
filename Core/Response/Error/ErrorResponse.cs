@@ -6,7 +6,7 @@ namespace Core.Response.Error
 {
     public class ErrorResponse : IResponse
     {
-        public string Message { get; init; } = string.Empty;
+        public string Message { get; init; } = "authorize error";
 
         public bool Success => false;
 

@@ -32,7 +32,7 @@ namespace Application.Futures.Staff.Queries.Search
             var currentStaff = await _staffRepository.GetAsync(g => g.Username == request.Username
             ,include: ef => ef.Include(c => c.Organization));
 
-            if (currentStaff is null) throw new NotFoundException("staff not found");
+            if (currentStaff==null) throw new NotFoundException("staff not found");
             return new DataResponse
             {
                 Data = _mapper.Map<StaffDto>(currentStaff)

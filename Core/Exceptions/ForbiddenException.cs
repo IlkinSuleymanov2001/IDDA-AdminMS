@@ -10,7 +10,7 @@ namespace Core.Exceptions
             
         }
 
-        public ForbiddenException()
+        public ForbiddenException():base("forbidden error")
         {
             
         }

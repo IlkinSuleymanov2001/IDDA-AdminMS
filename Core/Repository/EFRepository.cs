@@ -31,20 +31,17 @@ namespace Core.Repository
             return queryable;
         }
 
-        public async Task<bool> AllAsync(Expression<Func<TEntity, bool>> predicate)
-        {
-            return await query.AllAsync(predicate); ;
-        }
+        public async Task<bool> AllAsync(Expression<Func<TEntity, bool>> predicate)=>
+             await query.AllAsync(predicate); 
+        
 
 
 
-        public async Task<bool> AnyAsync(Expression<Func<TEntity, bool>> predicate)
-        {
-            return await query.AnyAsync(predicate);
-        }
+        public async Task<bool> AnyAsync(Expression<Func<TEntity, bool>> predicate)=>
+             await query.AnyAsync(predicate);
 
 
-        public async Task<int> CountAsync(Expression<Func<TEntity, bool>> predicate=null)
+        public async Task<int> CountAsync(Expression<Func<TEntity, bool>>? predicate=null)
         {
             if (predicate != null) return await query.CountAsync(predicate);
             return await query.CountAsync();
@@ -55,21 +52,33 @@ namespace Core.Repository
         {
             var entry = _context.Entry(entity);
             if (entry.State != EntityState.Detached)
-            {
                 entry.State = EntityState.Added;
-            }
             else
-            {
                 await _dbset.AddAsync(entity);
-            }
             return entity;
 
+        }
+        public async Task<IEnumerable<TEntity>> ListAsync(
+            Expression<Func<TEntity, bool>>? predicate = null,
+            bool enableTracking = false,
+            bool ignoreFilter = false,
+            CancellationToken cancellationToken = default,
+            params Expression<Func<TEntity, object>>?[]? includes)
+        {
+            IQueryable<TEntity> queryable = query;
+
+            if (ignoreFilter) queryable = queryable.IgnoreQueryFilters();
+            if (!enableTracking) queryable = queryable.AsNoTracking();
+            if (includes != null) queryable = includes.Aggregate(queryable, (current, include) => current.Include(include));
+            if (predicate != null) queryable = queryable.Where(predicate);
+            return await queryable.ToListAsync(cancellationToken);
         }
 
         public async Task<IEnumerable<TEntity>> CreateAsync(IEnumerable<TEntity> entities)
         {
-            await _dbset.AddRangeAsync(entities);
-            return entities;
+            var baseEntities = entities as TEntity[] ?? entities.ToArray();
+            await _dbset.AddRangeAsync(baseEntities);
+            return baseEntities;
         }
 
         public Task<TEntity> DeleteAsync(TEntity entity)
@@ -77,9 +86,7 @@ namespace Core.Repository
 
             var entry = _context.Entry(entity);
             if (entry.State != EntityState.Deleted)
-            {
                 entry.State = EntityState.Deleted;
-            }
             else
             {
                 _dbset.Attach(entity);
@@ -92,22 +99,19 @@ namespace Core.Repository
         public  bool DeleteWhere(Expression<Func<TEntity, bool>> predicate)
         {
             IEnumerable<TEntity> entities = query.Where(predicate);
-            if (entities.Count() == 0) return false;
+            if (!entities.Any()) return false;
             _dbset.RemoveRange(entities);
             return true;
         }
 
 
-        public async Task<TEntity> GetFirst(TPrimaryKey id)
-        {
-            return await query.FirstOrDefaultAsync(CreateEqualityExpressionForId(id));
-        }
+        public async Task<TEntity> GetFirst(TPrimaryKey id)=>
+            await query.FirstOrDefaultAsync(CreateEqualityExpressionForId(id));
 
 
-        public async Task<TEntity> GetFirstIncluding(Expression<Func<TEntity, bool>> predicate, params Expression<Func<TEntity, object>>[] includeProperties)
+        public async Task<TEntity?> GetFirstIncluding(Expression<Func<TEntity?, bool>> predicate, params Expression<Func<TEntity, object>>[] includeProperties)
         {
-            var querable = query;
-            querable = includeProperties.Aggregate(query, (current, includeProperty) => current.Include(includeProperty));
+            IQueryable<TEntity?> querable = includeProperties.Aggregate(query, (current, includeProperty) => current.Include(includeProperty));
             return await querable.FirstOrDefaultAsync(predicate);
         }
 
@@ -126,12 +130,14 @@ namespace Core.Repository
             Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null,
             int index=0,int size=10,
             bool enableTracking = false,
+            bool filterIgnore = false,
             CancellationToken cancellationToken = default)
         {
             IQueryable<TEntity> queryable = query;
             if (!enableTracking) queryable = queryable.AsNoTracking();
             if (include != null) queryable = include(queryable);
             if (predicate != null) queryable = queryable.Where(predicate);
+            if (filterIgnore) queryable.IgnoreQueryFilters();
             if (orderBy != null)
                 return await orderBy(queryable).ToPaginateAsync(index, size, 0, cancellationToken);
 
@@ -150,22 +156,17 @@ namespace Core.Repository
         {
             var entry = _context.Entry(entity);
             if (entry.State == EntityState.Detached)
-            {
                 _dbset.Attach(entity);
-            }
+
             entry.State = EntityState.Modified;
             return Task.FromResult(entity);
         }
 
-        public async Task<TEntity> FindAsync(TPrimaryKey id)
-        {
-            return await _dbset.FindAsync(id);
-        }
+        public async Task<TEntity> FindAsync(TPrimaryKey id)=>
+            await _dbset.FindAsync(id);
 
-        public Task<TEntity> GetSingle(TPrimaryKey id)
-        {
-            return query.SingleOrDefaultAsync(CreateEqualityExpressionForId(id));
-        }
+        public Task<TEntity?> GetSingle(TPrimaryKey id)=>
+            query.SingleOrDefaultAsync(CreateEqualityExpressionForId(id));
 
         public async  Task<TEntity?>  DeleteAsync(TPrimaryKey id)
         {
@@ -187,10 +188,8 @@ namespace Core.Repository
             return Expression.Lambda<Func<TEntity, bool>>(lambdaBody, lambdaParam);
         }
 
-        public async Task<int> SaveChangesAsync(CancellationToken cancellationToken =default)
-        {
-            return await _context.SaveChangesAsync(cancellationToken);
-        }
+        public async Task<int> SaveChangesAsync(CancellationToken cancellationToken =default)=>
+             await _context.SaveChangesAsync(cancellationToken);
 
         public async Task CommitAsync()
         {

@@ -5,20 +5,13 @@ using Newtonsoft.Json;
 
 namespace Core.Exceptions
 {
-    public class CustomExceptionHandlerMiddleware
+    public class CustomExceptionHandlerMiddleware(RequestDelegate next)
     {
-        private readonly RequestDelegate _next;
-
-        public CustomExceptionHandlerMiddleware(RequestDelegate next)
-        {
-            _next = next;
-        }
-
         public async Task Invoke(HttpContext context)
         {
             try
             {
-                await _next(context);
+                await next(context);
             }
             catch (Exception ex)
             {
@@ -39,11 +32,11 @@ namespace Core.Exceptions
                     code = HttpStatusCode.NotFound;
                     break;
                 case UnAuthorizationException _:
-                    context.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
-                    return Task.CompletedTask;
+                    code = HttpStatusCode.Unauthorized;
+                    break;
                 case ForbiddenException _:
-                    context.Response.StatusCode = (int)HttpStatusCode.Forbidden;
-                    return Task.CompletedTask;
+                    code = HttpStatusCode.Forbidden;
+                    break;
                 case DublicatedEntityException _:
                     code = HttpStatusCode.Conflict;
                     break;
@@ -51,8 +44,6 @@ namespace Core.Exceptions
                     code = HttpStatusCode.BadRequest;
                     break;
             }
-
-            
             context.Response.StatusCode = (int)code;
             return context.Response.WriteAsync(new ErrorResponse { Message = ex.Message }.ToString());
         }

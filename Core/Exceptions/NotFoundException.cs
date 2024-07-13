@@ -16,6 +16,7 @@ namespace Core.Exceptions
         {
 
         }
+ 
 
         public NotFoundException() : base("Entity was not found")
         {
