@@ -80,7 +80,7 @@ namespace Core.Services.Security
             return new SymmetricSecurityKey(Encoding.UTF8.GetBytes(securityKey));
         }
 
-        public bool IsHaveRole(string roleName = "ADMIN")
+        public bool CurrentRoleEqualsTo(string roleName = "ADMIN")
         {
             return GetRoles().Any(c => c == roleName);
         }

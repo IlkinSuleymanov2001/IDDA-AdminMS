@@ -3,11 +3,12 @@ using Core.BaseEntities;
 using Core.Repository.Paging;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
+using System.Linq;
 using System.Linq.Expressions;
 
 namespace Core.Repository
 {
-    public class EFRepository<TContext ,TEntity, TPrimaryKey> : IRepository<TEntity, TPrimaryKey>
+    public class EfRepository<TContext ,TEntity, TPrimaryKey> : IRepository<TEntity, TPrimaryKey>
         where TEntity : BaseEntity<TPrimaryKey>
         where TContext : DbContext
 
@@ -16,7 +17,7 @@ namespace Core.Repository
         private readonly DbSet<TEntity> _dbset;
         private IQueryable<TEntity> query => _context.Set<TEntity>();
 
-        public EFRepository(TContext context)
+        public EfRepository(TContext context)
         {
             _context = context;
             _dbset = _context.Set<TEntity>();
@@ -32,13 +33,13 @@ namespace Core.Repository
         }
 
         public async Task<bool> AllAsync(Expression<Func<TEntity, bool>> predicate)=>
-             await query.AllAsync(predicate); 
+            await query.AsNoTracking().IgnoreQueryFilters().AllAsync(predicate); 
         
 
 
 
         public async Task<bool> AnyAsync(Expression<Func<TEntity, bool>> predicate)=>
-             await query.AnyAsync(predicate);
+             await query.AsNoTracking().IgnoreQueryFilters().AnyAsync(predicate);
 
 
         public async Task<int> CountAsync(Expression<Func<TEntity, bool>>? predicate=null)
@@ -81,6 +82,13 @@ namespace Core.Repository
             return baseEntities;
         }
 
+        public  IEnumerable<TEntity> UpdateRange(IEnumerable<TEntity> entity)
+        {
+            var baseEntities = entity as TEntity[] ?? entity.ToArray();
+            _dbset.UpdateRange(baseEntities);
+             return baseEntities;
+        }
+
         public Task<TEntity> DeleteAsync(TEntity entity)
         {
 
@@ -96,9 +104,18 @@ namespace Core.Repository
            
         }
 
-        public  bool DeleteWhere(Expression<Func<TEntity, bool>> predicate)
+        public  IEnumerable<TEntity> DeleteRange(IEnumerable<TEntity> entity)
         {
-            IEnumerable<TEntity> entities = query.Where(predicate);
+            var baseEntities = entity.ToList();
+            _dbset.RemoveRange(baseEntities);
+            return baseEntities;
+        }
+
+        public  bool DeleteWhere(Expression<Func<TEntity, bool>> predicate,bool ignoreFilter=false)
+        {
+             IQueryable<TEntity> queryable = query;
+            if (ignoreFilter) queryable = queryable.IgnoreQueryFilters();
+            IEnumerable<TEntity> entities = queryable.Where(predicate);
             if (!entities.Any()) return false;
             _dbset.RemoveRange(entities);
             return true;
@@ -117,11 +134,12 @@ namespace Core.Repository
 
         public async Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> predicate,
             Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>>? include = null,
-            bool enableTracking = false)
+            bool enableTracking = false, bool filterIgnore = false)
         {
             IQueryable<TEntity> queryable = query;
             if (!enableTracking) queryable = queryable.AsNoTracking();
             if (include != null) queryable = include(queryable);
+            if (filterIgnore) queryable = queryable.IgnoreQueryFilters();
             return await queryable.FirstOrDefaultAsync(predicate);
         }
 
@@ -137,7 +155,7 @@ namespace Core.Repository
             if (!enableTracking) queryable = queryable.AsNoTracking();
             if (include != null) queryable = include(queryable);
             if (predicate != null) queryable = queryable.Where(predicate);
-            if (filterIgnore) queryable.IgnoreQueryFilters();
+            if (filterIgnore) queryable = queryable.IgnoreQueryFilters();
             if (orderBy != null)
                 return await orderBy(queryable).ToPaginateAsync(index, size, 0, cancellationToken);
 

@@ -14,7 +14,7 @@ namespace Application.Futures.Staff.Queries.Get
 {
     public record GetStaffQueryRequest : IQuery<IDataResponse>, ISecuredRequest
     {
-        public string[] Roles => [Role.STAFF, Role.SUPER_STAFF];
+        public string[] Roles => [Role.STAFF];
     }
 
     public class GetStaffQueryHandler(
@@ -27,8 +27,8 @@ namespace Application.Futures.Staff.Queries.Get
         {
             var username = securityService.GetUsername();
             var currentStaff = await staffRepository.GetAsync(g => g.Username == username
-            , include: ef => ef.Include(c => c.Organization)!)
-                 ?? throw new NotFoundException();
+                                   , include: ef => ef.Include(c => c.Organization)!)
+                               ?? throw new NotFoundException(Messages.NotFoundStaff);
 
             return new DataResponse
             {

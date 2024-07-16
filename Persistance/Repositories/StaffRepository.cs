@@ -6,5 +6,5 @@ using Domain.Entities;
 namespace Infastructure.Repositories
 {
     public class StaffRepository(AdminContext context)
-        : EFRepository<AdminContext, Staff, int>(context), IStaffRepository;
+        : EfRepository<AdminContext, Staff, int>(context), IStaffRepository;
 }

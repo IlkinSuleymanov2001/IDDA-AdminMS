@@ -19,11 +19,11 @@ namespace Application.Futures.Organization.Commands.Update
     {
         public async Task<IResponse> Handle(UpdateOrganizationNameCommand request, CancellationToken cancellationToken)
         {
-           var org =  await organizationRepository.GetAsync(c => c.Name == request.OldName);
-            if (org == null) throw new NotFoundException("organization  not found");
+           var org =  await organizationRepository.GetAsync(c => c.Name == request.OldName,enableTracking:true)
+               ?? throw new NotFoundException(Messages.NotFoundOrganization);
             org.Name = request.NewName;
 
-            await organizationRepository.UpdateAsync(org);
+            //await organizationRepository.UpdateAsync(org);
             await organizationRepository.SaveChangesAsync(cancellationToken);
 
             return  Response.Ok();

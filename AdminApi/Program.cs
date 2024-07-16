@@ -15,7 +15,7 @@ builder.Services.AddSwagger();
 
 
 builder.Services.AddHttpContextAccessor();
-builder.Services.AddCors();
+//builder.Services.AddCors();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddHealthChecks();
 
@@ -29,10 +29,9 @@ builder.Services.AddHealthChecks();
 var app = builder.Build();
 // Configure the HTTP request pipeline.
 
-app
-.UseSwagger()
-.UseSwaggerUI()
-.UseHsts();
+app.UseSwagger();
+app.UseSwaggerUI();
+app.UseHsts();
 
 app.UseCustomExceptionHandler();
 

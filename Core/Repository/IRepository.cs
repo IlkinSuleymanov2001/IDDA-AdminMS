@@ -12,7 +12,8 @@ namespace Application.Repositories.Cores
 
         Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> predicate, Func<IQueryable<TEntity>,
                       IIncludableQueryable<TEntity, object>>? include = null,
-                      bool enableTracking = false);
+                      bool enableTracking = false,
+                      bool filterIgnore = false);
 
         Task<IPaginate<TEntity>> GetListAsync(Expression<Func<TEntity, bool>>? predicate = null,
            Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderBy = null,
@@ -43,9 +44,12 @@ namespace Application.Repositories.Cores
 
         Task<TEntity> UpdateAsync(TEntity entity);
 
-        Task<TEntity> DeleteAsync(TEntity entity);
+        IEnumerable<TEntity> UpdateRange(IEnumerable<TEntity> entity);
 
-        bool DeleteWhere(Expression<Func<TEntity, bool>> predicate);
+        Task<TEntity> DeleteAsync(TEntity entity);
+        IEnumerable<TEntity> DeleteRange(IEnumerable<TEntity> entity);
+
+        bool DeleteWhere(Expression<Func<TEntity, bool>> predicate,bool ignoreFilter=false);
 
         Task<TEntity?> DeleteAsync(TPrimaryKey id);
 
@@ -60,8 +64,8 @@ namespace Application.Repositories.Cores
         Task CommitAsync();
         Task RollBackAsync();
 
-        Task RollbackToSavePointAsync(string name="savepointone");
-        Task CreateSavepointAsync(string name= "savepointone");
+        Task RollbackToSavePointAsync(string name = "savepointone");
+        Task CreateSavepointAsync(string name = "savepointone");
         Task OpenTransactionAsync();
         Task<int> SaveChangesAsync(CancellationToken cancellationToken =default);
 

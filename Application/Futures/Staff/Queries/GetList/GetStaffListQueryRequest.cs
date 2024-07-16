@@ -18,37 +18,37 @@ namespace Application.Futures.Staff.Queries.GetList
         public string[] Roles => [Role.ADMIN,Role.SUPER_STAFF,Role.STAFF];
     }
 
-    public class GetStaffListQueryHandler : IRequestHandler<GetStaffListQueryRequest, IDataResponse>
+    public class GetStaffListQueryHandler(
+        IStaffRepository staffRepository,
+        ISecurityService securityService,
+        IMapper mapper)
+        : IRequestHandler<GetStaffListQueryRequest, IDataResponse>
     {
-        private readonly IStaffRepository _staffRepository;
-        private readonly ISecurityService _securityService;
-        private readonly IMapper _mapper;
-
-        public GetStaffListQueryHandler(IStaffRepository staffRepository, ISecurityService securityService, IMapper mapper)
-        {
-            _staffRepository = staffRepository;
-            _securityService = securityService;
-            _mapper = mapper;
-        }
-
         public async Task<IDataResponse> Handle(GetStaffListQueryRequest request, CancellationToken cancellationToken)
         {
-            IPaginate<Domain.Entities.Staff> staffList=default;
+            IPaginate<Domain.Entities.Staff> staffList;
 
-            if (_securityService.IsHaveRole(Role.ADMIN))
-                staffList = await _staffRepository.GetListAsync(include: c => c.Include(c => c.Organization),
-                    index: request.PageRequest.Page, size: request.PageRequest.PageSize, enableTracking: false);
+            if (securityService.CurrentRoleEqualsTo(Role.ADMIN))
+                staffList = await staffRepository.GetListAsync(include: c => c.Include(c => c.Organization),
+                    index: request.PageRequest.Page, size: request.PageRequest.PageSize, 
+                    enableTracking: false,
+                    filterIgnore:true,
+                    cancellationToken: cancellationToken);
             else
             {
-                var staff = await _staffRepository.GetAsync(c => c.Username == _securityService.GetUsername()
-                , include: c => c.Include(c => c.Organization), enableTracking: false);
+                var staff = await staffRepository.GetAsync(c => c.Username == securityService.GetUsername(),
+                                                            include: c => c.Include(c => c.Organization),
+                                                             enableTracking: false);
 
-                staffList = await _staffRepository.GetListAsync(c => c.OrganizationID == staff.OrganizationID,
-                    include: c => c.Include(c => c.Organization), index: request.PageRequest.Page,
-                    size: request.PageRequest.PageSize, enableTracking: false);
+                staffList = await staffRepository.GetListAsync(c => c.OrganizationID == staff.OrganizationID,
+                    include: c => c.Include(c => c.Organization),
+                    index: request.PageRequest.Page,
+                    size: request.PageRequest.PageSize,
+                    enableTracking: false,
+                    cancellationToken: cancellationToken);
             }
 
-            return DataResponse.Ok(_mapper.Map<PaginateStaffModel>(staffList));
+            return DataResponse.Ok(mapper.Map<PaginateStaffModel>(staffList));
 
         }
     }

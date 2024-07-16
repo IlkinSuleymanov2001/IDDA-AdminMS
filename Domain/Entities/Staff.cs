@@ -21,17 +21,17 @@ namespace Domain.Entities
 
         
         [ForeignKey(nameof(Organization))]
-        [Required]
         [Column("organization_id")]
         public int OrganizationID { get; set; }
 
-        [Comment("The concurrency token for optimistic concurrency control")]
-        [Timestamp]
-        public byte[]? RowVersion { get; set; }
+
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column("created_at")]
         public DateTime CreatedAt { get; set; }
+
+        [Column("active")] public bool? Active { get; set; } = true;
+
 
         public virtual Organization? Organization { get; set; }
 

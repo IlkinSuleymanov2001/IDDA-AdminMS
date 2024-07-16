@@ -6,8 +6,10 @@ using AutoMapper;
 using Core.Exceptions;
 using Core.Pipelines.Authorization;
 using Core.Response;
+using Core.Services.Security;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
+
 
 namespace Application.Futures.Staff.Queries.Search
 {
@@ -16,27 +18,27 @@ namespace Application.Futures.Staff.Queries.Search
         public string[] Roles => [Role.ADMIN, Role.STAFF, Role.SUPER_STAFF];
     }
 
-    public class SearchStaffQueryHandler : IRequestHandler<SearchStaffQueryRequest, IDataResponse>
+
+    public class SearchStaffQueryHandler(IStaffRepository staffRepository, IMapper mapper,ISecurityService service)
+        : IRequestHandler<SearchStaffQueryRequest, IDataResponse>
     {
-        private readonly IStaffRepository _staffRepository;
-        private readonly IMapper _mapper;
-
-        public SearchStaffQueryHandler(IStaffRepository staffRepository, IMapper mapper)
-        {
-            _staffRepository = staffRepository;
-            _mapper = mapper;
-        }
-
         public async Task<IDataResponse> Handle(SearchStaffQueryRequest request, CancellationToken cancellationToken)
         {
-            var currentStaff = await _staffRepository.GetAsync(g => g.Username == request.Username
-            ,include: ef => ef.Include(c => c.Organization));
-
-            if (currentStaff==null) throw new NotFoundException("staff not found");
-            return new DataResponse
+            Domain.Entities.Staff currentStaff;
+            if (service.CurrentRoleEqualsTo(Role.ADMIN))
             {
-                Data = _mapper.Map<StaffDto>(currentStaff)
-            };
+                 currentStaff = await staffRepository.GetAsync(g => g.Username == request.Username
+                                       ,include: ef => ef.Include(c => c.Organization)!,
+                                       filterIgnore: true)
+                                       ?? throw new NotFoundException(Messages.NotFoundStaff);
+            }
+            else
+            {
+                 currentStaff = await staffRepository.GetAsync(g => g.Username == request.Username, include: ef => ef.Include(c => c.Organization)!)
+                                   ?? throw new NotFoundException(Messages.NotFoundStaff);
+            }
+
+            return DataResponse.Ok(mapper.Map<StaffDto>(currentStaff));
 
         }
     }

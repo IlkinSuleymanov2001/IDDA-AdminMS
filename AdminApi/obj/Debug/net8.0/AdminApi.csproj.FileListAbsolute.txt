@@ -272,7 +272,6 @@ C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\AdminApi\obj\Debug\net8.0\AdminApi.Gen
 C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\AdminApi\obj\Debug\net8.0\AdminApi.AssemblyInfoInputs.cache
 C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\AdminApi\obj\Debug\net8.0\AdminApi.AssemblyInfo.cs
 C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\AdminApi\obj\Debug\net8.0\AdminApi.csproj.CoreCompileInputs.cache
-C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\AdminApi\obj\Debug\net8.0\AdminApi.MvcApplicationPartsAssemblyInfo.cs
 C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\AdminApi\obj\Debug\net8.0\AdminApi.MvcApplicationPartsAssemblyInfo.cache
 C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\AdminApi\obj\Debug\net8.0\AdminApi.sourcelink.json
 C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\AdminApi\obj\Debug\net8.0\staticwebassets.build.json
@@ -289,3 +288,4 @@ C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\AdminApi\obj\Debug\net8.0\refint\Admin
 C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\AdminApi\obj\Debug\net8.0\AdminApi.pdb
 C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\AdminApi\obj\Debug\net8.0\AdminApi.genruntimeconfig.cache
 C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\AdminApi\obj\Debug\net8.0\ref\AdminApi.dll
+C:\repo\Gov\IDDAOrganization\IDDA-AdminMS\AdminApi\obj\Debug\net8.0\AdminApi.MvcApplicationPartsAssemblyInfo.cs

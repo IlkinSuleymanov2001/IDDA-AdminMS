@@ -6,6 +6,6 @@ using Domain.Entities;
 namespace Infastructure.Repositories
 {
     public class OrganizationRepository(AdminContext context)
-        : EFRepository<AdminContext, Organization, int>(context), IOrganizationRepository;
+        : EfRepository<AdminContext, Organization, int>(context), IOrganizationRepository;
 }
     

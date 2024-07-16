@@ -4,7 +4,6 @@ using Core.Exceptions;
 using Core.Pipelines.Authorization;
 using Core.Pipelines.Transaction;
 using Core.Response;
-using Domain.Entities;
 using MediatR;
 using System.Diagnostics.CodeAnalysis;
 
@@ -15,20 +14,14 @@ public record RemoveOrganizationCommandRequest([NotNull] string Name) : ICommand
     public string[] Roles => [Role.ADMIN];
 
 }
-public class RemoveOrganiztionCommandHandler : IRequestHandler<RemoveOrganizationCommandRequest, IResponse>
+public class RemoveOrganizationCommandHandler(IOrganizationRepository organizationRepository)
+    : IRequestHandler<RemoveOrganizationCommandRequest, IResponse>
 {
-    public RemoveOrganiztionCommandHandler(IOrganizationRepository organizationRepository)
-    {
-        _organizationRepository = organizationRepository;
-    }
-
-    private readonly IOrganizationRepository _organizationRepository;
-
     public async Task<IResponse> Handle(RemoveOrganizationCommandRequest request, CancellationToken cancellationToken)
     {
-        var result =  _organizationRepository.DeleteWhere(c => c.Name == request.Name);
-        if (!result) throw new NotFoundException(typeof(Domain.Entities.Organization));
-        await _organizationRepository.SaveChangesAsync();
+        var result =  organizationRepository.DeleteWhere(c => c.Name == request.Name,ignoreFilter:true);
+        if (!result) throw new NotFoundException(Messages.NotFoundOrganization);
+        await organizationRepository.SaveChangesAsync(cancellationToken);
         return  Response.Ok();
 
     }

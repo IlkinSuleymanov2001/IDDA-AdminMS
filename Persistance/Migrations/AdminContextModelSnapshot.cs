@@ -45,18 +45,28 @@ namespace Infastructure.Migrations
                         .HasColumnType("varchar(100)")
                         .HasColumnName("name");
 
-                    b.Property<byte[]>("RowVersion")
-                        .IsConcurrencyToken()
-                        .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("bytea")
-                        .HasComment("The concurrency token for optimistic concurrency control");
-
                     b.HasKey("Id");
 
                     b.HasIndex("Name")
                         .IsUnique();
 
                     b.ToTable("organization");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Active = true,
+                            CreatedAt = new DateTime(2024, 7, 15, 9, 20, 36, 502, DateTimeKind.Utc).AddTicks(1405),
+                            Name = "ABB"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Active = false,
+                            CreatedAt = new DateTime(2024, 7, 15, 9, 20, 36, 502, DateTimeKind.Utc).AddTicks(1426),
+                            Name = "IDDA"
+                        });
                 });
 
             modelBuilder.Entity("Domain.Entities.Staff", b =>
@@ -66,6 +76,10 @@ namespace Infastructure.Migrations
                         .HasColumnType("integer");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<bool?>("Active")
+                        .HasColumnType("boolean")
+                        .HasColumnName("active");
 
                     b.Property<DateTime>("CreatedAt")
                         .ValueGeneratedOnAdd()
@@ -81,12 +95,6 @@ namespace Infastructure.Migrations
                         .HasColumnType("integer")
                         .HasColumnName("organization_id");
 
-                    b.Property<byte[]>("RowVersion")
-                        .IsConcurrencyToken()
-                        .ValueGeneratedOnAddOrUpdate()
-                        .HasColumnType("bytea")
-                        .HasComment("The concurrency token for optimistic concurrency control");
-
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -101,6 +109,17 @@ namespace Infastructure.Migrations
                         .IsUnique();
 
                     b.ToTable("staff");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Active = true,
+                            CreatedAt = new DateTime(2024, 7, 15, 9, 20, 36, 502, DateTimeKind.Utc).AddTicks(1749),
+                            Fullname = "ilkin suleymanov ",
+                            OrganizationID = 1,
+                            Username = "ilkinsuleymanov200@gmail.com"
+                        });
                 });
 
             modelBuilder.Entity("Domain.Entities.Staff", b =>

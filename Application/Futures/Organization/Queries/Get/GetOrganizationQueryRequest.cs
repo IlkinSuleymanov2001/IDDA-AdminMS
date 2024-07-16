@@ -8,7 +8,6 @@ using Core.Pipelines.Authorization;
 using Core.Response;
 using Core.Services.Security;
 using MediatR;
-using Microsoft.EntityFrameworkCore;
 
 namespace Application.Futures.Organization.Queries.Get
 {
@@ -20,21 +19,23 @@ namespace Application.Futures.Organization.Queries.Get
     public class GetOrganizationQueryHandler(
         IOrganizationRepository organizationRepository,
         ISecurityService securityService,
-        IMapper mapper,
-        IStaffRepository staffRepository)
+        IMapper mapper
+        )
         : IRequestHandler<GetOrganizationQueryRequest, IDataResponse>
     {
         public async Task<IDataResponse> Handle(GetOrganizationQueryRequest request, CancellationToken cancellationToken)
         {
-            var org = await organizationRepository.GetAsync(c=>c.Name==request.OrganizationName) 
-                      ?? throw new NotFoundException();
+            Domain.Entities.Organization org;
+            if (securityService.CurrentRoleEqualsTo(Role.ADMIN))
+                org = await organizationRepository.GetAsync(c => c.Name == request.OrganizationName,filterIgnore: true);
+            else  
+                org = await organizationRepository.GetAsync(c => c.Name == request.OrganizationName);
 
-
-        /*    var staff = await _staffRepository.GetAsync(c=>c.Username == _securityService.GetUsername(),
-                include:e=>e.Include(c=>c.Organization),enableTracking:false);
-            if (staff.Organization.Name != org.Name) throw new ForbiddenException();*/
-
-            return new DataResponse { Data = mapper.Map<OrganizationDto>(org) };
+            if(org == null) throw new NotFoundException(Messages.NotFoundOrganization);
+            return new DataResponse
+            {
+                Data = mapper.Map<OrganizationDto>(org)
+            };
         }
     }
 

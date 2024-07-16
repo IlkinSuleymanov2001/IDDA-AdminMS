@@ -8,7 +8,7 @@ namespace Core.Services.Security
 
         IEnumerable<string> GetRoles();
 
-        bool IsHaveRole(string roleName="ADMIN");
+        bool CurrentRoleEqualsTo(string roleName="ADMIN");
 
         void ValidateToken();
 

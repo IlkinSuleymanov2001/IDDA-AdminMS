@@ -15,18 +15,14 @@ public sealed class Organization:BaseEntity<int>,IEntity
     [MaxLength(100)]
     public string Name { get; set; } 
 
-    [Comment("The concurrency token for optimistic concurrency control")]
-    [Timestamp]
-    public byte[]? RowVersion { get; set; }
-
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     [Column("created_at")]
     public DateTime CreatedAt { get; set; }
 
-    [Column("active")]
-    public bool? Active { get; set; }
+    [Column("active")] 
+    public bool? Active { get; set; } = true;
 
-    public ICollection<Staff> Staffs { get; set; }
+    public ICollection<Staff>? Staffs { get; set; }
 
     public Organization()
     {

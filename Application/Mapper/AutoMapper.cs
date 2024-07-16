@@ -12,7 +12,9 @@ namespace Application.Mapper
     {
         public AutoMapper()
         {
-            CreateMap<Staff, StaffDto>().ReverseMap();
+            CreateMap<Staff, StaffDto>().
+                ForMember(c=>c.IsActiveStaff,y=>y.MapFrom(c=>c.Active)).
+                ForMember(c=>c.IsActiveOrganization,y=>y.MapFrom(c=>c.Organization!.Active)).ReverseMap();
             CreateMap<Staff, CreateStaffCommandRequest>().ReverseMap();
             CreateMap<Staff, UpdateStaffCommandRequest>().ReverseMap();
             CreateMap<Organization, OrganizationDto>().ReverseMap();
