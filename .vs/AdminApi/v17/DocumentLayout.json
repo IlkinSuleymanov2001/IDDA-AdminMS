@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\application\\futures\\organization\\queries\\paginationlist\\getorganizationpaginationlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D692C6D-BA4D-4AD6-BDBA-BCBE90CB634F}|Application\\Application.csproj|solutionrelative:application\\futures\\organization\\queries\\paginationlist\\getorganizationpaginationlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|c:\\repo\\gov\\iddaorganization\\idda-adminms\\adminapi\\controllers\\organizationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E114195-B812-4325-BBE4-05D4414272C5}|AdminApi\\AdminApi.csproj|solutionrelative:adminapi\\controllers\\organizationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +35,31 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetOrganizationPaginationListQuery.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Queries\\PaginationList\\GetOrganizationPaginationListQuery.cs",
+              "RelativeDocumentMoniker": "Application\\Futures\\Organization\\Queries\\PaginationList\\GetOrganizationPaginationListQuery.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\Application\\Futures\\Organization\\Queries\\PaginationList\\GetOrganizationPaginationListQuery.cs",
+              "RelativeToolTip": "Application\\Futures\\Organization\\Queries\\PaginationList\\GetOrganizationPaginationListQuery.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwCYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T15:35:32.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrganizationsController.cs",
+              "DocumentMoniker": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\OrganizationsController.cs",
+              "RelativeDocumentMoniker": "AdminApi\\Controllers\\OrganizationsController.cs",
+              "ToolTip": "C:\\repo\\Gov\\IDDAOrganization\\IDDA-AdminMS\\AdminApi\\Controllers\\OrganizationsController.cs",
+              "RelativeToolTip": "AdminApi\\Controllers\\OrganizationsController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T15:35:16.82Z"
             }
           ]
         }

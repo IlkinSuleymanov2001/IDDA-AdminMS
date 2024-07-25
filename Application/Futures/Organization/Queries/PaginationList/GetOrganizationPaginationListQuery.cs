@@ -34,7 +34,7 @@ namespace Application.Futures.Organization.Queries.GetList
                 size: request.PageRequest.PageSize,
                 cancellationToken: cancellationToken,
                 filterIgnore: true,
-                orderBy: q => q.OrderByDescending(o => o.CreatedAt), // Sıralama kriteri
+                orderBy: q => q.OrderBy(o => !o.Active).ThenByDescending(o => o.CreatedAt), // Sıralama kriteri
                 include: q => q.Include(o => o.Staffs) // İlgili tabloları dahil et
             );
 
