@@ -29,27 +29,34 @@ namespace Application.Futures.Staff.Queries.GetList
             IPaginate<Domain.Entities.Staff> staffList;
 
             if (securityService.CurrentRoleEqualsTo(Role.ADMIN))
-                staffList = await staffRepository.GetListAsync(include: c => c.Include(c => c.Organization),
-                    index: request.PageRequest.Page, size: request.PageRequest.PageSize, 
-                    enableTracking: false,
-                    filterIgnore:true,
-                    cancellationToken: cancellationToken);
-            else
             {
-                var staff = await staffRepository.GetAsync(c => c.Username == securityService.GetUsername(),
-                                                            include: c => c.Include(c => c.Organization),
-                                                             enableTracking: false);
-
-                staffList = await staffRepository.GetListAsync(c => c.OrganizationID == staff.OrganizationID,
+                staffList = await staffRepository.GetListAsync(
                     include: c => c.Include(c => c.Organization),
                     index: request.PageRequest.Page,
                     size: request.PageRequest.PageSize,
+                    orderBy: c => c.OrderByDescending(x => x.CreatedAt), // descending order by Username
+                    enableTracking: false,
+                    filterIgnore: true,
+                    cancellationToken: cancellationToken);
+            }
+            else
+            {
+                var staff = await staffRepository.GetAsync(
+                    c => c.Username == securityService.GetUsername(),
+                    include: c => c.Include(c => c.Organization),
+                    enableTracking: false);
+
+                staffList = await staffRepository.GetListAsync(
+                    c => c.OrganizationID == staff.OrganizationID,
+                    include: c => c.Include(c => c.Organization),
+                    index: request.PageRequest.Page,
+                    size: request.PageRequest.PageSize,
+                    orderBy: c => c.OrderByDescending(x => x.CreatedAt), // descending order by Username
                     enableTracking: false,
                     cancellationToken: cancellationToken);
             }
 
             return DataResponse.Ok(mapper.Map<PaginateStaffModel>(staffList));
-
         }
     }
 

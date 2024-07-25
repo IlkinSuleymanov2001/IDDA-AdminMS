@@ -37,13 +37,13 @@ app.UseCustomExceptionHandler();
 
 app.UseHttpsRedirection();
 app.UseRouting();
-app.UseCors(builder =>
+/*app.UseCors(builder =>
 {
     builder
             .AllowAnyOrigin()
             .AllowAnyMethod()
             .AllowAnyHeader();
-});
+});*/
 
 app.UseCookiePolicy();
 app.UseAuthentication();

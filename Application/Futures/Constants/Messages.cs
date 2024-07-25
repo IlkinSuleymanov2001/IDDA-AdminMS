@@ -2,7 +2,7 @@
 {
     public static class Messages
     {
-        public const  string NotFoundOrganization = "Organization is not found";
-        public const  string NotFoundStaff = "Staff is not found";
+        public const  string NotFoundOrganization = "Qurum tapılmadı";
+        public const  string NotFoundStaff = "Belə bir əməkdaş tapılmadı";
     }
 }
